@@ -59,20 +59,20 @@ const config = {
       navbar: {
         title: 'Use IT Cloud',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/favicon.png',
+          alt: 'Site Logo',
+          src: 'img/favicon_uic.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'User Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Support', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://useitcloud.com/',
+            label: 'Log In',
             position: 'right',
           },
         ],
@@ -84,7 +84,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'User Docs',
                 to: '/docs/intro',
               },
             ],
@@ -110,7 +110,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Support',
                 to: '/blog',
               },
               {
