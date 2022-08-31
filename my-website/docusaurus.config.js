@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Use IT Cloud',
   tagline: 'Documentation',
-  url: 'https://github.com/',
+  url: 'https://bright-raindrop-a76334.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
