@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Use IT Cloud',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://github.com/',
+  tagline: 'Documentation',
+  url: 'joyful-trifle-19b567.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
