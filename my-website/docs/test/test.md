@@ -1,10 +1,10 @@
 ---
-title: doc_aws
+title: test_doc_aws
 description: aws documentation
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Tutorial Intro 2
+# Tutorial Intro aws
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
