@@ -34,6 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // routeBasePath: '/', // rdz docs
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -59,7 +60,7 @@ const config = {
       navbar: {
         title: 'Use IT Cloud',
         logo: {
-          alt: 'Site Logo',
+          alt: 'My Site Logo',
           src: 'img/favicon_uic.png',
         },
         items: [
@@ -69,10 +70,11 @@ const config = {
             position: 'left',
             label: 'User Docs',
           },
-          {to: '/blog', label: 'Support', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Support', position: 'left'},
           {
             href: 'https://useitcloud.com/',
-            label: 'Log In',
+            label: 'Use IT Cloud',
             position: 'right',
           },
         ],
@@ -84,7 +86,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'User Docs',
+                label: 'User docs',
                 to: '/docs/intro',
               },
             ],
@@ -93,34 +95,42 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Press & Media',
+                href: 'https://useitcloud.com/presse-media/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/company/use-it-cloud',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/UseItCloud',
               },
             ],
           },
           {
             title: 'More',
             items: [
+              //{
+              //  label: 'Blog',
+              //  to: '/blog',
+              //},
               {
                 label: 'Support',
                 to: '/blog',
+              },              
+              {
+                label: 'Use IT Cloud',
+                href: 'https://useitcloud.com/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'Prologue',
+                href: 'https://prologue.fr/',
+              },              
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Use IT Cloud, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

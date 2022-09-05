@@ -4,11 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Tutorial',
+    title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        This <a href={"rdz-react-page"}> tutorials explains</a> how tu use ...
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
