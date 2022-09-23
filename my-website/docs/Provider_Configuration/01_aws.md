@@ -5,15 +5,19 @@ description: Clouds Credentials
 sidebar_position: 1
 ---
 
+```
+Document version 2.1.0 (2020-10-12)
+```
+
 There is two ways to onboard an AWS account into UIC platform: 
 - IAM User with Access Key and Secret Key
 - Role based Access (Cross-account trust relationship)
 
 ## Creating a Policy
 Log in to your AWS account, enter your user ID, root/ admin password.
-Once entered, the home page will be displayed, from the **Identity and Access Management (IAM)** service, select **Policies** on the left menu.
+Once entered, the home page will be displayed, from the **Identity and Access Management (IAM)** service, select **Policies** on the left menu. 
 
-![Image](/img_UIC_Provider_Cred_Settings/image017.png)
+![Image](/img_UIC_Provider_Cred_Settings/image017.png#bordered)
 
 - Click the Create Policy button, and then paste the json below:
 ```
@@ -98,11 +102,11 @@ To display AWS billing on the UIC platform, we need to create two policies calle
     ]
 }
 ```
-![Image](/img_UIC_Provider_Cred_Settings/image018.png)
+![Image](/img_UIC_Provider_Cred_Settings/image018.png#bordered)
 
 - Click on the button Review Policy, the following screen appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/image019.png)
+![Image](/img_UIC_Provider_Cred_Settings/image019.png#bordered)
 
 - Enter the following name for the policy: **uicBillingViewAccess**, the click on the button Create policy
 - Repeat those steps for the FinOpsAccess policy with the following json:
@@ -158,11 +162,11 @@ You can grant IAM users and federated users with roles, the permission to access
 
 Connect to AWS website, enter your user login (having the administration right of your account) and your password. The home page appears. In the top right tab, click on **My Account**. See picture below 
 
-![Image](/img_UIC_Provider_Cred_Settings/image020.png)
+![Image](/img_UIC_Provider_Cred_Settings/image020.png#bordered)
 
 Scroll down and click on **IAM User and Role Access to Billing Information**, then check on **Activate IAM Access**:
 
-![Image](/img_UIC_Provider_Cred_Settings/image021.png)
+![Image](/img_UIC_Provider_Cred_Settings/image021.png#bordered)
 
 Click on the button **Update**.
 After this change, you can add the first policy previously created **"UICpolicy"** to the users of your choice. (see section 6.3 below)
@@ -172,16 +176,16 @@ After this change, you can add the first policy previously created **"UICpolicy"
 Log in to the AWS Administration Console open the IAM console at https://console.aws.amazon.com/iam/. 
 On the left menu, choose **Users** then **Add user**.
  
-![Image](/img_UIC_Provider_Cred_Settings/image022.png)
+![Image](/img_UIC_Provider_Cred_Settings/image022.png#bordered)
 The following page appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/image023.png) 
+![Image](/img_UIC_Provider_Cred_Settings/image023.png#bordered) 
 
 - Enter the user name to inside **User name** input,
 - Select the desired **Access type**. For UIC, **Programmatic Access** must be allowed.
 - Click on the button next: **Permission**, the following screen appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/image024.png)
+![Image](/img_UIC_Provider_Cred_Settings/image024.png#bordered)
  
 - Select the button **Attach existing policies directly** to proceed to the attachment,
 - check the policy(s) you want to attach to the user (**UICPolicy, FinOpsAccess**)
@@ -190,16 +194,16 @@ The following page appears:
 To control a user’s permission limit, a permission boundary must be set.
 - Check Use a permissions boundary to control the maximum user permission, then select the policy created,
 
-![Image](/img_UIC_Provider_Cred_Settings/image025.png)
+![Image](/img_UIC_Provider_Cred_Settings/image025.png#bordered)
 
 - Click on the button **Next: Tags** (adding tags is optional), the following page appears:  
 
-![Image](/img_UIC_Provider_Cred_Settings/image026.png) 
+![Image](/img_UIC_Provider_Cred_Settings/image026.png#bordered) 
 
 - Click on the button **Next: Review**, the next page appears:  
 - Click on the button **Create user**, the following message appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/image027.png)
+![Image](/img_UIC_Provider_Cred_Settings/image027.png#bordered)
  
 - Click on **Show (access key ID)** then copy/paste it in UIC interface or in a file as you wish,
 - Click on **Show (Secret access key)** then copy/paste it in UIC interface or in a file as you wish,
@@ -210,11 +214,11 @@ To control a user’s permission limit, a permission boundary must be set.
 Login to AWS Management Console. Insert your account name in the provided text box.
 - In the top right tab **My account**, click on **My Security Credentials**. See picture below: 
 
-![Image](/img_UIC_Provider_Cred_Settings/image028.png)
+![Image](/img_UIC_Provider_Cred_Settings/image028.png#bordered)
 
 - The following page appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/image029.png)
+![Image](/img_UIC_Provider_Cred_Settings/image029.png#bordered)
 
 - Select AWS IAM credentials tab.
 - Click on the button Create access key, if this button is deactivated, you must delete one of your existing access keys before creating a new key.
@@ -226,7 +230,7 @@ A warning indicates that this is the only time you will be able to view or downl
 - Choose Show secret access key to view or copy the access key ID and the Secret access key.
 - Choose Download .csv file, it contains a key file to download the rootkey.csv file which contains the access key and the secret key. Save this file in a secure location.
 
-![Image](/img_UIC_Provider_Cred_Settings/image030.png)
+![Image](/img_UIC_Provider_Cred_Settings/image030.png#bordered)
 
 ## Role base Access
 Securely connect your AWS account with UIC. Create an IAM role, establish trust relationship and enable cross account access between your AWS account and UIC's AWS account by following the below mentioned steps.
@@ -234,17 +238,20 @@ Securely connect your AWS account with UIC. Create an IAM role, establish trust 
 ### Create role
 Log in to the **AWS Management Console** and open the *AWS IAM console*. In the navigation pane click on ***Roles*** and then choose Create role.
 
-![Image](/img_UIC_Provider_Cred_Settings/image031.png)
+![Image](/img_UIC_Provider_Cred_Settings/image031.png#bordered)
  
 Establish Trust
 - Select **Another AWS account** as the type of trusted entity.
 - Type in UIC's AWS account ID  **760211127657** in the **Account ID** field.
-![Image](/img_UIC_Provider_Cred_Settings/image032.png)
+
+![Image](/img_UIC_Provider_Cred_Settings/image032.png#bordered)
+
 - Check the ***Require external ID*** field option
 - Type in the **External ID** (The External ID is displayed in the Integrate AWS Account form) and click on ***Next: Permissions***
  
 - Make sure the **"Require MFA"** option remains unchecked and click on **"Next: Permissions"**
-![Image](/img_UIC_Provider_Cred_Settings/image033.png)
+
+![Image](/img_UIC_Provider_Cred_Settings/image033.png#bordered)
 
 ### Attach Permissions
 In the **Attach permissions** policy section, search for the newly created policy **UICpolicy** and FinOpsAccess (see section 3.2 below), select it and click on **"Next:Review"**.

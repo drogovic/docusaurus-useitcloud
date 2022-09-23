@@ -5,6 +5,10 @@ description: UseITcloud documentation
 sidebar_position: 1
 ---
 
+```
+Document version 1.0 (2021-11-05)
+```
+
 ## Overview
 This page walks you through the steps to connect your Microsoft partner center to Use IT Cloud
 for cost reporting purposes. 
@@ -32,7 +36,7 @@ need in future steps.
 To find your tenant ID in Partner Center, navigate to the Organization Profile page and 
 the **tenant ID** is displayer under **Microsoft ID** label.
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image002.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image002.png#bordered)
 
 ### Create the CSP Web App
 To Create a web app download a script via this link: <br></br>
@@ -50,25 +54,25 @@ This script will display those values:
 - ApplicationSecret which is the client secret
 Connect to your Active Directory on Azure go to App registrations and select you application
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image003.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image003.png#bordered)
 
 Then under the selected application chose Authentication and click on Add URI 
 Put http://localhost:8400/ , and Save
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image004.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image004.png#bordered)
 
 ### Enable Price Sheet API access
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image005.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image005.png#bordered)
 
 1. Choose API permissions for the application. On the Request API permissions screen, 
 choose Add a permission, then choose APIs my organization uses
 2. Search for the Microsoft Partner API (4990cffe-04e8-4e8b-808a-1175604b879f).
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image006.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image006.png#bordered)
 
 3. Set the Delegated Permissions to Partner Center.
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image007.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image007.png#bordered)
 
 4. Then then select **Grant Admin Consent for Partner Account**.
 
@@ -81,7 +85,7 @@ SDK. You need to enable access to the API for your primary Partner account.
 4. Choose Web App and register the app created in the previous steps.
 5. Sign out of Partner Dashboard.
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image008.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image008.png#bordered)
 
 ### Consent the Wep App
 Historically, the resource owner password credentials grant has been used to request an access 
@@ -104,7 +108,7 @@ PS C:\>$credential = Get-Credential
 When the command is invoked, you will be prompted to enter the following values:
 Specify the application id as the username and the application secret as the password.
 
-![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image009.png)
+![Image](/img_UIC_ServicesSaaS_FR-V3.2.0/image009.png#bordered)
 
 ```script
 PS C:\> $token = New-PartnerAccessToken -ApplicationId '[AppId]' -
