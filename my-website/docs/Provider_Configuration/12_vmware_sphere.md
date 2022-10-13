@@ -1,8 +1,8 @@
 ---
-id: 2030
+id: 2120
 title: VMware vSphere
 description: Clouds Credentials
-sidebar_position: 4
+sidebar_position: 12
 ---
 
 ```
@@ -31,7 +31,7 @@ If vsphere.local is not the selected domain, select it on the drop-down menu. Yo
  
 From Users tab, click on the New User icon, the following message box appears:
  
-![Image](/img_UIC_Provider_Cred_Settings/image053.png#bordered)
+![Image](/img_UIC_Provider_Cred_Settings/vsphimage053.png#bordered)
 
 - Enter the user name (cannot to modified after the creation) and a password (it must meet the password policy requirements).
 - Complete the other inputs (optional).
@@ -46,7 +46,7 @@ We will create a custom vCenter Server role that matches the access control need
 - Click the Create Role Action (+) button, enter a name for the new role.
 - Select the UIC privileges below:
 
-![Image](/img_UIC_Provider_Cred_Settings/image054.png#bordered) 
+![Image](/img_UIC_Provider_Cred_Settings/vsphimage054.png#bordered) 
 
 - Datastore:
     - Allocate space,
@@ -62,7 +62,7 @@ We will create a custom vCenter Server role that matches the access control need
     - Show
 - Inventory Data Service tagging
 - Virtual machine
-- Host profile
+- Host profile 
     - Show
 - Resource:
     - Assign a virtual machine to a resource pool,
@@ -80,15 +80,18 @@ Assign the new user (Ex: **uic1**) the role that you created in the previous ste
 - Select **Home => Host and clusters**. Right click on the vCenter icon and select **Add permission**.
 - Click on **Add**, then select the new user (Ex: **uic2**)
 
-![Image](/img_UIC_Provider_Cred_Settings/image055.png#bordered)
+![Image](/img_UIC_Provider_Cred_Settings/vsphimage055.png#bordered)
 
 - Click on **Add**
 - Click on the OK button
 - Assign the role (Ex: **uicRole**) you have created (for *UIC platform*) to the user
 
-![Image](/img_UIC_Provider_Cred_Settings/image056.png#bordered)
+![Image](/img_UIC_Provider_Cred_Settings/vsphimage056.png#bordered)
 
 In our example to deploy on vSphere infrastructure, we allowed the following elements:
  
-![Image](/img_UIC_Provider_Cred_Settings/image057.png#bordered)
+![Image](/img_UIC_Provider_Cred_Settings/vsphimage057.png#bordered)
 
+## Finops mode
+
+## Inventory mode
