@@ -92,6 +92,6 @@ In our example to deploy on vSphere infrastructure, we allowed the following ele
  
 ![Image](/img_UIC_Provider_Cred_Settings/vsphimage057.png#bordered)
 
-## Finops mode
+## Finops mode 
 
 ## Inventory mode
