@@ -5,6 +5,9 @@ description: Clouds Credentials
 sidebar_position: 80
 ---
 
+```
+Document version 1.0.0 (2022-10-01)
+```
 
 Cockpit is a web interface developed by 3DS OUTSCALE that enables you to create and manage your resources in the OUTSCALE Cloud.
 

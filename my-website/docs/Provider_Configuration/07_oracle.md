@@ -5,6 +5,10 @@ description: Clouds Credentials
 sidebar_position: 70
 ---
 
+```
+Document version 1.0.0 (2022-10-01)
+```
+
 ## Create Oracle Cloud account
 
 To request an Oracle Account from the Oracle Cloud website:

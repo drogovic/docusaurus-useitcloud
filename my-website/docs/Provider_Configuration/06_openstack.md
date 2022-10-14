@@ -5,6 +5,9 @@ description: Clouds Credentials
 sidebar_position: 60
 ---
 
+```
+Document version 1.0.0 (2022-10-01)
+```
 
 ## OpenStack account settings
 To onboard a OpenStack subscription to your Use IT Cloud account, you need the following settings: 
