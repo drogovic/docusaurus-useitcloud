@@ -13,7 +13,7 @@ Document version 1.0.0 (2022-10-01)
 To onboard a OpenStack subscription to your Use IT Cloud account, you need the following settings: 
 - Project ID 
 - User domain name 
-- Project domain name  
+- Project domain name
 - Region
 - Proxy Project name
 

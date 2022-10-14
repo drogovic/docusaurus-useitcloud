@@ -25,10 +25,10 @@ To allow UIC to control a vSphere infrastructure domain, UIC must authenticate w
 Users listed on vSphere Web Client tab are internal to vCenter Single Sign-on, they are part of vsphere.local domain.
 
 You can select other domains and view information about users. However, you cannot add users in these domains via vCenter Single Sign-on management interface of vSphere Web Client.
-- Log into vSphere Web Client as administrator@vsphere.local or as another user with having vCenter Single Sign-on privileges.
+- Log into vSphere Web Client as ```administrator@vsphere.local```or as another user with having vCenter Single Sign-on privileges.
 - Users having vCenter Single Sign-on administrator privileges are part of CAAdmins group. Click on Home => Administration => Single Sign-On =>Users and groups.
 If vsphere.local is not the selected domain, select it on the drop-down menu. You cannot add users to other domains.
- 
+
 From Users tab, click on the New User icon, the following message box appears:
  
 ![Image](/img_UIC_Provider_Cred_Settings/vsphimage053.png#bordered)

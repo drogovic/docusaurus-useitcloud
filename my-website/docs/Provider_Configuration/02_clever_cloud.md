@@ -16,7 +16,7 @@ To onboard a Clever Cloud subscription to your Use IT Cloud account, you need th
 * Token Key
 * Token Secret Key
 
-You can get this information by logging into the Clever Cloud Management portal using this link  https://console.clever-cloud.com/  as administrator of your subscription. 
+You can get this information by logging into the [Clever Cloud Management portal](https://console.clever-cloud.com/)  as administrator of your subscription. 
 
 ![Image](/img_UIC_Provider_Cred_Settings/cleverimage010.png#bordered)
 
@@ -60,7 +60,7 @@ The settings screen has a form that allows you to configure:
 - **Token***: Set your token 
 - **Secret Token***: Set your secret token 
 - **Version***: Set Clever cloud api version, (v2)
-- **Host***: Set host, ```(https://api.clever-cloud.com)```
+- **Host*** : Set host, ```(https://api.clever-cloud.com)```
 
 Select **Add**.
 

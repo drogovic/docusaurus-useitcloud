@@ -192,7 +192,7 @@ To enable export of your detailed Cloud Billing usage and cost data, do the foll
 The project you select is used to store the exported Cloud Billing data in the BigQuery dataset. The exported Cloud Billing data includes usage/cost data for all Cloud projects paid for by the same Cloud Billing account.
 :::
 3.	From the ***Billing export dataset** list, select the dataset that you set up to contain your exported Cloud Billing data.
-4. Click **Save**.
+4. Click **Save**
 
 ####  Required Permissions
 To access BigQuery API you can grant permissions by assigning roles to a user, group, or service account.

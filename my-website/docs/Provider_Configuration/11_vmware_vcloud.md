@@ -42,7 +42,7 @@ The settings screen has a form that allows you to configure:
 - **Organization***: Set organization name 
 - **API Version***: Set API version (32.0)
 - **Proxy**: The proxy URL must be in the following format ```https://user:password@host:port```
-- **Visible IP from provider***: Set visible IP from provider (0.0.0.0)
+- **Visible IP from provider*** : Set visible IP from provider (0.0.0.0)
 
 
 Select **Add**.

@@ -24,8 +24,7 @@ After your account is created, you'll receive a confirmation email at the email 
 - Follow the instructions in the email to verify your email address.
 
 To request an Oracle Account from My Oracle Support:
-- Go to the My Oracle Support website:
-https://support.oracle.com/
+- Go to the [My Oracle Support website](https://support.oracle.com/)
 - Click **New user? Register here** to create your Oracle Account.
 The **Create Your Oracle Account** page opens.
 - Enter your email address and other details in the appropriate fields. Be sure to complete all the required fields.
@@ -35,12 +34,10 @@ After your email address is verified, you can use your Oracle.com account make p
 
 
 ## Required keys and OCIDs
-Whether you're using an Oracle client (see Software Development Kits and Command Line Interface) or a client you built yourself, you need to do the following:
-
-https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm
+Whether you're using an Oracle client (see Software Development Kits and Command Line Interface) or a client you built yourself, you need to do the [following](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)
 
 ### Where to Get the Tenancy's OCID and User's OCID
-Both OCIDs are in the Console, which can be accessed by signing in here: https://cloud.oracle.com. If you don't have a login and password for the Console, 
+Both OCIDs are in the Console, which can be accessed by signing in [here](https://cloud.oracle.com). If you don't have a login and password for the Console, 
 contact an administrator. If you're not familiar with OCIDs, see Resource Identifiers.
 #### Tenancy's OCID
 Get the tenancy OCID from the Oracle Cloud InfrastructureConsole on the **Tenancy Details** page:

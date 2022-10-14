@@ -20,9 +20,9 @@ Cockpit is a web interface developed by 3DS OUTSCALE that enables you to create 
 
 ## Managing your Account
 ### Creation
-Account is created for a specific Region of the OUTSCALE Cloud. If you want to create and manage resources in other Regions, you must create additional accounts for these Regions. For more information about Regions, see About Regions, Endpoints, and Availability Zones. https://docs.outscale.com/en/userguide/About-Regions-Endpoints-and-Availability-Zones.html
+Account is created for a specific Region of the OUTSCALE Cloud. If you want to create and manage resources in other Regions, you must create additional accounts for these Regions. For more information about Regions, see [About Regions, Endpoints, and Availability Zones](https://docs.outscale.com/en/userguide/About-Regions-Endpoints-and-Availability-Zones.html)
 
-You can also request that your existing account be copied to another Region. To do so, contact your Technical Account Manager, or our Support team at support@outscale.com.
+You can also request that your existing account be copied to another Region. To do so, contact your Technical Account Manager, or our [Support team](support@outscale.com).
 
 ### Authentication
 Your account has several authentication methods depending on the tools used.
@@ -78,7 +78,7 @@ The settings screen has a form that allows you to configure:
 - **Billing secret key***: Set your billing secret key of your billing account
 - **Buckets***: 
 	- **Name**: Set your bucket name
-	- **Region**: Select your region, (eu-west-2-Paris)
+	- **Region**: Select your region (eu-west-2-Paris)
 
 Select **Add**.
 
