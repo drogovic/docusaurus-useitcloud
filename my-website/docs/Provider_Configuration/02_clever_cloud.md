@@ -2,7 +2,7 @@
 id: 2020
 title: Clever Cloud
 description: Clouds Credentials
-sidebar_position: 2
+sidebar_position: 20
 ---
 
 ```

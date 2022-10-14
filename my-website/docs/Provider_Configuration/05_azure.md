@@ -2,7 +2,7 @@
 id: 2050
 title: Microsoft Azure
 description: Clouds Credentials
-sidebar_position: 5
+sidebar_position: 50
 --- 
 
 ```
