@@ -239,6 +239,3 @@ Myfile.json looks like:
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/uiccompteservice%40trusty-splice-237112.iam.gserviceaccount.com"
 }
 ```
-## Finops mode
-
-## Inventory mode

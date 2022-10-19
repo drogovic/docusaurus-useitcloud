@@ -84,7 +84,3 @@ The settings screen has a form that allows you to configure:
 - **Secret key of project “default”*** : Set API Secret Key (see 6.4)
 
 Click Add.
-
-## Finops mode
-
-## Inventory mode

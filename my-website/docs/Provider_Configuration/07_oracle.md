@@ -75,7 +75,3 @@ The settings screen has a form that allows you to configure:
 - **Proxy**: The proxy URL must be in the following format: https://user:password@host:port
 
 Select **Add**.
-
-## Finops mode
-
-## Inventory mode

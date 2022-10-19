@@ -58,12 +58,6 @@ The settings screen has a form that allows you to configure:
 - **Contract ID***: Set your Contract ID
 - **Client secret***: Set your Client secret 
 - **API Token***: Set your API token 
-- **Host***: Set host ```(https://xxx.com)```
+- **Host*** : Set host ```(https://xxx.com)```
 
 Select **Add**.
-
-
-
-## Finops mode
-
-## Inventory mode

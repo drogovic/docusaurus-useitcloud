@@ -63,18 +63,3 @@ The settings screen has a form that allows you to configure:
 - **Host*** : Set host, ```(https://api.clever-cloud.com)```
 
 Select **Add**.
-
-https://www.clever-cloud.com/doc/extend/cc-api/
-
-
-
-## Finops mode
-
-
-
-## Inventory mode
-
-
-
-
-

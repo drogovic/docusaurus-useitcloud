@@ -38,9 +38,3 @@ The settings screen has a form that allows you to configure:
 - **Visible IP from proxy**: Set visible IP from proxy
 
 Select **Add**.
-
-
-## Finops mode
-
-## Inventory mode
-

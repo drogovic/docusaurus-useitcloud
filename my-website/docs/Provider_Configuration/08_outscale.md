@@ -76,12 +76,8 @@ The settings screen has a form that allows you to configure:
 - **Credentials name***: The credential name must be unique.
 - **Billing access key***: Set your billing access key of your billing account 
 - **Billing secret key***: Set your billing secret key of your billing account
-- **Buckets***: 
+- **Buckets*** : 
 	- **Name**: Set your bucket name
 	- **Region**: Select your region (eu-west-2-Paris)
 
 Select **Add**.
-
-## Finops mode
-
-## Inventory mode

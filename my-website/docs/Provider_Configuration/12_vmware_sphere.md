@@ -91,7 +91,3 @@ Assign the new user (Ex: **uic1**) the role that you created in the previous ste
 In our example to deploy on vSphere infrastructure, we allowed the following elements:
  
 ![Image](/img_UIC_Provider_Cred_Settings/vsphimage057.png#bordered)
-
-## Finops mode 
-
-## Inventory mode

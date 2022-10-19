@@ -55,9 +55,3 @@ The settings screen has a form that allows you to configure:
 - **Consumer key*** : Set consumer key (CK)
 
 Select **Add**.
-
-
-
-## Finops mode
-
-## Inventory mode
