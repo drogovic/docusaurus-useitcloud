@@ -7,4 +7,4 @@ sidebar_position: 1
 
 Select link:
 
-# [API Use IT Cloud Swagger documentation](/api-reference)
+# [Swagger documentation](/api-reference)
