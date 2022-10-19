@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const appConfig = require("./web-config.json");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -77,6 +78,16 @@ const config = {
             label: 'Use IT Cloud',
             position: 'right',
           },
+          { to: '/api-reference', label: 'API', position: 'left' },
+          { href: appConfig.links.github, position: 'right', className: 'header-link header-github-link', 'aria-label': 'GitHub repository'},
+          { href: appConfig.links.storybook, position: 'right', className: 'header-link header-storybook-link', 'aria-label': 'Component Library'},
+          { href: appConfig.links.grafana, position: 'right', className: 'header-link header-grafana-link', 'aria-label': 'Grafana Dashboard'},
+          { href: appConfig.links.rabbitmq, position: 'right', className: 'header-link header-rabbitmq-link', 'aria-label': 'RabbitMQ Console'},
+          { href: appConfig.links.s3filestorage, position: 'right', className: 'header-link header-s3-link', 'aria-label': 'S3 File Storage'},
+          { href: appConfig.links.kubernetes, position: 'right', className: 'header-link header-kubernetes-link', 'aria-label': 'Kubernetes Platform'},
+          { href: appConfig.links.artifactory, position: 'right', className: 'header-link header-jfrog-link', 'aria-label': 'Artifactory'},
+          { href: appConfig.links.confluence, position: 'right', className: 'header-link header-confluence-link', 'aria-label': 'Wiki Workspace'},
+          { href: appConfig.links.jira, position: 'right', className: 'header-link header-jira-link', 'aria-label': 'Sprint Planning Dashboard'},          
         ],
       },
       footer: {
