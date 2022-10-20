@@ -3,15 +3,6 @@
    "definitions":{
       
    },
-   "info":{
-      "contact":{
-         "name":"Use IT Cloud",
-         "url":"https://useitcloud.com/"
-      },
-      "description":"**API Documentation**<br/><br/>**Release date**: 20220830-13:50.<br/><br/>Use IT Cloud is a cloud management platform, it provides an abstraction layer to manage multicloud providers. It provides the right way to orchestrate and to automate deployments. It leverages Native Cloud Service APIs as well as abstracted APIs, without compromising IT compliance. Data is available in JSON and YAML format. <br/><br/> **Note**: This opensAPI file covers the current endpoint only from UIC API.",
-      "title":"Use IT Cloud",
-      "version":"3.2.0"
-   },
    "paths":{
       "/v2.0/agreement/":{
          "get":{
