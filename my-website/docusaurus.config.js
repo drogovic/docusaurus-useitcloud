@@ -78,7 +78,13 @@ const config = {
             label: 'Use IT Cloud',
             position: 'right',
           },
-          { to: '/api-reference', label: 'API', position: 'left' },
+          {
+            href: '/api-reference/',
+            label: 'API',
+            position: 'left',
+            target: '_blank'
+          },          
+          /**{ to: '/api-reference', label: 'API', position: 'left'},*/
           { href: appConfig.links.github, position: 'right', className: 'header-link header-github-link', 'aria-label': 'GitHub repository'},
           { href: appConfig.links.storybook, position: 'right', className: 'header-link header-storybook-link', 'aria-label': 'Component Library'},
           { href: appConfig.links.grafana, position: 'right', className: 'header-link header-grafana-link', 'aria-label': 'Grafana Dashboard'},
