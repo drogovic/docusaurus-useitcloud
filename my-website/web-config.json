@@ -1,6 +1,6 @@
 {
     "apis": [
-        "https://raw.githubusercontent.com/drogovic/docusaurus-useitcloud/8fbeeceeb97c8bf0627ec8dfe61ce876353dc82b/my-website/api_uic.json"
+        "https://raw.githubusercontent.com/drogovic/docusaurus-useitcloud/main/my-website/api_uic.json"
     ],
     "links": {
         "github": "https://github.com/facebook/docusaurus",
