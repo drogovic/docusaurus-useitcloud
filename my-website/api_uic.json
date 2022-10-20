@@ -1,7 +1,6 @@
 {
    "basePath":"/api",
    "definitions":{
-      
    },
    "paths":{
       "/v2.0/agreement/":{
