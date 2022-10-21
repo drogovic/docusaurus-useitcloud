@@ -31,6 +31,7 @@
 img[src*="bordered"] {
   border: 1px solid rgb(189, 187, 187);
 }
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -38,11 +39,9 @@ img[src*="bordered"] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-/* ******************************************************************************************************************
- *
- * Nav Bar Headers
- *
- ****************************************************************************************************************** */
+/* ***************************
+ * Navigation Bar Headers
+ *****************************/
 
 .navbar__items .react-toggle {
   margin-left: 10px;

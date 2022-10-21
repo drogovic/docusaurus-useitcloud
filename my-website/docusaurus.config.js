@@ -11,7 +11,7 @@ const config = {
   tagline: 'Documentation',
   url: 'https://bright-raindrop-a76334.netlify.app',
   baseUrl: '/',
-  plugins: [ require.resolve('docusaurus-lunr-search')],
+  // plugins: [ require.resolve('docusaurus-lunr-search')],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
@@ -31,7 +31,7 @@ const config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
