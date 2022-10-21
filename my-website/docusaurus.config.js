@@ -11,6 +11,7 @@ const config = {
   tagline: 'Documentation',
   url: 'https://bright-raindrop-a76334.netlify.app',
   baseUrl: '/',
+  plugins: [ require.resolve('docusaurus-lunr-search')],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
@@ -30,7 +31,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -49,7 +50,8 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          //customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/styles/custom.css'),
         },
       }),
     ],
@@ -69,15 +71,15 @@ const config = {
             type: 'doc',
             docId: 'Introduction/1000',
             position: 'left',
-            label: 'User Docs',
+            label: 'Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {to: '/blog', label: 'Support', position: 'left'},
-          {
-            href: 'https://useitcloud.com/',
-            label: 'Use IT Cloud',
-            position: 'right',
-          },
+          //{
+          //  href: 'https://useitcloud.com/',
+          //  label: 'Use IT Cloud',
+          //  position: 'right',
+          //},
           {
             href: '/api-reference/',
             label: 'API',
@@ -86,24 +88,17 @@ const config = {
           },          
           /**{ to: '/api-reference', label: 'API', position: 'left'},*/
           { href: appConfig.links.github, position: 'right', className: 'header-link header-github-link', 'aria-label': 'GitHub repository'},
-          { href: appConfig.links.storybook, position: 'right', className: 'header-link header-storybook-link', 'aria-label': 'Component Library'},
-          { href: appConfig.links.grafana, position: 'right', className: 'header-link header-grafana-link', 'aria-label': 'Grafana Dashboard'},
-          { href: appConfig.links.rabbitmq, position: 'right', className: 'header-link header-rabbitmq-link', 'aria-label': 'RabbitMQ Console'},
-          { href: appConfig.links.s3filestorage, position: 'right', className: 'header-link header-s3-link', 'aria-label': 'S3 File Storage'},
-          { href: appConfig.links.kubernetes, position: 'right', className: 'header-link header-kubernetes-link', 'aria-label': 'Kubernetes Platform'},
-          { href: appConfig.links.artifactory, position: 'right', className: 'header-link header-jfrog-link', 'aria-label': 'Artifactory'},
-          { href: appConfig.links.confluence, position: 'right', className: 'header-link header-confluence-link', 'aria-label': 'Wiki Workspace'},
-          { href: appConfig.links.jira, position: 'right', className: 'header-link header-jira-link', 'aria-label': 'Sprint Planning Dashboard'},          
+          { href: appConfig.links.twitter, position: 'right', className: 'header-link header-twitter-link', 'aria-label': 'Twitter'},           
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'User docs',
+                label: 'Docs',
                 to: '/docs/Introduction/1000',
               },
             ],
@@ -119,10 +114,10 @@ const config = {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/use-it-cloud',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/UseItCloud',
-              },
+              //{
+              //  label: 'Twitter',
+              //  href: 'https://twitter.com/UseItCloud',
+              //},
             ],
           },
           {
