@@ -19,6 +19,40 @@ function HomepageHeader() {
   );
 }
 
+function HomepageHeader2() {
+  const { siteConfig } = useDocusaurusContext();
+
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner2)}>
+      <div className="container">
+        <h1>
+          <font color="black">Getting Started</font>
+        </h1>
+        <p className="hero__subtitle"></p>
+        <div className={styles.buttons2}>
+          <Link className="button button--secondary button--lg" to="/docs/Introduction/1000">
+            <img src="/img/book.svg" height="80" width="80" />
+            <h1 />
+            <font color="black">Documentation</font>
+            <h1 />
+            <font color="white">____________________</font>
+            <h1 />
+          </Link>
+          <font color="white">.</font>
+          <Link className="button button--secondary button--lg" to="/docs/API/6000">
+            <img src="/img/cloud.svg" height="80" width="80" />
+            <h1 />
+            <font color="black">API</font>
+            <h1 />
+            <font color="white">____________________</font>
+            <h1 />
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -26,9 +60,8 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <h1/>
+      <HomepageHeader2 />
     </Layout>
   );
 }

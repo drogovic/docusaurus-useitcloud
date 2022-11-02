@@ -21,3 +21,28 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.heroBanner2 {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.buttons2 {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  background-color: white;
+  background-size: cover;
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  padding: 2rem;
+  border-radius: 0px;
+  margin: 0px 0px;
+  border-width: 0px;
+  border-style: solid;
+}
