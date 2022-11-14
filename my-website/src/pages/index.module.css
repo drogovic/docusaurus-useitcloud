@@ -54,17 +54,13 @@
   border-style: solid;
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
   border-image: initial;
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   border-radius: 15px;
   border:  3px solid #e6ecf1;
 }
 
 .buttons2:hover {
-  background-color: rgb(245,245,245);
-  color: rgb(82,82,82);
-  border-color:  rgb(160,160,160);
-  font-weight: bold;
-
+  opacity: 0.6;
 }
 
