@@ -62,5 +62,6 @@
 
 .buttons2:hover {
   opacity: 0.6;
+  font-weight: bold;
 }
 
