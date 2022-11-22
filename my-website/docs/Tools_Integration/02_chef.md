@@ -7,3 +7,4 @@ sidebar_position: 2
 
 # Chef
 
+![Image](/img_UIC_Setup/image007.png)  

@@ -221,12 +221,12 @@ In the case where everything went well, the next window tells you that the insta
 
 ###	Setting up a UIC repository server
 Prologue has set up a repository containing the files needed to install some optional components such as the UIC Agent or the Zabbix Agent. This deposit can be replicated to another deposit of your choice, by following these steps:
-- Download tarball uicextraresources.tar.gz via the following URL :
+- Download tarball uicextraresources.tar.gz via the following URL:
 ```bash
 sudo su
 wget https://s3-eu-west-3.amazonaws.com/uicpackages/extra/uicextraresources.tar.gz
 ```
-- Extract the contents of this archive on your server, for example using the following command : 
+- Extract the contents of this archive on your server, for example using the following command: 
 ```bash
 sudo tar -xvf uicextraresources.tar.gz
 ```
@@ -239,11 +239,11 @@ UIC_REPOSITORY_HOST = Use IT Cloud Repository URL
 During the update process of UIC, the UIC platform will not be available for any request. The UIC frontend switches off to maintenance mode and some background services will be stopped at the begginning of the process. Therefore, requests to UIC will result in failure.
 Once the update is finished successfully, the stopped services will be started and the platform leaves the maintenance mode to  production state. 
 The steps below describe how to update the UIC platform :
-•	Connect to the server hosting the UIC portal and run the following command :
+•	Connect to the server hosting the UIC portal and run the following command:
 ```bash
 sudo su 
 ````
-•	Download the update script using the following command : 
+•	Download the update script using the following command: 
 ```bash
 wget https://s3-eu-west-3.amazonaws.com/uicpackages/update/update_uic_lc.sh 
 ````
