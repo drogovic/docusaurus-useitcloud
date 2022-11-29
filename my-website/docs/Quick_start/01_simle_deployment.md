@@ -16,15 +16,15 @@ To setup credentials for your provider, on the left navigation bar click on **Pr
 To deploy with UIC you have to configure references of your private cloud provider’s images. The list of referenced images for public cloud providers is updated automatically by UIC.
 To reference an image got through the menu **design > images**.
 
-![Image](/img_quick_start/image025.png#bordered)
+![Image](/img_en/img_quick_start/image025.png#bordered)
  
 Then click on **reference a provider image**
  
-![Image](/img_quick_start/image027.png#bordered) 
+![Image](/img_en/img_quick_start/image027.png#bordered) 
 
 You will be prompted to select the targeted provider, next select the desired image and its corresponding operation system, and for its default and password.
 
-![Image](/img_quick_start/image029.png#bordered) 
+![Image](/img_en/img_quick_start/image029.png#bordered) 
 
 Default user and password are optional according to each cloud provider, par example for VMware vSphere Linux family image’s booth are required.
 
@@ -33,28 +33,28 @@ Default user and password are optional according to each cloud provider, par exa
 
 To perform a deployment with UIC go through the menu **Deploy > Catalog**. 
 
-![Image](/img_quick_start/image031.png#bordered) 
+![Image](/img_en/img_quick_start/image031.png#bordered) 
 
 The applications catalog is organized into categories (left-hand column), each category contains a set of applications that are selectable for deployment.  New public or private categories can be created and added to the list of existing categories, from the **Settings > Catalog** menu.  Each category can be enriched with new applications.
 
-![Image](/img_quick_start/image033.png#bordered) 
+![Image](/img_en/img_quick_start/image033.png#bordered) 
 
 The left column shows the different categories of software and applications (operating systems, databases, CRM, CMS, etc.) defined in the catalog. Just click on a category to see the items it offers, or directly enter the name of the item you want in the search box. 
 For example, to deploy an application (wordpress) click on deploy and then you reach the following tab:
 
-![Image](/img_quick_start/image035.png#bordered)
+![Image](/img_en/img_quick_start/image035.png#bordered)
  
 Next select the **provider** ovh and the ovh **tenant** to use. Select the ovh **project**, the **region** and click on **confirm**.
 
-![Image](/img_quick_start/image037.png#bordered)
+![Image](/img_en/img_quick_start/image037.png#bordered)
 
 Under the **Network** tab, you can setup the configuration of the networks in terms of virtual network and subnet. Select the public ip and the security group.
 
-![Image](/img_quick_start/image039.png#bordered) 
+![Image](/img_en/img_quick_start/image039.png#bordered) 
 
 On the **infrastructure** tab you can setup the compute in terms of flavor and keypair.
 
-![Image](/img_quick_start/image041.png#bordered)
+![Image](/img_en/img_quick_start/image041.png#bordered)
  
 On the **personalization** tab you can configure the instance name, the bootstrapping script to use and tags.
 
@@ -64,11 +64,11 @@ After this configuration click on **validate and save** and **deploy**
 
 When the deployment is performed a notification is raised on the dashboard.  To manage the life cycle of the deployed application, go through the menu **manage > deployments**
 
-![Image](/img_quick_start/image043.png#bordered) 
+![Image](/img_en/img_quick_start/image043.png#bordered) 
 
 This deployments page displays a table with the list of deployed applications and a set of columns:
 
-![Image](/img_quick_start/image045.png#bordered) 
+![Image](/img_en/img_quick_start/image045.png#bordered) 
 
 
 - Identifier: Unique identifier created by UIC in the deployment database.
@@ -88,7 +88,7 @@ In order to allow access from the portal, UIC automatically generates the config
 - VNC Settings
 When you click the deployment **identifier** link, you access the details of the deployed application's administration page.
 
-![Image](/img_quick_start/image047.png#bordered) 
+![Image](/img_en/img_quick_start/image047.png#bordered) 
 
 This page is composed of 3 different areas, the one located on top contains: 
 - This list depends on The Delete button that allows to remove all the nodes of the application. 

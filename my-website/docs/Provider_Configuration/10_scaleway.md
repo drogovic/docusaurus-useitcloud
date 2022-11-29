@@ -20,13 +20,13 @@ Login information consists of the e-mail address your account is registered to a
 1. Open the [Scaleway website](https://www.scaleway.com/en/) in a web browser.
 2. Enter your email address in the form, then click **Get started now**. Alternatively, click **Sign Up** in the upper right corner of the page. You are redirected to the sign up page:
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage010.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage010.png#bordered)
 
 3. Select an account type (**Personal** or **Corporate**) and fill out your first and last name, as well as your email address.
 4. Check the box and solve the reCaptcha if you would like to receive marketing communications from Scaleway. Then, click Get Started! to create your account. A message displays to request that you check your email inbox for the verification email.
 5. Click the verification link in your mailbox to confirm your email address and agree to our terms of service. You are redirected to the Scaleway Console. A welcome message displays.
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage011.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage011.png#bordered)
 
 6. Click Add information to add your billing information and payment method. This will give you access to Scaleway resources.
 
@@ -34,7 +34,7 @@ Login information consists of the e-mail address your account is registered to a
 
 The Organization ID can be found on the Organization Account page under **Organization Information**.
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage012.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage012.png#bordered)
 
 
 ## Create a project
@@ -52,27 +52,27 @@ Each Scaleway Project can have several API keys, to give multiple accesses to th
 Creating an API key can be done directly from the Scaleway console:
 From the Scaleway console, navigate to the Credentials tab of your Project Dashboard:
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage013.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage013.png#bordered)
 
 Scroll down to the API Key section:
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage014.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage014.png#bordered)
 
 Click **Generate new API key**. The following pop-up appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage015.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage015.png#bordered)
 
 Add an **API Key purpose** (for your own reference) or leave this blank. Then click **Generate API Key**.
 The two parts of your API Key (access key and secret key) are displayed. Take careful note of the secret key, as it will not be recoverable or viewable after this point.
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage016.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage016.png#bordered)
 
 Click **OK** to conclude.
 
 ## Onboarding to UIC platform
 Navigate to **[Count:User] => Cloud credentials**, select **Scaleway** provider and then click ***Add credentials***.
 
-![Image](/img_UIC_Provider_Cred_Settings/scalewayimage017.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/scalewayimage017.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

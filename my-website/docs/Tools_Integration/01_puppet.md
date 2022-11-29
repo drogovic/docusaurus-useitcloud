@@ -7,4 +7,4 @@ sidebar_position: 1
 
 # Puppet
 
-![Image](/img_UIC_Setup/image006.png)  
+![Image](/img_en/img_UIC_Setup/image006.png)  

@@ -8,10 +8,10 @@ sidebar_position: 4
 
 This document describes the configuration process of the Use IT Cloud platform (referred to as UIC later in this document). 
 
-##	Architecture
+## Architecture
 The Use IT Cloud solution is a multi-cloud management platform. It provides a concrete answer to various issues of multi-cloud management. Use IT Cloud is based on a model of abstraction of the resources of the various Cloud providers, with which it interfaces. It automates and orchestrates application deployments while managing their entire lifecycle.
 
-![Image](/img_UIC_Setup/img_uicsetup_001.png#bordered)
+![Image](/img_en/img_UIC_Setup/img_uicsetup_001.png#bordered)
 
 
 According to its architecture, as shown in the figure above, UIC must interact with the following entities and components: 
@@ -21,7 +21,7 @@ According to its architecture, as shown in the figure above, UIC must interact w
 - Web access: Access to the UIC portal is via HTTP (S). 
 - REST API: UIC exposes a REST API. 
 
-##	Requirements
+## Requirements
 Please ensure that you meet the requirements below for a successful installation.
 
 ###	Host requirements
@@ -46,7 +46,7 @@ The firewall rules to enable for the Use IT Cloud platform are as follows:
 
 Service	| TCP/IP Port 	| Usage
 :-------|:-------------:|:-----------------
-http	| 80			| Dashboard web access
+HTTP	| 80			| Dashboard web access
 HTTPS	| 443			| Dashboard web access
 HTTPS	| 443			| REST API access
 
@@ -55,25 +55,25 @@ The table below shows the list of domains used by UIC, their eventual alias(es) 
 Domain Name	| Eventual Aliases | Port 
 :-----------|:-----------------|:--------------|
 bootstrap.pypa.io	| dualstack.c.ssl.global.fastly.net	| 443
-codeload.github.com	| | 	443
-deb.nodesource.com	| | 	443
-files.pythonhosted.org | | 		443
-getcomposer.org		| | 443
-launchpad.net		| | 443
-packagist.org		| | 443
-registry.npmjs.org		| | 443
-s3-eu-west-1.amazonaws.com		| | 443
-uic-repository.s3.amazonaws.com	s3-3-w.amazonaws.com	| | 443
-downloads3.ioncube.com	|s3-website-us-east-1.amazonaws.com |80
-| | downloads3.ioncube.com.s3-website-us-east-1.amazonaws.com| 80
-fr.archive.ubuntu.com	|bouyguestelecom.ubuntu.lafibre.info	|80
-keyserver.ubuntu.com	||	80
-ppa.launchpad.net		||80
-security.ubuntu.com		||80
-mariadb.mirrors.ovh.net		||80
-hkps.pool.sks-keyservers.net		||80
+codeload.github.com			|| 443
+deb.nodesource.com			|| 443
+files.pythonhosted.org 		|| 443
+getcomposer.org				|| 443
+launchpad.net				|| 443
+packagist.org				|| 443
+registry.npmjs.org			|| 443
+s3-eu-west-1.amazonaws.com	|| 443
+uic-repository.s3.amazonaws.com	s3-3-w.amazonaws.com || 443
+downloads3.ioncube.com	|s3-website-us-east-1.amazonaws.com | 80
+| | downloads3.ioncube.com.s3-website-us-east-1.amazonaws.com | 80
+fr.archive.ubuntu.com	|bouyguestelecom.ubuntu.lafibre.info	| 80
+keyserver.ubuntu.com		|| 80
+ppa.launchpad.net			|| 80
+security.ubuntu.com			|| 80
+mariadb.mirrors.ovh.net		|| 80
+hkps.pool.sks-keyservers.net|| 80
 
-##	Installation and configuration of UIC platform
+## Installation and configuration of UIC platform
 ###	Installation 
 The steps below describe how to install the UIC platform :
 •	Connect to the server hosting the UIC portal and execute the following command :
@@ -90,7 +90,7 @@ mkdir install_uic && tar -xvf install_uic_lc.tar.gz --strip 1 -C install_uic
 ```
 Once extracted, you get the following content :
 
-![Image](/img_UIC_Setup/image024.png#bordered) 
+![Image](/img_en/img_UIC_Setup/image024.png#bordered) 
 
 Before starting the installation procedure, it is necessary to perform some pre-installation operations. For example, if you want to create a mirror of the Prologue repository, as described in section **Setting up a UIC repository server**, we recommend that you do this before filling out the uic.cfg file as shown below and before to launch this installation. 
 - Edit the uic.cfg file 
@@ -127,19 +127,19 @@ Once the UIC packages installation step is finished, you can proceed to the conf
 ###	Configuration 
 The finalization of the configuration of your platform is done by logging in using an internet browser, simply by typing the address **https://@uic/**, where @uic designates the IP address or the name of the machine that hosts UIC. Use IT Cloud then displays the following screen:
 
-![Image](/img_UIC_Setup/image025.png) 
+![Image](/img_en/img_UIC_Setup/image025.png) 
  
 The configuration of UIC takes place in several steps which are described in the following paragraphs.
 
-####	Requirements Verification
+#### Requirements Verification
 The prerequisites here are about the Dashboard part, which mainly depends on PHP components and the Apache server. The PHP part needs the modules Openssl, Pdo, Mbstring, Tokenizer, Json and Curl. The Apache server needs the rewrite module "Mod_rewrite" for URL rewriting.
 The prerequisites must all be met, if you used the installation procedure, all the checkboxes should be green, as shown in the following figure: 
 
-![Image](/img_UIC_Setup/image026.png) 
+![Image](/img_en/img_UIC_Setup/image026.png) 
  
-####	Permissions checking
+#### Permissions checking
 
-![Image](/img_UIC_Setup/image027.png) 
+![Image](/img_en/img_UIC_Setup/image027.png) 
 
 The directories of the UIC application below must be writable by the Web server: 
 - Storage / framework / 
@@ -147,10 +147,10 @@ The directories of the UIC application below must be writable by the Web server:
 - Storage / app / 
 - Bootstrap / cache /
 
-####	Environment settings
-#####	Environment
+#### Environment settings
+##### Environment
 
-![Image](/img_UIC_Setup/image028.png) 
+![Image](/img_en/img_UIC_Setup/image028.png) 
 
 - **Application environment** : production mode or local mode.
 - **Debug mode**: allows to put the platform in debug mode or not. 
@@ -161,9 +161,9 @@ The directories of the UIC application below must be writable by the Web server:
 ```bash
 https://user:password@host:port
 ```
-#####	 Mail Configuration
+##### Mail Configuration
 
-![Image](/img_UIC_Setup/image029.png) 
+![Image](/img_en/img_UIC_Setup/image029.png) 
 
 - **Host**: address of the server to use for the SMTP configuration for sending emails
 - **Port**: connection port to the SMTP server
@@ -176,7 +176,7 @@ https://user:password@host:port
 
 ##### Application Configuration
 
-![Image](/img_UIC_Setup/image030.png)  
+![Image](/img_en/img_UIC_Setup/image030.png)  
 
 - **Application Name**: Name of the application that will be displayed in the notifications (mail notification of backups).
 - **Backup**: By default, the backup is disabled. To enable it, check the yes box. 
@@ -192,19 +192,19 @@ Once you have generated the keys, you can use them to set the following UIC fiel
 #### License
 To request a license from the platform, click the button « Agree terms and request a license. »
 
-![Image](/img_UIC_Setup/image031.png)  
+![Image](/img_en/img_UIC_Setup/image031.png)  
 
 The license request is sent, you will receive the license by email once the request is accepted
 
-![Image](/img_UIC_Setup/image032.png)  
+![Image](/img_en/img_UIC_Setup/image032.png)  
 
 You will receive an email containing the license file "license.txt uic" in this form:
 
-![Image](/img_UIC_Setup/image033.png)  
+![Image](/img_en/img_UIC_Setup/image033.png)  
  
 #### Creation of the Operator account and user
  
-![Image](/img_UIC_Setup/image034.png)  
+![Image](/img_en/img_UIC_Setup/image034.png)  
 
 **Account Information:**
 
@@ -217,7 +217,7 @@ You will receive an email containing the license file "license.txt uic" in this 
 If all the configuration wizard information is complete, in the case where the information is incorrect, the identified errors will be displayed and UIC asks you to fix them. 
 In the case where everything went well, the next window tells you that the installation is complete. Click the button **Click here to exit**, UIC will display the login dialog box to let you authenticate and start using your newly installed platform.
 
-![Image](/img_UIC_Setup/image035.png)  
+![Image](/img_en/img_UIC_Setup/image035.png)
 
 ###	Setting up a UIC repository server
 Prologue has set up a repository containing the files needed to install some optional components such as the UIC Agent or the Zabbix Agent. This deposit can be replicated to another deposit of your choice, by following these steps:
@@ -235,19 +235,19 @@ sudo tar -xvf uicextraresources.tar.gz
 UIC_REPOSITORY_HOST = Use IT Cloud Repository URL
 ```
 
-##	Update of the UIC platform
+## Update of the UIC platform
 During the update process of UIC, the UIC platform will not be available for any request. The UIC frontend switches off to maintenance mode and some background services will be stopped at the begginning of the process. Therefore, requests to UIC will result in failure.
 Once the update is finished successfully, the stopped services will be started and the platform leaves the maintenance mode to  production state. 
 The steps below describe how to update the UIC platform :
-•	Connect to the server hosting the UIC portal and run the following command:
+• Connect to the server hosting the UIC portal and run the following command:
 ```bash
 sudo su 
 ````
-•	Download the update script using the following command: 
+• Download the update script using the following command: 
 ```bash
 wget https://s3-eu-west-3.amazonaws.com/uicpackages/update/update_uic_lc.sh 
 ````
-•	Edit the file update_uic.sh and fill in the following variables, they represent the access keys to the deposit of UIC packages :
+• Edit the file update_uic.sh and fill in the following variables, they represent the access keys to the deposit of UIC packages :
 ```js
 UIC_REPOSITORY_ACCESSKEY = your public access key to UIC repository 
 UIC_REPOSITORY_SECRETKEY = your secret access key to UIC repository
@@ -256,6 +256,6 @@ UIC_REPOSITORY_SECRETKEY = your secret access key to UIC repository
 ```bash
 bash ./update_uic.sh
 ```
-•	During the update process, several questions will be asked, answer by Yes to continue the update.
+• During the update process, several questions will be asked, answer by Yes to continue the update.
 
 Once the update is finish

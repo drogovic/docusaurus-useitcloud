@@ -31,7 +31,7 @@ If Billing is selected, you need the following settings:
 ## Onboarding to UIC platform
 Navigate to [Count:User] => Cloud credentials, select vCloud provider and then click Add credentials.
 
-![Image](/img_UIC_Provider_Cred_Settings/vclimage010.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/vclimage010.png#bordered)
 
 The settings screen has a form that allows you to configure: 
 
@@ -49,7 +49,7 @@ Select **Add**.
 
 If Billing only is selected:
 
-![Image](/img_UIC_Provider_Cred_Settings/vclimage011.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/vclimage011.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

@@ -13,9 +13,9 @@ Document version 1.0.0 (2022-10-01)
 
 To request an Oracle Account from the Oracle Cloud website:
 - Go to the Oracle Cloud website.
-- Click ![Image](/img_UIC_Provider_Cred_Settings/oracleimage010.png#bordered) **View Accounts**.
+- Click ![Image](/img_en/img_UIC_Provider_Cred_Settings/oracleimage010.png#bordered) **View Accounts**.
 
-![Image](/img_UIC_Provider_Cred_Settings/oracleimage011.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/oracleimage011.png#bordered)
 
 - Click **Create an Account**.
 - Enter your email address and other details in the appropriate fields. Be sure to complete all the required fields.
@@ -45,21 +45,21 @@ Get the tenancy OCID from the Oracle Cloud InfrastructureConsole on the **Tenanc
 	- Sign in to the Oracle Cloud Infrastructure Console.
 	- Open the Region menu in the top bar of the Console. Your home region is identified on the menu:
 
-![Image](/img_UIC_Provider_Cred_Settings/oracleimage012.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/oracleimage012.png#bordered)
 
 - The tenancy OCID is shown under **Tenancy Information**. Click **Copy** to copy it to your clipboard.
 
 #### User's OCID
 Get the user's OCID in the Console on the page showing the user's details. To get to that page:
 - If you're signed in as the user:
-Open the **Profile** menu (![Image](/img_UIC_Provider_Cred_Settings/oracleimage013.png#bordered)) and click **User Settings**.
+Open the **Profile** menu (![Image](/img_en/img_UIC_Provider_Cred_Settings/oracleimage013.png#bordered)) and click **User Settings**.
 - If you're an administrator doing this for another user: Open the navigation menu and click **Identity & Security**. Under **Identity**, click **Users**. Select the user from the list.
 - The user OCID is shown under **User Information**. Click **Copy** to copy it to your clipboard.
 
 ##  Onboarding to UIC platform
 Navigate to **[Count:User] => Cloud credentials**, select **Oracle Cloud** provider and then click ***Add credentials***.
 
-![Image](/img_UIC_Provider_Cred_Settings/oracleimage014.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/oracleimage014.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

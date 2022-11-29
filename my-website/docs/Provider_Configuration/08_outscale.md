@@ -13,9 +13,9 @@ Cockpit is a web interface developed by 3DS OUTSCALE that enables you to create 
 
 ## Request to create a Cloud Account
 
-![Image](/img_UIC_Provider_Cred_Settings/outscaleimage010.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/outscaleimage010.png#bordered)
 
-![Image](/img_UIC_Provider_Cred_Settings/outscaleimage011.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/outscaleimage011.png#bordered)
 
 
 ## Managing your Account
@@ -47,12 +47,12 @@ Access keys enable you to sign your API requests. At the creation of an access k
 - Click Generate to validate.
 	The access key is created.
 
-![Image](/img_UIC_Provider_Cred_Settings/outscaleimage012.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/outscaleimage012.png#bordered)
 
 ## Onboarding to UIC platform
 Navigate to **[Count:User] => Cloud credentials**, select **OUTSCALE** provider and then click ***Add credentials***.
 
-![Image](/img_UIC_Provider_Cred_Settings/outscaleimage013.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/outscaleimage013.png#bordered)
 
 
 The settings screen has a form that allows you to configure:
@@ -69,7 +69,7 @@ Select **Add**.
 
 If Billing only is selected:
 
-![Image](/img_UIC_Provider_Cred_Settings/outscaleimage014.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/outscaleimage014.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

@@ -22,7 +22,7 @@ To onboard a Flexible Engine subscription to your Use IT Cloud account, you need
 ## Onboarding to UIC platform
 Navigate to **[Count:User] => Cloud credentials**, select **Flexible Engine** provider and then click ***Add credentials***.
 
-![Image](/img_UIC_Provider_Cred_Settings/fleximage010.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/fleximage010.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

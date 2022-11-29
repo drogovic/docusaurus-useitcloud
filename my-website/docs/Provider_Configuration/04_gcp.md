@@ -24,62 +24,62 @@ To create a new project on GCP Cloud, log into a GCP account using this link: ht
 
 - The following page appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage035.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage035.png#bordered)
 
 - Click on **+CREATE PROJECT**, the following page appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage036.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage036.png#bordered)
  
 - Enter the project **name**.
 - Click on **Create** button, the project is created, and its name appears in the bleu banner on the top, as shown below: 
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage777.png#bordered) 
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage777.png#bordered) 
 
 ## Create Credentials
 - Under Your console, from the menu select the created project. 
 - Select the navigation menu **=> API and services => Credentials**, the credential page appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage038.png#bordered) 
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage038.png#bordered) 
 
 - Click on **Create credentials** button.
 - Choose **API key**, the following message box appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage039.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage039.png#bordered)
 
 
 - Click on **CLOSE**, the credential page reappears considering the new API key 
 - Click on **Create Credentials => Service account key**
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage040.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage040.png#bordered)
  
 - The following page appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage041.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage041.png#bordered)
 
 - Select new service account on **Service account** menu
 - Enter the **Service account name**
 - Click create
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage042.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage042.png#bordered)
 
 - Next select the **Role** menu **=> Project => Owner**
 - Click **CONTINUE**
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage043.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage043.png#bordered)
 
 - Click Done
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage044.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage044.png#bordered)
 
 - Then click on the service account. 
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage045.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage045.png#bordered)
 
 - Click **ADD KEY** then create new key
 
 - Select JSON type
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage046.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage046.png#bordered)
 
 - Click **CREATE** 
 - Download the JSON file proposed by GCP provider. Here is an example of the file contents:
@@ -102,15 +102,15 @@ The content of this file contains the items to onboard GCP project under UIC pla
 ## Enable API Services
 - To list the created API, select the navigation menu **=> Dashboard => API**, the following screen appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage047.png#bordered) 
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage047.png#bordered) 
 
 - Click on **+ENABLE APIS AND SERVICES**, the following page appears:
  
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage048.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage048.png#bordered)
 
 - Choose **Compute Engine API**, the API library appears:
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage049.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage049.png#bordered)
  
 - Click on **ENABLE** button, the compute Engine API is enabled.
 - Repeat those steps to enable **Cloud Billing API**
@@ -119,11 +119,11 @@ If you need also to manage billing data, the BigQuery API is required to export 
 
 ## Configure Permission for billing account
 In the following example we will grant access to a project named **uic-prod** with the service account **« uicprod-service-account@uic-prod.iam.gserviceaccount.com »**
-- Open the navigation menu ![Image](/img_UIC_Provider_Cred_Settings/gcpimage050.png#bordered) and select **API &Services => Credentials**
+- Open the navigation menu ![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage050.png#bordered) and select **API &Services => Credentials**
 - Copy E-mail of the service account.
 
 Then add the principal account
-- Open the navigation menu ![Image](/img_UIC_Provider_Cred_Settings/gcpimage050.png#bordered) and select  **Billing  => Account management**
+- Open the navigation menu ![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage050.png#bordered) and select  **Billing  => Account management**
 - Select the billing account associated with your project.
 - Click on **ADD PRINCIPAL ACCOUNT**
 - Introduce the service account copied previously 
@@ -201,18 +201,18 @@ To access BigQuery API you can grant permissions by assigning roles to a user, g
 - Then select IAM & **Admin -> IAM**
 - Click **ADD**
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage051.png#bordered) 
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage051.png#bordered) 
 
 - Select the role BigQuery Data Viewer
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage052.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage052.png#bordered)
 
 - Click **SAVE**
 
 ## Onboarding to UIC platform
 Navigate to **[Count:User] => Cloud credentials**, select Google Cloud provider and then click ***Add credentials***.
 
-![Image](/img_UIC_Provider_Cred_Settings/gcpimage053.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/gcpimage053.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

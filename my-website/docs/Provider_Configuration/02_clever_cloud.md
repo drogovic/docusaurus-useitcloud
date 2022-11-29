@@ -18,16 +18,16 @@ To onboard a Clever Cloud subscription to your Use IT Cloud account, you need th
 
 You can get this information by logging into the [Clever Cloud Management portal](https://console.clever-cloud.com/)  as administrator of your subscription. 
 
-![Image](/img_UIC_Provider_Cred_Settings/cleverimage010.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/cleverimage010.png#bordered)
 
 ## Create a Clever Cloud account
 The API of Clever Cloud uses OAuth 1 to perform authentication actions. 
 
-![Image](/img_UIC_Provider_Cred_Settings/cleverimage011.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/cleverimage011.png#bordered)
 
-![Image](/img_UIC_Provider_Cred_Settings/cleverimage012.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/cleverimage012.png#bordered)
 
-![Image](/img_UIC_Provider_Cred_Settings/cleverimage013.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/cleverimage013.png#bordered)
 
 
 ## Manage your account
@@ -45,12 +45,12 @@ In the Clever Cloud Web Console, select **Add an organization** in the left menu
 Give it a name, description, specify if it is a company and add billing informations.
 Each organization have its own identifier looking like orga_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
 
-![Image](/img_UIC_Provider_Cred_Settings/cleverimage014.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/cleverimage014.png#bordered)
 
 ## Onboarding to UIC platform
 Navigate to **[Count:User] => Cloud credentials**, select **Clever Cloud** provider and then click **Add credentials**.
 
-![Image](/img_UIC_Provider_Cred_Settings/cleverimage015.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/cleverimage015.png#bordered)
 
 The settings screen has a form that allows you to configure:
 

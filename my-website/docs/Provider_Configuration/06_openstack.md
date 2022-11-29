@@ -21,7 +21,7 @@ To onboard a OpenStack subscription to your Use IT Cloud account, you need the f
 Navigate to **[Count:User] => Cloud** credentials, select **OpenStack** provider and then click ***Add credentials***.
 
 
-![Image](/img_UIC_Provider_Cred_Settings/openstackimage010.png#bordered)
+![Image](/img_en/img_UIC_Provider_Cred_Settings/openstackimage010.png#bordered)
 
 The settings screen has a form that allows you to configure:
 
