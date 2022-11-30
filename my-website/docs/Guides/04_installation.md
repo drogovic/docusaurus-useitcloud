@@ -258,4 +258,4 @@ bash ./update_uic.sh
 ```
 • During the update process, several questions will be asked, answer by Yes to continue the update.
 
-Once the update is finish
+Once the update is finished, all UIC services are made available and running.
