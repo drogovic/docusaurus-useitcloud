@@ -76,15 +76,15 @@ hkps.pool.sks-keyservers.net|| 80
 ## Installation and configuration of UIC platform
 ###	Installation 
 The steps below describe how to install the UIC platform :
-•	Connect to the server hosting the UIC portal and execute the following command :
+- Connect to the server hosting the UIC portal and execute the following command :
 ```bash
 sudo su 
 ```
-•	Download the install_uic.tar.gz archive via the following link : 
+- Download the install_uic.tar.gz archive via the following link : 
 ```bash
 wget https://uicpackages.s3.eu-west-3.amazonaws.com/install/install_uic_lc.tar.gz
 ```
-•	Extract the contents of this archive to the destination of your choice (eg install_uic) : 
+- Extract the contents of this archive to the destination of your choice (eg install_uic) : 
 ```bash
 mkdir install_uic && tar -xvf install_uic_lc.tar.gz --strip 1 -C install_uic
 ```
