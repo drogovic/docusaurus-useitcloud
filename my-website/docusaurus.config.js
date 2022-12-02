@@ -29,6 +29,15 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      fr: {
+        htmlLang: 'fr-FR',
+      },
+    },    
   },
 
   presets: [
@@ -87,6 +96,10 @@ const config = {
             label: 'API',
             position: 'left',
             target: '_blank'
+          },          
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },          
           /**{ to: '/api-reference', label: 'API', position: 'left'},*/
           { href: appConfig.links.github, position: 'right', className: 'header-link header-github-link', 'aria-label': 'GitHub repository'},
