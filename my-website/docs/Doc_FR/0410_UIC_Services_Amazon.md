@@ -5,24 +5,6 @@ description: UseITcloud documentation 3.2.0
 sidebar_position: 410
 ---
 
-## Prérequis
-
-La connexion depuis UIC aux services Cloud de _Amazon AWS_ nécessite de disposer des prérequis énumérés ci-dessous :
-
-- Un compte Cloud valide sur la plateforme _Amazon AWS_, ce compte peut être créé à l'aide de la console _Amazon AWS_.
-- Des paramètres d'accès aux services APIs exposés par le Cloud Amazon AWS, notamment :
-
-- Une clé d'accès,
-- Une clé secrète.
-
-- Des paramètres liés à l'emplacement réseau de la plateforme _UIC_ :
-
-- Les paramètres du proxy si vous en utilisez un,
-- L'adresse IP de dialogue entre la plateforme UIC et le Cloud Amazon AWS. Si ce Cloud et la plateforme UIC sont dans le même réseau ou que la plateforme UIC possède une adresse publique, cette valeur sera égale à l'adresse IP de la plateforme UIC. Dans le cas contraire, cette valeur sera égale à l'adresse IP qui sert de passerelle pour la plateforme UIC.
-
-- Un compte _UIC_ valide, vous pouvez consulter la documentation _UIC_ intitulée _UiC\_Guide\_UserAdmin\_FR_ pour découvrir le processus de création de comptes sur la plateforme _UIC_.
-- Un identifiant Cloud _UIC_ qui permet d'associer l'ensemble de ces paramètres. Le chapitre _5Identifiants Cloud Amazon AWS_ de ce document décrit une méthode à suivre pour la création d'un identifiant _UIC_ de connexion au Cloud _Amazon AWS_.
-
 ## Les commandes communes aux pages de l'IHM
 
 Les pages et formulaires affichés par _UIC_ présentent certaines commandes dont la signification est la même quelle que soit la page qui les présente. Par conséquent, ces commandes seront décrites dans ce chapitre et cette description est applicable à toutes les ressources et tous les formulaires gérés par _UIC_ et présentés dans ce document.
@@ -35,7 +17,7 @@ Voici la liste et la description de ces commandes :
 - La commande **Rechercher ** : Cette commande s'applique aux tableaux affichés par UIC. Elle permet de rechercher et présenter les éléments contenant la chaîne de caractères spécifiée dans le champ de recherche.
 - La commande **Change columns ** : Cette commande s'applique aux tableaux affichés par UIC. Elle permet à l'utilisateur de sélectionner les colonnes qu'il souhaite visualiser.
 - La commande **CSV ** : Cette commande s'applique aux tableaux affichés par UIC. Elle permet à l'utilisateur d'exporter le tableau affiché dans un fichier au format CSV.
-- Le bouton d'actualisation ![Image](/img_fr/img_UIC_Services/img_amazon/image003.png#bordered)  : Ce bouton permet de forcer l'actualisation des données affichées.
+- Le bouton d'actualisation ![Image](/img_fr/img_UIC_Services/img_amazon/image066.png#bordered)  : Ce bouton permet de forcer l'actualisation des données affichées.
 
 
 ## Identifiants Cloud Amazon AWS
@@ -618,20 +600,20 @@ Lorsque vous cliquez sur le bouton **Télécharger le fichier RDP,** Windows vou
 
 **Remarque : Si votre VM ne présente pas un certificat signé par une autorité de confiance, le système affichera la fenêtre suivante :**
 
-![Image](/img_fr/img_UIC_Services/img_amazon/image002.png#bordered)
+![Image](/img_fr/img_UIC_Services/img_amazon/image060.png#bordered)
 
 Si vous êtes dans un réseau sécurisé, appuyez sur le bouton **Oui** , sinon corrigez le problème avant de continuer.
 
 Après l'opération d'authentification, le système Windows de la VM affiche la session de l'utilisateur authentifié. Voici un exemple d'écran d'une session Administrateur par défaut :
 
-![Image](/img_fr/img_UIC_Services/img_amazon/image060.png#bordered)
+![Image](/img_fr/img_UIC_Services/img_amazon/image061.png#bordered)
 
 
 #### Détails d'un déploiement
 
 Vous obtenez la liste des déploiements en cliquant sur le menu **Gérer**  **Déploiements,** l'écran ci-dessous fournit un exemple de liste.
 
-![Image](/img_fr/img_UIC_Services/img_amazon/image061.png#bordered)
+![Image](/img_fr/img_UIC_Services/img_amazon/image053.png#bordered)
 
 Un clic sur le lien **Identifiant** affiche tous les détails du déploiement.
 
