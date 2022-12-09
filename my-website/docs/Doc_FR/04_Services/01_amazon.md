@@ -1,8 +1,8 @@
 ---
-id: 10410
-title: Gestion des Cloud publics Amazon AWS
+id: 40001
+title: Amazon AWS
 description: UseITcloud documentation 3.2.0
-sidebar_position: 410
+sidebar_position: 1
 ---
 
 ## Les commandes communes aux pages de l'IHM
