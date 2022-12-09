@@ -114,7 +114,7 @@ La page d'accueil _AWS_ s'affiche, depuis le service **Management des Identités
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image010.png#bordered)
 
-Pour afficher le billing d'AWS sur la plateforme UIC, nous avons besoin de créer une autre stratégie qu'on va nommer **« uicBillingViewAccess »**.
+Pour afficher le billing d'AWS sur la plateforme UIC, nous avons besoin de créer une autre stratégie qu'on va nommer **uicBillingViewAccess**.
 
 - Cliquez sur le bouton **Créer une stratégie** , puis collez le json ci-dessous :
 ```json
@@ -165,7 +165,7 @@ Defilez vers le bas puis cliquez sur l' **Accès des utilisateurs et des rôles 
 
 Cliquez sur le bouton **Mettre à jour.**
 
-Après cette modification, vous pouvez ajouter la première stratégie créée précédemment «  **uic\_strategie2 »** aux utilisateurs de votre choix . (voir la section ci-dessous )
+Après cette modification, vous pouvez ajouter la première stratégie créée précédemment **uic\_strategie2** aux utilisateurs de votre choix . (voir la section ci-dessous )
 
 
 ### Création d'un Utilisateur
@@ -245,7 +245,7 @@ Pour plus d'informations, consultez [Limites des objets d'entité IAM ](https://
 
 ### Configuration d'un identifiant Cloud AWS dans UIC
 
-Depuis la plateforme, menu **Identifiant/Paramètres du compte* -> Identifiants Cloud -> AWS** ,
+Depuis la plateforme, menu **Identifiant/Paramètres du compte -> Identifiants Cloud -> AWS** ,
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image025.png#bordered)
 
@@ -258,7 +258,7 @@ Depuis la plateforme, menu **Identifiant/Paramètres du compte* -> Identifiants 
   - **Clé d'accès**  : Saisissez la clé d'accès (Ex : AKIAIOSFODNN7EXAMPLE)
   - **Clé secrète**  : Saisissez la clé secrète (Ex : wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY).
   - **Région** par défaut : Choisissez une région par défaut (Ex : eu-west-1 – Irlande) que vous souhaitez associer à cet identifiant.
-  - **Proxy**  : Indiquez l'URL du proxy (facultatif)au format suivant : https://user:password@host:port
+  - **Proxy**  : Indiquez l'URL du proxy (facultatif)au format suivant : ```https://user:password@host:port```
 
 
 #### Conséquence sur la table des identifiants Amazon AWS
@@ -317,7 +317,7 @@ Compte-tenu du fait que ce délai est variable d'une infrastructure à une autre
 
 #### Conséquence sur le menu Clouds
 
-Après l'ajout d'un identifiant Cloud _Amazon AWS_, _UIC_ crée un item portant le nom de l'identifiant dans le menu **Clouds**  ****  **Amazon AWS** , il porte le nom attribué à la création **.** Il vous permet d'accéder et de piloter les ressources _Amazon AWS_ qui sont sous son contrôle.
+Après l'ajout d'un identifiant Cloud _Amazon AWS_, _UIC_ crée un item portant le nom de l'identifiant dans le menu **Clouds -> Amazon AWS** , il porte le nom attribué à la création , Il vous permet d'accéder et de piloter les ressources _Amazon AWS_ qui sont sous son contrôle.
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image032.png#bordered)
 
@@ -424,7 +424,7 @@ La colonne **Actions** présente deux items si l'image a été référencé et s
 
 ### Configuration d'un déploiement
 
-Le déploiement des applications et des VM s'effectue à l'aide du menu **Déployer -> Catalogue -> "Application" -> Déployer**. L'action **Déployer** permet de configurer l'environnement du déploiement avant de le déclencher réellement.
+Le déploiement des applications et des VM s'effectue à l'aide du menu **Déployer -> Catalogue -> Application -> Déployer**. L'action **Déployer** permet de configurer l'environnement du déploiement avant de le déclencher réellement.
 
 - Sélectionnez l'application à déployer, actionnez le bouton **Déployer** correspondant à l'application, vous obtenez l'écran de préparation de déploiement illustré sur l'écran suivant :
 
@@ -470,7 +470,7 @@ Le menu déroulant **Gabarit** propose des gabarits de machines prédéfinis che
 - **Paire de clés :** Indique la paire de clé associée à cette VM. Vous pouvez choisir entre les différentes options proposées par UIC, comme illustré dans l'exemple suivant :
 ![Image](/img_fr/img_UIC_Services/img_amazon/image047.png#bordered)
 Vous pouvez utiliser une paire de clés existante (générique ou fournisseur), ou bien laisser UIC créer une nouvelle paire de clés. Vous pouvez également déployer cette VM sans aucune paire de clés.
-Dans _UIC,_ la gestion des paires de clés étant Cloud agnostic, les détails de cette gestion sont décrites dans le document global intitulé «  **UiC\_Guide\_UserAdmin\_FR ».**
+Dans _UIC,_ la gestion des paires de clés étant Cloud agnostic, les détails de cette gestion sont décrites dans le document global intitulé **UiC\_Guide\_UserAdmin\_FR.**
 - **Rôe IAM :** Indique le rôle IAM associé à la VM. Vous pouvez choisir de ne pas associer de rôle particulier à cette VM, dans ce cas, sélectionnez _Aucun_.
 
 
@@ -507,7 +507,7 @@ La plateforme _UIC_ peut mettre en œuvre la gestion de configuration des machin
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image050.png#bordered)
 
-Cette mise en œuvre est commune à tous les Clouds, elle n'est donc pas spécifique à _Amazon AWS_. Elle est documentée en détail dans le guide intitulé «  **UiC\_Guide\_UserAdmin\_FR** ».
+Cette mise en œuvre est commune à tous les Clouds, elle n'est donc pas spécifique à _Amazon AWS_. Elle est documentée en détail dans le guide intitulé **UiC\_Guide\_UserAdmin\_FR**.
 
 
 #### Surveillance
@@ -518,7 +518,7 @@ La plateforme UIC peut mettre en œuvre la surveillance des machines virtuelles 
 
 Une fois que vous avez fini la configuration, vous pouvez lancer votre déploiement en cliquant sur le bouton **Déployer** (en haut à droite de l'écran), le processus de déploiement s'enclenchera.
 
-**Remarque : Cette mise en œuvre est commune à tous les Clouds, elle n'est donc pas spécifique à _Amazon AWS_. Elle est cependant documentée en détail dans le guide intitulé « UiC\_Guide\_UserAdmin\_FR ».**
+**Remarque : Cette mise en œuvre est commune à tous les Clouds, elle n'est donc pas spécifique à _Amazon AWS_. Elle est cependant documentée en détail dans le guide intitulé UiC\_Guide\_UserAdmin\_FR.**
 
 
 ### Opération de déploiement
@@ -611,7 +611,7 @@ Après l'opération d'authentification, le système Windows de la VM affiche la 
 
 #### Détails d'un déploiement
 
-Vous obtenez la liste des déploiements en cliquant sur le menu **Gérer**  **Déploiements,** l'écran ci-dessous fournit un exemple de liste.
+Vous obtenez la liste des déploiements en cliquant sur le menu **Gérer -> Déploiements,** l'écran ci-dessous fournit un exemple de liste.
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image053.png#bordered)
 
@@ -684,7 +684,7 @@ Patientez, puis rafraichissez à l'aide du bouton suivant ![Image](/img_fr/img_U
 
 #### Suppression d'un déploiement
 
-Vous pouvez utiliser le menu **Gérer**  **Déploiements** pour supprimer un déploiement. La liste des déploiements s'affiche :
+Vous pouvez utiliser le menu **Gérer -> Déploiements** pour supprimer un déploiement. La liste des déploiements s'affiche :
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image069.png#bordered)
 
@@ -801,7 +801,7 @@ La commande **Redémarrer** est disponible seulement si l'instance est démarré
 
 ### Eteindre une instance
 
-Cette opération mettra l'instance sélectionnée dans un état « Stopped ». La machine virtuelle est arrêtée mais reste associée à l'hyperviseur qui la gère. Au prochain démarrage, elle sera gérée par ce même hyperviseur.
+Cette opération mettra l'instance sélectionnée dans un état **Stopped**. La machine virtuelle est arrêtée mais reste associée à l'hyperviseur qui la gère. Au prochain démarrage, elle sera gérée par ce même hyperviseur.
 
 - Sélectionnez la commande **Eteindre** depuis la colonne **Actions** , la boite de dialogue suivante apparaît :
 
@@ -961,7 +961,7 @@ En fonction de l'item choisi (images privées ou publiques) la liste des images 
 
 ### Déployer une image publique
 
-Pour accéder à la gestion des images publiques de machines virtuelles, sélectionnez le menu **Clouds -> Amazon AWS* -> Tenant\ -> OMI -> Images publiques** , la page contenant la liste des images publiques apparaît :
+Pour accéder à la gestion des images publiques de machines virtuelles, sélectionnez le menu **Clouds -> Amazon AWS -> Tenant\ -> OMI -> Images publiques** , la page contenant la liste des images publiques apparaît :
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image090.png#bordered)
 
@@ -1108,9 +1108,9 @@ chmod 0600 yourPrivateKey.pem
 ![Image](/img_fr/img_UIC_Services/img_amazon/image100.png#bordered)
 
 - Entrez le nom de votre paire de clés dans le champ **Nom de la paire de clés**. Vous avez deux possibilités :
-  - Soit vous télécharger le fichier contenant la clé publique que vous souhaitez importer, à l'aide du bouton «  **Parcourir** »,
-  - Ou bien vous copiez le contenu du fichier de la clé publique et vous l'insérer dans la fenêtre intitulée «  **Contenu de la clé publique**  ».
-- Cliquez ensuite sur le bouton «  **Importer**  » pour finaliser l'opération.
+  - Soit vous télécharger le fichier contenant la clé publique que vous souhaitez importer, à l'aide du bouton **Parcourir**,
+  - Ou bien vous copiez le contenu du fichier de la clé publique et vous l'insérer dans la fenêtre intitulée **Contenu de la clé publique**.
+- Cliquez ensuite sur le bouton **Importer** pour finaliser l'opération.
 
 ### Adresses IP externes
 
@@ -1118,7 +1118,7 @@ La rubrique **Adresses**** IP externes** permet d'afficher la liste des adresses
 
 #### Afficher la liste des Adresses IP externes
 
-Depuis la plateforme _UiC_, sélectionnez le menu **Clouds* -> Amazon AWS -> Tenant -> Réseau et sécurité -> Adresses -> IP externes** , _UiC_ affiche la page illustrée ci-dessous :
+Depuis la plateforme _UiC_, sélectionnez le menu **Clouds -> Amazon AWS -> Tenant -> Réseau et sécurité -> Adresses -> IP externes** , _UiC_ affiche la page illustrée ci-dessous :
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image101.png#bordered)
 
@@ -1189,7 +1189,7 @@ Cette page affiche les réseaux virtuels configurés sur _Amazon AWS_.
 
 #### Création d'un réseau
 
-Depuis la plateforme _UiC_, sélectionnez le menu **Clouds -> Amazon AWS -> Tenant -> VPC -> VPCs** , **Cliquez sur le bouton** Créer un Réseau** , le formulaire **Créer un réseau** apparaît :
+Depuis la plateforme _UiC_, sélectionnez le menu **Clouds -> Amazon AWS -> Tenant -> VPC -> VPCs** , **Cliquez sur le bouton Créer un Réseau** , le formulaire **Créer un réseau** apparaît :
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image107.png#bordered)
 
@@ -1236,11 +1236,11 @@ Pour ajouter un sous-réseau à un VPC existant, cliquez sur le lien bleu de la 
 
 #### Suppression d'un sous-réseau
 
-Pour supprimer un sous-réseau d'un VPC existant, cliquez sur le bouton **Actions**  **Supprimer** associé au sous-réseau. UIC affichera une boite de dialogue vous demandant de confirmer la suppression. Cliquez sur le bouton **Supprimer** pour effectuer la suppression définitive du sous-réseau.
+Pour supprimer un sous-réseau d'un VPC existant, cliquez sur le bouton **Actions -> Supprimer** associé au sous-réseau. UIC affichera une boite de dialogue vous demandant de confirmer la suppression. Cliquez sur le bouton **Supprimer** pour effectuer la suppression définitive du sous-réseau.
 
 #### Suppression d'un VPC
 
-Pour supprimer un VPC, cliquez sur le bouton **Actions**  **Supprimer** associé au VPC. UIC affichera une boite de dialogue vous demandant de confirmer la suppression :
+Pour supprimer un VPC, cliquez sur le bouton **Actions -> Supprimer** associé au VPC. UIC affichera une boite de dialogue vous demandant de confirmer la suppression :
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image111.png#bordered)
 
@@ -1271,7 +1271,7 @@ Lorsque vous créez un équilibreur de charge dans un VPC, vous devez choisir en
 | Interne | Les nœuds d'un équilibreur de charge interne ont des adresses IP privées uniquement. Le nom DNS d'un équilibreur de charge interne est publiquement résolu en les adresses IP privées des nœuds. Les équilibreurs de charge internes acheminent uniquement des demandes de clients avec un accès au VPC de l'équilibreur de charge. |
 | Externe | Les nœuds d'un équilibreur de charge accessible sur Internet ont des adresses IP publiques. Le nom DNS d'un équilibreur de charge accessible sur Internet est publiquement résolu en les adresses IP publiques des nœuds. |
 
-Depuis la plateforme _UiC_, sélectionnez le menu **Clouds** _ **Amazon AWS** _  \< **Tenant\>**  **Equilibreurs de charge**** ,** la page des équilibreurs de charge s'affiche :
+Depuis la plateforme _UiC_, sélectionnez le menu **Clouds -> Amazon AWS -> Tenant -> Equilibreurs de charge** la page des équilibreurs de charge s'affiche :
 
 ![Image](/img_fr/img_UIC_Services/img_amazon/image113.png#bordered)
 
