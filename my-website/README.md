@@ -4,6 +4,8 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Installation
 
+See this web page [Docusaurus Installation](https://docusaurus.io/docs/installation)
+
 ```
 $ yarn
 ```
