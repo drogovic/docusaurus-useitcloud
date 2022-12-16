@@ -54,14 +54,14 @@ Maintenant que nous avons les clés (AK, AS), nous allons demander un jeton (con
 **Exemple cURL**
 ```bash
 curl -XPOST -H "X-Ovh-Application: 7kbG7Bk7S9Nt7ZSV " -H "Content-type: application/json" https://eu.api.ovh.com/1.0/auth/credential  -d 
-{
+'{
 	"accessRules": [
 		{"method": "GET", "path": "/*"},
 		{"method": "POST", "path": "/*"}, 
 		{"method": "PUT", "path": "/*"},
 		{"method": "DELETE","path": "/*"}
 	]
-}
+}'
 ```
 **Exemple de réponse** 
 ```json
