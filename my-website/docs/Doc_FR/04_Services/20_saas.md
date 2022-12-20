@@ -20,7 +20,6 @@ Les conventions suivantes seront utilisées dans de ce document, elles concernen
 
 Dans différentes sections de cette documentation cet identifiant sera désigné d’une façon générique par <**Identifiant SaaS -> Tenant>**.
 
-
 ## **Prérequis**
 Chaque offre SaaS peut définir les paramètres qui lui sont propres.
 
