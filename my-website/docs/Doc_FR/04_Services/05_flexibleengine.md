@@ -12,13 +12,13 @@ Les pages et formulaires affichés par *UIC* présentent certaines commandes don
 Voici la liste et la description de ces commandes :
 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image002.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image002.png#bordered)
 
 - La commande **Afficher X éléments** : Cette commande s’applique aux tableaux affichés par *UIC*. Elle permet de limiter le nombre d’éléments visualisés par page. 
 - La commande **Rechercher** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet de rechercher et présenter les éléments contenant la chaîne de caractères spécifiée dans le champ de recherche. 
 - La commande **Change columns** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet à l’utilisateur de sélectionner les colonnes qu’il souhaite visualiser. 
 - La commande **CSV** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet à l’utilisateur d’exporter le tableau affiché dans un fichier au format CSV. 
-- Le bouton d’actualisation  ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png) : Ce bouton permet de forcer l’actualisation des données affichées.
+- Le bouton d’actualisation  ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png#bordered) : Ce bouton permet de forcer l’actualisation des données affichées.
 
 
 ## **Identifiants Cloud Flexible Engine** 
@@ -40,7 +40,7 @@ Si vous n’êtes pas familier avec l’environnement *Flexible Engine*, vous po
 #### **Création d’un Projet**
 - Connectez-vous sur la console technique de *Flexible Engine*, sélectionnez le menu **Management & Deployment -> Identity and Access Management -> Projects -> Create Project**, L’écran suivant s’affiche :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image004.png) 
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image004.png#bordered) 
 
 - Sélectionnez la région du projet puis complétez les zones de saisie, 
 - Cliquez sur le bouton **OK** pour confirmer, le projet sera rajouté à la liste des projets. 
@@ -58,7 +58,7 @@ Depuis la plateforme *UIC*, sélectionnez le menu **Identifiant -> Identifiants 
 - Sélectionnez le fournisseur *Flexible Engine*, 
 - Cliquez sur le bouton **Ajouter un identifiant**, le formulaire suivant apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image005.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image005.png#bordered)
 
 - Complétez les informations demandées dans le formulaire.
 	- **Nom de l’identifiant** : Indiquez le nom de l’identifiant, il ne pourra pas être modifié par la suite (unique, contenant jusqu’à 20 caractères, lettres sans accent, chiffres, tirets).
@@ -73,18 +73,18 @@ Depuis la plateforme *UIC*, sélectionnez le menu **Identifiant -> Identifiants 
 #### **Conséquence sur la table des identifiants Flexible Engine** 
 L’identifiant créé apparaîtra comme une entrée parmi les identifiants *Flexible Engine*. Vous pourrez le modifier en sélectionnant le menu **Compte:Utilisateur -> Identifiants Cloud**.
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image006.png) 
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image006.png#bordered) 
 
 La table des identifiants vous permet d’exécuter sur chacun d’entre eux les commandes du menu **Actions**. Ces actions sont intitulées **Mettre à jour les projets**, **Configurer l’analyse de facturation**, **Configuration**, **Configurer le proxy**, **Modifier les identifiants** et **Supprimer** (décrites dans les sous chapitres suivants).
 
 #####  Mettre à jour les projets
 Lorsque vous créez de nouveaux projets dans la console *FE*, vous pouvez synchroniser la base FE avec la base UIC. Pour cela, cliquez sur le menu **Compte:Utilisateur -> Identifiants Cloud -> Flexible Engine** : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image007.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image007.png#bordered)
 
 - Sélectionnez la commande **Mettre à jour les projets** depuis la colonne et le menu **Actions**. Lorsque la synchronisation est terminée, le message *Les projets ont été mis à jour* apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image008.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image008.png#bordered)
 
 - Cliquez sur la croix pour faire disparaitre le message. 
 
@@ -100,46 +100,46 @@ Pour obtenir ces paramètres il faut enregistrer l’application UIC via le port
 - Inscrivez-vous puis authentifiez-vous sur le portail ***Orange Developer***,
 - Cliquez sur le bouton « My apps »
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image009.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image009.png#bordered)
 
 - Créez une application à l’aide du formulaire « Create new application », voici un exemple
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image010.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image010.png#bordered)
 
 - Le portail crée un identifiant d’application, un identifiant de client et un code secret : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image011.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image011.png#bordered)
 
 Ce formulaire vous indique que vous n’avez souscrit à aucune API pour cette application. Vous pouvez cliquer sur le bouton « Add an API » pour souscrire aux API proposées :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image012.png) 
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image012.png#bordered) 
 
 - Sélectionnez « Cloud Store Customer Space API », puis appuyez sur le bouton « Next », vous passez alors à l’écran suivant, vous indiquant que la souscription est soumise à validation et que vous serez informé par email de l’issue de cette validation :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image013.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image013.png#bordered)
 
 Une fois que la souscription est acceptée, le statut de l’application est mis à jour dans le tableau des applications enregistrées, comme dans l’exemple suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image014.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image014.png#bordered)
 
 Pour inscrire ces paramètres dans UIC, cliquez sur le menu **Compte:Utilisateur -> Identifiants Cloud -> Flexible Engine** : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image015.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image015.png#bordered)
 
 - Sélectionnez la commande **Configurer l’analyse de facturation** depuis la colonne et le menu **Actions**, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image016.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image016.png#bordered)
 
 - Complétez les zones de saisie puis cliquer sur le bouton **Mettre à jour**.
 
 ##### Configuration 
 La page des Identifiants Clouds s’affiche depuis le menu **Compte:Utilisateur -> Identifiants Cloud -> Flexible Engine** : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image017.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image017.png#bordered)
 
 - Sélectionnez la commande ***Configuration*** de la colonne, menu **Actions**, la boite de dialogue **Configuration de l’Flexible Engine …** apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image018.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image018.png#bordered)
 
 - Sélectionnez le menu **Région par défaut** si nécessaire puis cliquez sur le bouton **Mettre à jour**.
 - Saisissez le délai d’attente souhaité pour le Cloud *Flexible Engine*, cliquez sur le bouton **Mettre à jour**. 
@@ -153,7 +153,7 @@ La page des Identifiants Clouds s’affiche depuis le menu **Compte:Utilisateur 
 
 - Sélectionnez la commande ***Configuration du proxy*** de la colonne, menu **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image019.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image019.png#bordered)
 
 - Saisissez l’URL du proxy,
 - Cliquez sur le bouton **Sauvegarder**,
@@ -163,7 +163,7 @@ La page des Identifiants Clouds s’affiche depuis le menu **Compte:Utilisateur 
 
 - Sélectionnez la commande ***Modifier identifiant*** du menu **Actions**, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image020.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image020.png#bordered)
 
 - Apportez les modifications nécessaires, changez l’URL de connexion (Hôte), la version, …, 
 - Cliquez sur le bouton **Sauvegarder**,
@@ -171,36 +171,36 @@ La page des Identifiants Clouds s’affiche depuis le menu **Compte:Utilisateur 
 #####  Supprimer un identifiant
 - Sélectionnez la commande ***Supprimer*** du menu **Actions**, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image021.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image021.png#bordered)
 
 - Cliquez sur le bouton **Supprimer l’identifiant Cloud**,
 
 #### **Conséquence sur le menu Clouds**
 Après l’ajout d’un identifiant Cloud *Flexible Engine*, la plateforme *UIC* crée un item (le Tenant) dans le menu **Clouds -> Flexible Engine -> nom du tenant** (celui attribué à la création).
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image022.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image022.png#bordered)
 
 Ce tenant vous permet sous son contrôle d’accéder et de piloter les ressources *Flexible Engine*.
 
 #### **Conséquence sur la page de la préparation d’un déploiement**
 Après l’ajout de l’identifiant Cloud *Flexible Engine*, il sera ajouté dans la liste des valeurs des fournisseurs de la page de la préparation du déploiement. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image023.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image023.png#bordered)
 
 La page des Déploiement est disponible depuis la barre des menus de la plateforme *Use IT Cloud,* bouton **Configuration des déploiements.** La page **Préparation de déploiements** apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image024.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image024.png#bordered)
 
 - Cliquez sur le bouton **Configurer**, la page **Préparation du déploiement** de … apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image025.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image025.png#bordered)
 
 Le menu déroulant **Fournisseur** contient l’identifiant nouvellement créé. 
 
 #### **Conséquence sur le formulaire de référencement d’une image fournisseur**
 Après l’ajout d’un identifiant Cloud *Flexible Engine* , le nom de cet identifiant sera rajouté dans la liste des fournisseurs du menu **Design -> Images** -> **Référencer une image fournisseur**, son formulaire s’affiche et l’identifiant sera sélectionnable depuis le menu déroulant **Fournisseur**.
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image026.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image026.png#bordered)
 
 Ceci permet de référencer des images de VM disponibles chez les fournisseurs et les rendre privées pour le tenant spécifié. 
 
@@ -243,11 +243,11 @@ UIC référence automatiquement toutes les images publiques disponibles sur le C
 
 Depuis le menu **Design**, sélectionnez **Images**, la page **Images publiques** apparaît :  
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image027.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image027.png#bordered)
 
 - Cliquez sur le bouton **Référencer une image fournisseur**, le formulaire **Référencer une image fournisseur** s’affiche :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image028.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image028.png#bordered)
 
 Le formulaire permet de rechercher et d’associer une image fournisseur sur la plateforme *UIC*. 
 
@@ -264,11 +264,11 @@ La zone **Mot de passe par défaut** ne doit pas être obligatoirement complét�
 #### **Conséquence sur le tableau des référencements des images**
 Après avoir référencé des images pour l’identifiant créé, ces images sont enregistrées dans la base de données des images privées de cet identifiant. Ces images sont accessibles depuis le menu **Design -> Images.** 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image029.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image029.png#bordered)
 
 Choisissez la famille et la version de base qui vous intéresse puis cliquez sur le lien « ***Voir les images disponibles chez les fournisseurs*** ». Dans la page affichée, saisissez « *Flexible Engine* » dans le champ ***Rechercher***, ci-dessous un exemple de table affichée dans le cas de *ubuntu 18*, pour *Flexible Engine* :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image030.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image030.png#bordered)
 
 Cette page affiche le tableau des images, chacune d’entre elles possède des colonnes avec une liste de paramètres statiques, deux colonnes permettent de modifier les paramètres suivants :
 
@@ -285,7 +285,7 @@ Le déploiement des applications et des VM s’effectue à l’aide du menu **D�
 
 - Sélectionnez l’application à déployer, actionnez le bouton **Déployer** correspondant à l’application, vous obtenez l’écran de préparation de déploiement illustré sur l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image031.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image031.png#bordered)
 
 - Saisissez dans la zone **Etiquette** le nom du déploiement afin de l’identifier,
 - Sélectionnez le menu déroulant **Fournisseur** puis *Flexible Engine*, 
@@ -296,46 +296,46 @@ Le déploiement des applications et des VM s’effectue à l’aide du menu **D�
 #### **Infrastructure**
 L’onglet **Infrastructure** vous permet de préciser tous les paramètres nécessaires pour le déploiement sur votre infrastructure *Flexible Engine*, comme illustré sur l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image032.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image032.png#bordered)
 
 **OS :**  Indique le système d’exploitation lié à l’application,
 
 **Gabarit :** Par défaut un gabarit est proposé, le menu offre une liste des gabarits disponibles chez le fournisseur, dans la région choisie, 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image033.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image033.png#bordered)
 
 Lorsque vous sélectionnez un gabarit, *UIC* vous indique les caractéristiques du gabarit choisi ainsi que les coûts horaires et les coûts mensuels, comme illustré dans l’exemple ci-dessous : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image034.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image034.png#bordered)
 
 **Paires de clé :** Par défaut UIC vous propose l’usage d’une nouvelle paire de clef pour ce nœud. Si vous souhaitez changer ce choix, vous pouvez utiliser une des autres options présentées dans le menu : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image035.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image035.png#bordered)
 
 Sélectionnez l’option souhaitée puis passez à la configuration des paramètres réseau à l’aide de l’onglet réseau, décrit ci-dessous. 
 
 #### **Configuration du réseau**
 L’onglet **Réseau** vous permet de préciser tous les paramètres de configuration réseau nécessaires pour le déploiement sur votre infrastructure *Flexible Engine*. Ces paramètres sont illustrés sur la figure suivante :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image036.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image036.png#bordered)
 
 - **Réseau** : le nom du réseau où la VM sera déployée, la liste déroulante vous présente tous les réseaux configurés,
 - **Sous-réseau** : Indique le sous-réseau rattaché au réseau (si aucun n’est présent il faudra le créer), 
 - **IP Publique** : Choisissez l’adresse IP publique de la machine virtuelle,
 - **Groupe de sécurité** : Ce menu déroulant propose de créer ou de sélectionner un groupe de sécurité : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image037.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image037.png#bordered)
 
 - Si vous sélectionnez un groupe de sécurité existant, le bouton **Afficher les règles** s’affichera. Ce bouton vous permet de consulter la liste des règles définies par ce groupe, comme illustré dans l’exemple suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image038.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image038.png#bordered)
 
 - La case à cocher **Accès direct à l’instance** : Cochez cette case si l'instance de la machine virtuelle est dans le même réseau que la plateforme UIC. La communication entre la plateforme et l’instance se fera en utilisant l’adresse privée de l’instance.
 
 #### **Personnalisation d’une instance**
 L’onglet P**ersonnalisation** permet de spécifier des paramètres non IaaS d’une instance. Quel que soit le type de VM de base (Linux ou Windows). 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image039.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image039.png#bordered)
 
 Comme précisé dans le formulaire, la personnalisation de l’instance concerne les paramètres suivants :
 
@@ -348,29 +348,29 @@ Comme précisé dans le formulaire, la personnalisation de l’instance concerne
 #### **Gestion de configuration**
 UIC propose la gestion de configuration des machines virtuelles en mettant en œuvre les outils *Ansible*, *Chef* et *Puppet*. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image040.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image040.png#bordered)
 
 Le menu déroulant **Gestion de configuration** les met à disposition. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image041.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image041.png#bordered)
 
 Cette mise en œuvre est commune à tous les Cloud, elle n’est donc pas spécifique à *Flexible Engine*. Elle est cependant documentée et détaillée dans le guide intitulé « **UiC_Guide_UserAdmin_FR** ».
 
 #### **Surveillance**
 UIC propose la surveillance des machines virtuelles en mettant en œuvre les services de monitoring Centreon ou Zabbix. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image042.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image042.png#bordered)
 
 Le menu déroulant **Surveillance** les met à disposition. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image043.png)Cette mise en œuvre est commune à tous les Clouds, elle n’est donc pas spécifique à *Flexible Engine*. Elle est cependant documentée et détaillée dans le guide intitulé « **UiC_Guide_UserAdmin_FR** ».
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image043.png#bordered)Cette mise en œuvre est commune à tous les Clouds, elle n’est donc pas spécifique à *Flexible Engine*. Elle est cependant documentée et détaillée dans le guide intitulé « **UiC_Guide_UserAdmin_FR** ».
 
 Une fois que vous avez fini la configuration, vous pouvez lancer votre déploiement en cliquant sur le bouton **Déployer** (en haut à droite de l’écran) le processus de déploiement est enclenché.
 
 ###  ***Opération de déploiement***
 Lorsque le déploiement est lancé, la plateforme *UIC* affiche l’écran de progression du déploiement :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image044.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image044.png#bordered)
 
 La durée nécessaire au déploiement dépend de l’environnement de déploiement (puissance et capacité de votre infrastructure) mais également des caractéristiques de la machine virtuelle à déployer (son gabarit, son système d’exploitation de base et de l’ensemble des logiciels additionnels, du temps nécessaire à l’installation de l’agent si vous l’avez activé pour la VM).
 
@@ -379,7 +379,7 @@ Une fois que l’opération de déploiement est terminée avec succès, *UIC* pa
 ### ***Post-Instanciation***
 Une fois que le déploiement est terminé avec succès, l’écran **Déploiement** indiquera le statut Déployé dans la colonne **Etat** :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image045.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image045.png#bordered)
 
 UIC affiche l’identifiant unique pour ce déploiement dans la colonne **Identifiant.** Sa valeur est un champ actif qui vous permet d’accéder aux détails de l’instance déployée. 
 
@@ -396,7 +396,7 @@ Le bouton **Supprimer** permet d’effacer l’instance de la VM.
 #### **Connexion aux instances Linux**
 Depuis la plateforme *UIC* connectez-vous en ssh aux instances *Linux*. Si vous cliquez sur le bouton **ssh** de la colonne **Actions** vous obtenez l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image046.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image046.png#bordered)
 
 Cet écran vous affiche les paramètres qui vous permettront de vous connecter à la machine virtuelle en choisissant l’une des deux options :
 
@@ -406,12 +406,12 @@ Cet écran vous affiche les paramètres qui vous permettront de vous connecter �
 #### **Connexion aux instances Windows**
 UIC vous permet de vous connecter en RDP à une instance Windows, à condition que la connexion Bureau à distance soit autorisée sur cette instance. Assurez-vous que cette condition est respectée en vous connectant sur la console de la VM et en vérifiant au niveau du paramétrage du firewall Windows, que les bonnes options sont activées, comme illustré sur l’écran ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image047.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image047.png#bordered)
 
 #####  Options de connexions 
 Si vous cliquez sur le bouton **RDP Client** de la colonne **Actions** vous obtenez l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image048.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image048.png#bordered)
 
 Cet écran vous affiche les paramètres qui vous permettront de vous connecter à la VM en choisissant l’une des deux options :
 
@@ -421,36 +421,36 @@ Cet écran vous affiche les paramètres qui vous permettront de vous connecter �
 ##### Connexion Bureau à distance 
 Lorsque vous cliquez sur le bouton **Télécharger le fichier RDP,** Windows vous affiche la fenêtre suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image049.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image049.png#bordered)
 
 - Sélectionnez **Ouvrir avec** : **Connexion Bureau à distance**, puis cliquez sur **OK.** Vous obtiendrez la fenêtre suivante :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image050.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image050.png#bordered)
 
 - Cliquez sur le bouton **Connexion** pour déclencher l’action de connexion à l’instance, le système Windows affichera une fenêtre semblable à la suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image051.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image051.png#bordered)
 
 - Entrez le mot de passe de connexion puis cliquez sur **OK**.
 
 **Remarque : Si votre VM ne présente pas un certificat signé par une autorité de confiance, le système affichera la fenêtre suivante :**
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image052.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image052.png#bordered)
 
 Si vous êtes dans un réseau sécurisé, appuyez sur le bouton **Oui**, sinon corrigez le problème avant de continuer.
 
 Après l’opération d’authentification, le système Windows de la VM affiche la session de l’utilisateur authentifié. Voici un exemple d’écran d’une session Administrateur par défaut :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image053.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image053.png#bordered)
 
 #### **Détails d’un déploiement**
 Vous obtenez la liste des déploiements en cliquant sur le menu **Gérer** -> **Déploiements,** l’écran ci-dessous fournit un exemple de liste. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image054.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image054.png#bordered)
 
 Un clic sur le lien **Identifiant** affiche tous les détails du déploiement. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image055.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image055.png#bordered)
 
 A partir de cet écran, vous trouverez tous les paramètres qui caractérisent la machine virtuelle et son état. 
 
@@ -460,31 +460,31 @@ A partir de cet écran, vous trouverez tous les paramètres qui caractérisent l
 
 - Cliquez sur l’icône **Crayon**, la page suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image056.png) 
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image056.png#bordered) 
 
 - Cochez-le ou les groupes de sécurité puis cliquez sur le bouton **Valider**.
 
 #####  Actions sur un déploiement 
 Dans la zone située en haut, à gauche de la page, *UIC* affiche la liste des actions applicables à un déploiement : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image057.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image057.png#bordered)
 
 - **Supprimer** : Cette commande permet de supprimer le déploiement de la table des déploiements,
 - **Template** : Permet d’afficher le template généré par *UIC* et utilisé pour ce déploiement,
 - **Retirer ce déploiement** : Permet de retirer ce déploiement de la table des déploiements, sans supprimer ses ressources des Cloud où elles ont été approvisionnées. UIC affichera le message suivant : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image058.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image058.png#bordered)
 
 ##### Actions sur un nœud 
 Depuis la zone centrale *UIC* affiche la liste des actions de management de la machine virtuelle, organisée en deux catégories, **Actions sur le nœud** et **Liste des accès à la machine** :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image059.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image059.png#bordered)
 
 Voici la description des commandes du groupe **Actions sur le nœud,** en partant de la première icône à gauche :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image060.png)**Démarrer** : Lorsque la machine virtuelle est arrêtée, l’icône permet de la démarrer,
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image060.png#bordered)**Démarrer** : Lorsque la machine virtuelle est arrêtée, l’icône permet de la démarrer,
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image061.png)**Stopper** : La machine virtuelle est à l’état démarré, l’icône permet de l’arrêter,
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image061.png#bordered)**Stopper** : La machine virtuelle est à l’état démarré, l’icône permet de l’arrêter,
 
 - **Redémarrer** : Cette action permet de redémarrer la machine virtuelle,
 - **Exécuter une commande** : Affiche un éditeur de texte qui vous permet de saisir les commandes à exécuter à distance sur la VM. 
@@ -498,17 +498,17 @@ Les commandes du groupe **Liste des accès à la machine** vous permettent d’a
 #### **Suppression d’un déploiement**
 Vous pouvez utiliser le menu **Gérer** -> **Déploiements** pour supprimer un déploiement. La liste des déploiements s’affiche : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image062.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image062.png#bordered)
 
 - Sélectionnez la liste déroulante **Actions** du déploiement que vous souhaitez supprimer, choisissez la commande **Supprimer**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image063.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image063.png#bordered)
 
 - Cliquez sur le bouton **OK** pour confirmer la suppression, après avoir validé, l’opération de suppression se déclenche auprès de l’infrastructure Flexible Engine. 
 
 La plateforme attend la réponse de suppression définitive avant de passer le déploiement à l’état **Supprimé**, comme indiqué dans l’exemple suivant :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image064.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image064.png#bordered)
 
 **Remarque : Les ressources du déploiement supprimé sont complètement désallouées de l’infrastructure Cloud, en revanche quelques métadonnées restent encore en mémoire de la plateforme *UIC*.** 
 
@@ -521,11 +521,11 @@ Une fois que les prérequis sont validés, vous pourrez alors gérer les ressour
 
 La page **Tableau de bord** vous affiche des indicateurs sur l’utilisattion des ressources IaaS rattachées au tenant sélectionné et au compte authentifié.
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image065.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image065.png#bordered)
 
 La page est divisée en deux parties (gauche et centrale), le contenu de la partie centrale affiche des informations variables (en fonction des items sélectionnés), ci-dessous celles du tableau de bord : 
 
-- Le bouton ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png) (Informations actualisées) : Indique le temps écoulé depuis la dernière mise à jour. Si vous cliquez sur ce bouton vous forcerez l’actualisation des données.
+- Le bouton ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png#bordered) (Informations actualisées) : Indique le temps écoulé depuis la dernière mise à jour. Si vous cliquez sur ce bouton vous forcerez l’actualisation des données.
 - La brique **Instance** : Indique le nombre total d’instances (machines virtuelles) ainsi que le nombre arrêté et démarré,
 - La brique **Volumes** : Indique le nombre total de volumes configurés ainsi que le nombre de attachés et disponibles,
 - La brique **IP Flottantes** : Indique le nombre total d’IP flottantes 
@@ -536,7 +536,7 @@ La page est divisée en deux parties (gauche et centrale), le contenu de la part
 - Le graphique **Instances par région** : Il représente le nombre total d’instances par région, ainsi que le nombre démarré, arrêté. 
 - Un graphique **Volumes** **par région** :  Il représente le nombre total de volumes par région ainsi que le nombre de volumes attaché, disponible. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image066.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image066.png#bordered)
 
 Les menus déroulants permettent de sélectionner la région et le nom du projet. 
 
@@ -545,7 +545,7 @@ Les items **Instances**, **Volumes**, **Sauvegardes de volumes, Paires de clés*
 ## **Instances**
 L’item **Instances** de machines virtuelles permet d’afficher les informations et les actions exposées sur les instances des VMs associées à chaque projet de l’identifiant Cloud sélectionné. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image067.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image067.png#bordered)
 
 Le tableau présente la liste et les paramètres des instances créés : 
 
@@ -573,34 +573,34 @@ Le tableau présente la liste et les paramètres des instances créés :
 
 La commande **Démarrer** une instance n’est disponible que si l’instance est arrêtée.
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image068.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image068.png#bordered)
 
 - Cliquez sur le menu **Actions** de l’instance que vous souhaitez démarrer,
 - Sélectionnez **Démarrer** la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image069.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image069.png#bordered)
 
-- Cliquez sur le bouton **Démarrer**, un message vous avertit que l’instance est en cours de démarrage. Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image070.png), le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
+- Cliquez sur le bouton **Démarrer**, un message vous avertit que l’instance est en cours de démarrage. Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image070.png#bordered), le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
 
 **Redimensionner une instance**
 
 Pour redimensionner une instance de VM, cette instance doit être à l’état arrêté.
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image068.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image068.png#bordered)
 
 - Sélectionnez la commande **Redimensionner** depuis le menu déroulant **Actions**, la boite de dialogue suivante s’affiche :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image071.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image071.png#bordered)
 
 - Cliquez sur le menu **Gabarit**, sélectionnez celui qui vous convient puis cliquez sur le bouton **Redimensionner**. UIC affiche un message indiquant que l’instance est en cours de redimensionnement.
 
-Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image070.png), le tableau des instances montre bien que le nouveau gabarit de l’instance a été pris en compte. Vous pouvez donc redémarrer l’instance.
+Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image070.png#bordered), le tableau des instances montre bien que le nouveau gabarit de l’instance a été pris en compte. Vous pouvez donc redémarrer l’instance.
 
 **Créer une image et sa sauvegarde**  
 
 Pour créer une image de l’instance, sélectionnez la commande **Créer une image et sa sauvegarde** depuis la colonne **Actions** de la page **Instances**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image072.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image072.png#bordered)
 
 - Saisissez le nom de l’image dans la zone prévue à cet effet,
 - Cliquez sur le bouton **Créer**, 
@@ -609,7 +609,7 @@ Pour créer une image de l’instance, sélectionnez la commande **Créer une im
 
 Pour supprimer, ajouter un groupe de sécurité à une instance, sélectionnez la commande **Changer les groupes de sécurité** depuis la colonne **Actions** de la page **Instances**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image073.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image073.png#bordered)
 
 - Effectuez l’ajout ou la suppression d’un groupe de sécurité puis cliquez sur le bouton **Valider**. 
 
@@ -619,23 +619,23 @@ Cette opération mettra l’instance sélectionnée dans un état stoppé. La VM
 
 - Sélectionnez la commande **Arrêter** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image074.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image074.png#bordered)
 
 - Cliquez sur le bouton **Arrêter**, un message vous avertit que l’instance est en cours d’arrêt,
-- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image070.png), le tableau des instances apparaît, le statut de l’instance passe à l’état *stoppée*.
+- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image070.png#bordered), le tableau des instances apparaît, le statut de l’instance passe à l’état *stoppée*.
 
 **Supprimer une instance**
 
 - Sélectionnez la commande **Supprimer** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image075.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image075.png#bordered)
 
 - Cliquez sur le bouton **Supprimer**, l’instance n’apparaitra plus dans la liste.
 
 ## **Volumes**
 La rubrique **Volumes** liste les volumes déclarés dans la zone géographique sélectionnée. Depuis le menu **Clouds** -> ***Flexible Engine***  -> **Tenant**, sélectionnez l’item **Volumes** la page suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image076.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image076.png#bordered)
 
 Toutes les informations et actions possibles sur les volumes sont affichées dans 
 ce tableau :
@@ -664,7 +664,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds** -> ***Flexible Engi
 
 - Cliquez sur le bouton **Créer un** **Volume**, la boite de dialogue suivante s’affiche : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image077.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image077.png#bordered)
 
 - Saisissez dans la zone **Nom** le nom du volume,
 - Précisez la taille du volume (en GB), 
@@ -678,7 +678,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds** -> ***Flexible Engi
 
 - Cliquez sur le bouton **Actions** du volume que vous souhaitez redimensionner, puis cliquez sur la commande **Redimensionner**, la boite de dialogue suivante s’affiche : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image078.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image078.png#bordered)
 
 - Précisez la nouvelle valeur dans la zone **Nouvelle taille**, cette valeur doit être supérieure ou égale à la valeur initiale,
 - Cliquez sur le bouton **Redimensionner**, 
@@ -688,7 +688,7 @@ UIC affichera un message indiquant que le volume est en cours de redimensionneme
 ##  **Sauvegardes de volumes**
 La rubrique **Sauvegardes de volume** liste tous les instantanés (sauvegardes) créés. Lorsque vous cliquez sur ce menu, *UIC* affiche votre liste avec les caractéristiques de chaque instantané ainsi que les actions à appliquer. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image079.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image079.png#bordered)
 
 *UIC* affiche pour chaque instantané, les paramètres suivants :  
 
@@ -706,7 +706,7 @@ La rubrique **Sauvegardes de volume** liste tous les instantanés (sauvegardes) 
 ###  ***Supprimer une sauvegarde du volume***
 Vous pouvez supprimer les sauvegardes de volumes, individuellement ou par lot. 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image079.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image079.png#bordered)
 
 Si vous souhaitez supprimer une sauvegarde individuelle, 
 
@@ -724,7 +724,7 @@ Pour accéder aux commandes concernant la gestion des paires de clé de sécurit
 
 - Cliquez sur l’item **Paires de clés**, la page **Paires de clés** apparaît : contenant la liste des clés déjà créées :   
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image080.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image080.png#bordered)
 
 Cette page contient sous forme de tableau les paramètres des paires de clés existantes :
 
@@ -741,7 +741,7 @@ Le bouton **Supprimer les paires de clés** : Cette action supprime l’ensemble
 ###  ***Création d’une paire de clés***
 - Cliquez sur le bouton **Créer une paire de clés**, la fenêtre suivante apparaît :  
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image081.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image081.png#bordered)
 
 - Entrez le nom de votre paire de clés dans la boîte de dialogue **Créer une paire de clés**, puis cliquez sur **Créer**.  La clé privée sera téléchargée automatiquement. Lorsque la clé est créée, elle apparaît dans le tableau des clés associées.
 
@@ -755,7 +755,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> Flexible Engine ->
 
 - Sélectionnez l’item **Réseau** afin d’afficher celle-ci : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image082.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image082.png#bordered)
 
 Cette page affiche les réseaux virtuels configurés, déclarés chez *Flexible Engine* pour le projet sélectionné.
 
@@ -770,7 +770,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds** -> **Flexible Engin
 
 - Cliquez sur le bouton **Créer un Réseau**, le formulaire **Créer un réseau** apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image083.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image083.png#bordered)
 
 **Réseau :** 
 
@@ -789,11 +789,11 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds** -> **Flexible Engin
 ###  ***Visualiser un réseau et ses sous-réseaux***
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds** -> ***Flexible Engine -> Tenant***, sélectionnez l’item **Réseaux**, la page **Réseaux** apparait :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image084.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image084.png#bordered)
 
 - Cliquez sur le lien du réseau concerné de la colonne **Nom**, la page des **Réseaux** et **Sous-réseaux** apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image085.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image085.png#bordered)
 
 A partir de cette page vous pouvez ajouter ou supprimer un sous-réseau.
 
@@ -802,7 +802,7 @@ Les groupes de sécurité *Flexible Engine* sont des ressources associées aux p
 
 Pour accéder aux commandes concernant la gestion des groupes de sécurité *Flexible Engine*, sélectionnez le menu **Clouds** -> ***Flexible Engine -> Tenant***, séléctionnez l’item **Groupes de sécurité**, la page **Groupes de sécurité** apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image086.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image086.png#bordered)
 
 Cette page contient la liste des groupes de sécurité créés, des actions sont également disponibles.
 
@@ -822,25 +822,25 @@ La liste des groupes de sécurité déclarés chez ***Flexible Engine*** est pr�
 ###  ***Création d’un groupe de sécurité*** 
 Depuis la page Groupe de sécurité, cliquez sur le bouton **Créer un groupe de sécurité**, le formulaire **Créer un groupe de sécurité** apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image087.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image087.png#bordered)
 
 - Saisissez le nom du groupe, il doit être unique dans la base des groupes de sécurité. 
 - Saisissez une description textuelle succincte de ce groupe.
 
-*UIC* affiche une notification indiquant que le groupe de sécurité est en cours de création. En cas de succès, le groupe de sécurité est ajouté à la table des groupes de sécurité. Pour visualiser la nouvelle entrée, actualisez l’affichage du tableau à l’aide du bouton ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png) . 
+*UIC* affiche une notification indiquant que le groupe de sécurité est en cours de création. En cas de succès, le groupe de sécurité est ajouté à la table des groupes de sécurité. Pour visualiser la nouvelle entrée, actualisez l’affichage du tableau à l’aide du bouton ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png#bordered) . 
 
 ###  ***Configurer une règle de sécurité***
 L’ajout d’une règle à un groupe de sécurité existant s’effectue à partir de la page **Groupes de sécurité**, 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image088.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image088.png#bordered)
 
 - Cliquez sur le lien de la colonne **Nom** / **ID**, la page suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image089.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image089.png#bordered)
 
 - Cliquez sur le bouton **Ajouter des règles**, la boite de dialogue apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image090.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image090.png#bordered)
 
 - Complétez les zones disponibles : 
 	- **De** : Indiquez le premier numéro de port auquel la règle s’appliquera,
@@ -860,7 +860,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds** -> ***Flexible Engi
 
 - Cliquez sur l’item **IP flottantes**, *UiC* affiche la page illustrée ci-dessous : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image091.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image091.png#bordered)
 
 Le tableau affiche les informations et actions suivantes : 
 
@@ -877,34 +877,34 @@ Le tableau affiche les informations et actions suivantes :
 ###  ***Créer une IP flottante***
 Depuis l’item **IP flottante**, actionnez le bouton **Créer une IP flottante**, 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image091.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image091.png#bordered)
 
 *UiC* affiche la boite de dialogue suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image092.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image092.png#bordered)
 
 - Cliquez sur le bouton **Créer**, deux messages apparaitront en haut à droite (en cours de création, création effectuée) :  
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image093.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image093.png#bordered)
 
 - Cliquez sur la croix pour les faire disparaitre,
-- Actualisez en cliquant sur le bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png), l’IP flottante nouvellement créée apparaîtra dans le tableau.  
+- Actualisez en cliquant sur le bouton suivant ![Image](/img_fr/img_UIC_Services/img_flexibleengine/image003.png#bordered), l’IP flottante nouvellement créée apparaîtra dans le tableau.  
 
 
 ###  ***Supprimer une IP flottante***
 La suppression d’une IP flottante peut se faire à l’aide de la commande **Actions -> Supprimer** 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image094.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image094.png#bordered)
 
 ou,
 
 - Cochez-la, les IP flottante(s) à supprimer puis cliquez sur le bouton **Supprimer les IP flottantes**
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image093.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image093.png#bordered)
 
 - Cliquez sur le bouton **Supprimer**, les messages suivants apparaîssent :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image095.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image095.png#bordered)
 
 ##  **Images**
 Les images des machines virtuelles *Flexible Engine* sont des ressources associées aux régions du Cloud *Flexible Engine*. Chaque région possède son offre propre de machines virtuelles, qui peut être différente de celles des autres régions, notamment en matière de gabarits et de tarification.
@@ -913,7 +913,7 @@ Pour accéder aux commandes concernant la gestion des images de VMs, sélectionn
 
 - Sélectionnez l’item **Images**, la page **Images** apparaît, 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image096.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image096.png#bordered)
 
 La page propose deux onglets, **Images publiques**, **Images privées,** chacun d’entre eux liste les images publiques ou privées disponibles :   
 
@@ -934,20 +934,20 @@ Pour accéder à la gestion des images de machines virtuelles, sélectionnez le 
 
 - Sélectionnez l’image à déployer à l’aide du menu **Actions -> Déployer**, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image097.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image097.png#bordered)
 
 - Indiquez le nom de l’application,
 - Saisissez le nom du nœud,
 - Sélectionnez le menu déroulant **Plateforme de l’image**, puis choisissez le système d’exploitation de base correspondant à l’image *Flexible Engine,* la page de préparation des déploiements s’affiche : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image098.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image098.png#bordered)
 
 - Poursuivez l’étape de préparation du déploiement, celle-ci est décrite dans la section **Configuration d’un déploiement** de ce document. 
 
 ##  **Quotas**
 La plateforme *UIC* peut collecter et afficher les données concernant les quotas d’utilisation de vos ressources Cloud *Flexible Engine*. Pour accéder à ces données, sélectionnez le menu **Clouds** -> ***Flexible Engine***  -> **Tenant,** sélectionnez l’item **Quotas**, vous obtenez la page ci-dessous : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image099.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image099.png#bordered)
 
 Le bouton **Mettre à jour** vous permet de mettre à jour en temps réel les tableaux et les graphiques de cette page. 
 
@@ -977,7 +977,7 @@ La plateforme UIC peut collecter et afficher les données de facturation *Flexib
 
 - Sélectionnez le menu **Clouds** -> ***Flexible Engine*** -> **Identifiant Cloud** -> **Consommation**, *UiC* affiche la page illustrée ci-dessous : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image100.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image100.png#bordered)
 
 La page **Estimation de la consommation et factures** contient plusieurs onglets :
 
@@ -988,27 +988,27 @@ La page **Estimation de la consommation et factures** contient plusieurs onglets
 ###  ***Estimation de la consommation***
 L’onglet **Estimation de la consommation** présente les données sous forme de graphique et sous forme de tableau :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image100.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image100.png#bordered)
 
 La partie supérieure affiche sous forme graphique l’estimation de la consommation, globale ou par projet, répartie par type de service. Vous pouvez afficher ou cacher un service en cliquant sur le motif de couleur qui lui est associé, comme illustré sur la figure suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image101.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image101.png#bordered)
 
 Le tableau de la partie inférieure présente les détails de la consommation. Chaque ligne indique le nom du service, le type de ressource, la quantité, le prix unitaire, le montant en euros et la région de consommation.  
 
 Pour filtrer le tableau par type de service, sélectionnez le service concerné depuis le menu déroulant **Service**. Voici un exemple de résultat avec un filtre sur le service Elastic Cloud Server :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image102.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image102.png#bordered)
 
 Le tri par Projet est également réalisable à l’aide du menu déroulant **Choisir un projet** :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image103.png)  
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image103.png#bordered)  
 
 ###  ***Factures***
 ####  **Synthèse et historique**
 L’onglet **Factures** présente les données de facturation sous la forme affichée ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image104.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image104.png#bordered)
 
 Cette page est composée de deux zones :
 
@@ -1018,7 +1018,7 @@ Cette page est composée de deux zones :
 ####  **Explorateur des coûts**
 Si vous souhaitez accéder aux détails d’une facture donnée, cliquez sur la barre de l’histogramme correspondant à la facture. L’onglet **Explorateur des coûts** est alors automatiquement affiché. Voici un exemple pour le mois de février 2020 : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image105.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image105.png#bordered)
 
 L’onglet **Explorateur des coûts - February 2020** apparaît avec le détail des données de facturation. La page est constituée de trois zones :
 
@@ -1029,19 +1029,19 @@ L’onglet **Explorateur des coûts - February 2020** apparaît avec le détail 
 #####  Consommation mensuelle globale
 Par défaut UIC affiche la répartition de la consommation globale de tous les services et de tous les projets, à la fois au niveau des graphiques et au niveau du tableau des détails. Voici un exemple de graphique :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image106.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image106.png#bordered)
 
 La page affiche le coût total, les coûts répartis par service et les coûts répartis par région. 
 
 Si vous souhaitez par exemple afficher les graphiques pour le service Elastic Cloud Server (en abrégé : ECS), sélectionnez ce service au niveau du menu déroulant **Service**, comme illustré sur la figure suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image107.png) 
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image107.png#bordered) 
 
 UIC affiche alors la répartition des coûts par type d’instance sur un graphique, et la répartition par plateforme de système d’exploitation (Linux libre, Windows, etc)  sur un deuxième graphique.
 
 Tous les détails des ressources ECS consommées sont fournis dans le tableau situés en dessous des deux graphiques. Voici un exemple ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image108.png)
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image108.png#bordered)
 
 Chaque ligne du tableau affiche les colonnes suivantes :
 
@@ -1057,6 +1057,6 @@ Chaque ligne du tableau affiche les colonnes suivantes :
 #####  Consommation mensuelle par projet
 Si vous souhaitez effectuer l’exploration des coûts des ressources par projet, sélectionnez un service puis sélectionnez le projet qui vous intéresse, comme dans l’exemple ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_flexibleengine/image109.png) 
+![Image](/img_fr/img_UIC_Services/img_flexibleengine/image109.png#bordered) 
 
 UIC vous affichera les coûts spécifiques au projet sélectionné, présentés de la même manière que pour le projet global. Cette présentation est détaillée dans les sections précédentes.

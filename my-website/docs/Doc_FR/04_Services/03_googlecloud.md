@@ -10,13 +10,13 @@ Les pages et formulaires affichés par *UIC* présentent certaines commandes don
 
 Voici la liste et la description de ces commandes:
 
-![Image](/img_fr/img_UIC_Services/img_google/image002.png)
+![Image](/img_fr/img_UIC_Services/img_google/image002.png#bordered)
 
 - La commande **Afficher X éléments**: Cette commande s’applique aux tableaux affichés par *UIC*. Elle permet de limiter le nombre d’éléments visualisés par page. 
 - La commande **Rechercher**: Cette commande s’applique aux tableaux affichés par UIC. Elle permet de rechercher et présenter les éléments contenant la chaîne de caractères spécifiée dans le champ de recherche. 
 - La commande **Change columns**: Cette commande s’applique aux tableaux affichés par UIC. Elle permet à l’utilisateur de sélectionner les colonnes qu’il souhaite visualiser. 
 - La commande **CSV**: Cette commande s’applique aux tableaux affichés par UIC. Elle permet à l’utilisateur d’exporter le tableau affiché dans un fichier au format CSV. 
-- Le bouton d’actualisation  ![Image](/img_fr/img_UIC_Services/img_google/image003.png): Ce bouton permet de forcer l’actualisation des données affichées.
+- Le bouton d’actualisation  ![Image](/img_fr/img_UIC_Services/img_google/image003.png#bordered): Ce bouton permet de forcer l’actualisation des données affichées.
 
 
 ## **Identifiants Cloud Google Cloud**
@@ -41,60 +41,60 @@ Pour créer un nouveau projet sur le Cloud GCP connectez-vous sur un compte *GCP
 
 - Authentifiez-vous puis sélectionnez le menu de navigation **IAM et administration -> Gérer les ressources**,
 
-![Image](/img_fr/img_UIC_Services/img_google/image004.png)
+![Image](/img_fr/img_UIC_Services/img_google/image004.png#bordered)
 
 La page suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image005.png)
+![Image](/img_fr/img_UIC_Services/img_google/image005.png#bordered)
 
 
 - Cliquez sur le bouton **+ Créer un Projet**, la page suivante apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image006.png)
+![Image](/img_fr/img_UIC_Services/img_google/image006.png#bordered)
 
 - Entrez le Nom du projet, 
 - Cliquez sur le bouton **Créer**, le projet est créé et son nom apparaît dans le bandeau bleu du portail, comme indiqué ci-dessous.
 
-![Image](/img_fr/img_UIC_Services/img_google/image007.png)
+![Image](/img_fr/img_UIC_Services/img_google/image007.png#bordered)
 
 - Utilisez le menu déroulant (My Project 2692 ) pour sélectionner le nouveau projet 
 - Sélectionnez le menu de navigation **API et Services -> Identifiants**, la page des identifiants apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image008.png)
+![Image](/img_fr/img_UIC_Services/img_google/image008.png#bordered)
 
 - Cliquez sur le bouton **Créer des identifiants**,
 - Cliquez sur **Créer des identifiants -> Clé de compte de service** :
 
 La page suivante apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image009.png)
+![Image](/img_fr/img_UIC_Services/img_google/image009.png#bordered)
 
 - Saisissez Nom du compte de service puis cliquez sur **créer**
 
-![Image](/img_fr/img_UIC_Services/img_google/image010.png)
+![Image](/img_fr/img_UIC_Services/img_google/image010.png#bordered)
 
 - Sélectionnez le menu déroulant **Rôle -> Project -> Lecteur**, puis cliquez sur **continuer**:
 
 L’étape 3 Autoriser les utilisateurs à accéder à ce compte de service étant facultatif
 
-![Image](/img_fr/img_UIC_Services/img_google/image011.png)
+![Image](/img_fr/img_UIC_Services/img_google/image011.png#bordered)
 
 - Cliquez sur OK pour créer le compte de service, la page des identifiants apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image012.png)
+![Image](/img_fr/img_UIC_Services/img_google/image012.png#bordered)
 
 - Cliquez sur le compte de service créer pour voir les détails du compte:
 
-![Image](/img_fr/img_UIC_Services/img_google/image013.png)
+![Image](/img_fr/img_UIC_Services/img_google/image013.png#bordered)
 
 - Cliquez sur le bouton **Ajouter une clé à Créer une clé** 
 - Choisir JSON come Type de clé.
 
-![Image](/img_fr/img_UIC_Services/img_google/image014.png)
+![Image](/img_fr/img_UIC_Services/img_google/image014.png#bordered)
 
 La console GCP vous affiche la boite de dialoguesuivante :
 
-![Image](/img_fr/img_UIC_Services/img_google/image015.png)
+![Image](/img_fr/img_UIC_Services/img_google/image015.png#bordered)
 
 Voici un exemple de contenu du fichier ‘uic-prod-8dc4eabf97b2.json’’:
 ```json
@@ -115,15 +115,15 @@ Voici un exemple de contenu du fichier ‘uic-prod-8dc4eabf97b2.json’’:
 
 Pour lister les API créées, sélectionnez le menu de navigation **Tableau de Bord -> API**, l’écran suivant apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image016.png)
+![Image](/img_fr/img_UIC_Services/img_google/image016.png#bordered)
 
 - Cliquez sur **+ Activer des API et des Services**, la page ci-dessous s’affiche: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image017.png)
+![Image](/img_fr/img_UIC_Services/img_google/image017.png#bordered)
 
 - Choisissez le service **Compute Engine API**, la bibliothèque d’API apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image018.png)
+![Image](/img_fr/img_UIC_Services/img_google/image018.png#bordered)
 
 - Cliquez sur le bouton **Activer,** le service Compute Engine API est activé.
 
@@ -142,11 +142,11 @@ Pour afficher le compte de facturation Cloud associé à un projet, procédez co
 - 1. Connectez-vous à Google CloudConsole.
 - 2. Sélectionnez votre projet dans la liste déroulante située en haut de la page Google CloudConsole.
 
-![Image](/img_fr/img_UIC_Services/img_google/image019.png)
+![Image](/img_fr/img_UIC_Services/img_google/image019.png#bordered)
 
-- 3. Ouvrez le **menu de navigation** ![Image](/img_fr/img_UIC_Services/img_google/image020.png)  de la console, puis sélectionnez **Facturation**.
+- 3. Ouvrez le **menu de navigation** ![Image](/img_fr/img_UIC_Services/img_google/image020.png#bordered)  de la console, puis sélectionnez **Facturation**.
 
-![Image](/img_fr/img_UIC_Services/img_google/image021.png)
+![Image](/img_fr/img_UIC_Services/img_google/image021.png#bordered)
 
 Copiez l'ID du compte de facturation. Cela ressemblera à quelque chose comme 009B77-XXXXAE-XXXX8A
 
@@ -176,10 +176,10 @@ Activer l'API du service de transfert de données BigQuery (obligatoire pour exp
 Créer un ensemble de données pour héberger les données de facturation
 
 - Assurez-vous que vous êtes dans le projet que vous avez créé à l'étape 1
-- Ouvrez le **menu de navigation** ![Image](/img_fr/img_UIC_Services/img_google/image020.png)  de la console, puis sélectionnez **Big Data -> BigQuery**
+- Ouvrez le **menu de navigation** ![Image](/img_fr/img_UIC_Services/img_google/image020.png#bordered)  de la console, puis sélectionnez **Big Data -> BigQuery**
 - Cliquez sur le nom de votre projet dans le menu de gauche
 - Cliquez sur+ **CREATE DATA SET**
-  ![Image](/img_fr/img_UIC_Services/img_google/image022.png)
+  ![Image](/img_fr/img_UIC_Services/img_google/image022.png#bordered)
 - Utilisez les paramètres suivants:
   - **Data set ID**: gcp_billing_export
   - **Data location**: sélectionner un emplacement.
@@ -197,14 +197,14 @@ Voici les étapes pour exporter vos données de facturation vers BigQuery (vous 
 - Utilisez les paramètres suivants:
   - **Projets**: sélectionnez le projet que vous avez créé à l'étape 1
   - **Ensemble de données d'exportation de la facturation**: sélectionnez l'ensemble de données que vous avez créé à l'étape 2. À ce stade, vos paramètres doivent ressembler à:
-    ![Image](/img_fr/img_UIC_Services/img_google/image023.png)
+    ![Image](/img_fr/img_UIC_Services/img_google/image023.png#bordered)
 - Cliquez sur **Enregistrer** 
 
 Vous avez maintenant correctement associé les données de votre compte de facturation à BigQuery.
 
 Ne vous inquiétez pas si vous ne voyez pas encore de données, car il faudra quelques heures pour que les données commencent à se remplir.
 
-![Image](/img_fr/img_UIC_Services/img_google/image024.png)
+![Image](/img_fr/img_UIC_Services/img_google/image024.png#bordered)
 
 Ne vous inquiétez pas si vous ne voyez pas encore de données, car il faudra quelques heures pour que les données commencent à se remplir.
 
@@ -213,11 +213,11 @@ Activer l'exportation Cloud Billing des données de coût et des données de tar
 ### ***Configurer un identifiant Cloud Google dans UIC***
 Depuis Google Cloud Platform, vous avez récupéré le fichier JSON, il faut donc créer l’identifiant Cloud Google (credential) sur la plateforme *UIC*. Connectez-vous sur UIC, sélectionnez le menu **Compte:Utilisateur -> Identifiants Cloud -> Google Cloud Platform**, vous accédez à l’ensemble des paramètres.
 
-![Image](/img_fr/img_UIC_Services/img_google/image025.png)
+![Image](/img_fr/img_UIC_Services/img_google/image025.png#bordered)
 
 - Cliquez sur le bouton Ajouter un identifiant, le formulaire suivant apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image026.png)
+![Image](/img_fr/img_UIC_Services/img_google/image026.png#bordered)
 
 - **Nom de l’identifiant**: Indiquez le nom de l’identifiant, il ne pourra pas être modifié par la suite (unique, contenant jusqu’à 20 caractères, lettres sans accent, chiffres, tirets).
 - **Identifiant**: A l’aide du bouton **Parcourir…**, attachez le fichier JSON téléchargé depuis Google Cloud Platform (Ex: My Project 2692-1af328dffb5f.json)
@@ -232,24 +232,24 @@ Lorsqu'une identité appelle une API Google Cloud, BigQuery exige qu'elle dispos
 #### Accès en lecture aux données d'un projet
 Dans l’exemple suivant nous allons accorder l’accès à un projet nommé **uic-prod** qui dispose d’un compte de service **uicprod-service-account@uic-prod.iam.gserviceaccount.com**
 
-- Ouvrez lemenu de navigation ![Image](/img_fr/img_UIC_Services/img_google/image020.png)  de la console, puis sélectionnez **API et services à Identifiant**
+- Ouvrez lemenu de navigation ![Image](/img_fr/img_UIC_Services/img_google/image020.png#bordered)  de la console, puis sélectionnez **API et services à Identifiant**
 - Copier E-mail du compte de service.
 
-![Image](/img_fr/img_UIC_Services/img_google/image027.png)
+![Image](/img_fr/img_UIC_Services/img_google/image027.png#bordered)
 
 
 **Attribuez le rôle prédéfini lecture de données BigQuery à un membre d’un projet** 
 
 - Ouvrez leprojet avec lequel l’exportation de la facturation a été réalisée
-- Ouvrez le menu de navigation ![Image](/img_fr/img_UIC_Services/img_google/image020.png)  de la console, puis sélectionnez **IAM et admin à IAM**
+- Ouvrez le menu de navigation ![Image](/img_fr/img_UIC_Services/img_google/image020.png#bordered)  de la console, puis sélectionnez **IAM et admin à IAM**
 - Cliquez sur **AJOUTER**
 
 
-![Image](/img_fr/img_UIC_Services/img_google/image028.png)
+![Image](/img_fr/img_UIC_Services/img_google/image028.png#bordered)
 
 Le volet suivant apparait
 
-![Image](/img_fr/img_UIC_Services/img_google/image029.png)
+![Image](/img_fr/img_UIC_Services/img_google/image029.png#bordered)
 
 - **Nouveaux membres:** coller le mail du compte de service du projet **uic-prod**
 - **Rôle:** choisir BigQuery à Lecture de données BigQuery
@@ -258,14 +258,14 @@ Le volet suivant apparait
 #### **Conséquence sur la table des identifiants Google Cloud**
 L’identifiant créé apparaîtra comme une entrée parmi les identifiants *Google Cloud*. Vous pourrez modifier ses attributs en le sélectionnant depuis cette page.
 
-![Image](/img_fr/img_UIC_Services/img_google/image030.png) 
+![Image](/img_fr/img_UIC_Services/img_google/image030.png#bordered) 
 
 La table des identifiants vous permet d’exécuter sur chacun d’entre eux les commandes du menu **Actions**. Ces actions sont intitulées **Configuration**, **Configurer le proxy**, **Modifier les identifiants** et **Supprimer**. Elles sont toutes décrites dans les sous-chapitres suivants.
 
 ##### Modifier la configuration
 - Sélectionnez la commande ***Configuration*** du menu **Actions**, la boite de dialogue **Configuration de l’identifiant GOOGLE CLOUD** apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image031.png)
+![Image](/img_fr/img_UIC_Services/img_google/image031.png#bordered)
 
 - Sélectionnez le menu **Région par défaut,** si vous souhaitez modifier la région par défaut puis cliquez sur le bouton **Mettre à jour**.
 - Saisissez le délai d’attente souhaité pour le Cloud *Google Cloud*, cliquez sur le(s) bouton(s) **Mettre à jour**. 
@@ -280,7 +280,7 @@ Compte-tenu du fait que ce délai est variable d’une infrastructure à une aut
 ##### Modifier la Configuration du proxy
 - Sélectionnez la commande ***Configuration du proxy*** du menu **Actions**, la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image032.png)
+![Image](/img_fr/img_UIC_Services/img_google/image032.png#bordered)
 
 - Saisissez l’URL du proxy, au format précisé dans la boite de dialogue,
 - Cliquez sur le bouton **Sauvegarder**,
@@ -288,7 +288,7 @@ Compte-tenu du fait que ce délai est variable d’une infrastructure à une aut
 ##### Modifier un identifiant
 - Sélectionnez la commande ***Modifier les identifiants*** du menu **Actions**, la boite de dialogue suivante apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image033.png)
+![Image](/img_fr/img_UIC_Services/img_google/image033.png#bordered)
 
 - Apportez les modifications souhaitées,
 - Cliquez sur le bouton **Sauvegarder**,
@@ -296,19 +296,19 @@ Compte-tenu du fait que ce délai est variable d’une infrastructure à une aut
 ##### Supprimer un identifiant
 - Sélectionnez la commande ***Supprimer*** du menu **Actions**, la boite de dialogue suivante apparaît: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image034.png)
+![Image](/img_fr/img_UIC_Services/img_google/image034.png#bordered)
 
 - Cliquez sur le bouton **Supprimer l’identifiant Cloud**,
 
 #### **Conséquence sur le menu Clouds**
 Après l’ajout d’un identifiant Cloud *Google Cloud*, *UIC* crée un item portant le nom de l’identifiant dans le menu **Clouds -> Google Cloud**, il porte le nom attribué à la création**.** Il vous permet d’accéder et de piloter les ressources *Google Cloud* qui sont sous son contrôle.
 
-![Image](/img_fr/img_UIC_Services/img_google/image035.png)
+![Image](/img_fr/img_UIC_Services/img_google/image035.png#bordered)
 
 #### **Conséquence sur la page de la préparation d’un déploiement**
 Après l’ajout d’un identifiant Cloud *Google Cloud*, le nom de cet identifiant sera rajouté dans la liste des valeurs du champ **Tenant** de la page de préparation du déploiement.
 
-![Image](/img_fr/img_UIC_Services/img_google/image036.png)
+![Image](/img_fr/img_UIC_Services/img_google/image036.png#bordered)
 
 #### **Conséquence sur la gestion des rôles *UIC***
 Lorsque vous ajoutez un identifiant Cloud *Google Cloud* à un compte, pensez à configurer les permissions appropriées aux utilisateurs de ce compte. Voici le tableau des ressources *Google Cloud* et des permissions configurables dans *UIC*:
@@ -349,7 +349,7 @@ Le déploiement des applications et des VM s’effectue à l’aide du menu **D�
 
 - Sélectionnez l’application à déployer, actionnez le bouton **Déployer** correspondant à l’application, vous obtenez l’écran de préparation de déploiement illustré sur l’écran suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image037.png)
+![Image](/img_fr/img_UIC_Services/img_google/image037.png#bordered)
 
 - Saisissez dans la zone **Etiquette** le nom du déploiement afin de l’identifier,
 - Sélectionnez le fournisseur depuis le menu déroulant **Fournisseur** ainsi que le nom de l’identifiant cloud à partir du menu déroulant **Tenant** (s’il y en a plusieurs), 
@@ -358,7 +358,7 @@ Le déploiement des applications et des VM s’effectue à l’aide du menu **D�
 #### **Configuration du réseau**
 L’onglet **Réseau** vous permet de préciser tous les paramètres de configuration réseau nécessaires pour le déploiement sur votre infrastructure *Google Cloud*. Ces paramètres sont illustrés sur la figure suivante:
 
-![Image](/img_fr/img_UIC_Services/img_google/image038.png)
+![Image](/img_fr/img_UIC_Services/img_google/image038.png#bordered)
 
 - **Réseau** : Indique le nom du réseau où la machine virtuelle sera déployée. Une liste peut être présente, elle montre tous les réseaux configurés. 
 - **Adresse IP Publique:** Indique si la VM possède une adresse IP publique ou non, et si oui, la méthode d’attribution de cette adresse (IP dynamique ou IP statique allouée automatiquement),
@@ -366,14 +366,14 @@ L’onglet **Réseau** vous permet de préciser tous les paramètres de configur
 
 Si vous sélectionnez une balise cible existante, le bouton affiché à droite du menu vous permet de consulter la liste des règles définies par ce groupe, comme illustré dans l’exemple suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image039.png)
+![Image](/img_fr/img_UIC_Services/img_google/image039.png#bordered)
 
 La case à cocher **Accès direct à l’instance**: Cochez cette case si l'instance de la machine virtuelle est dans le même réseau que la plateforme UIC. La communication entre la plateforme et l’instance se fera en utilisant l’adresse privée de l’instance.
 
 #### **Serveur**
 L’onglet **Serveur** vous permet de préciser tous les paramètres nécessaires pour le déploiement sur votre infrastructure *Google Cloud*, comme illustré sur l’écran suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image040.png)
+![Image](/img_fr/img_UIC_Services/img_google/image040.png#bordered)
 
 **OS:**  Indique le système d’exploitation de base de l’application,
 
@@ -383,7 +383,7 @@ Le menu déroulant **Gabarit** propose des gabarits de machines prédéfinis che
 
 **Paire de clés:** Indique la paire de clé associée à cette VM. Vous pouvez choisir entre les différentes options proposées par UIC, comme illustré dans l’exemple suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image041.png)
+![Image](/img_fr/img_UIC_Services/img_google/image041.png#bordered)
 
 Vous pouvez utiliser une paire de clés existante générique, ou bien laisser UIC créer une nouvelle paire de clés. Vous pouvez également déployer cette VM sans aucune paire de clés.
 
@@ -394,14 +394,14 @@ L’onglet **Personnalisation** permet de spécifier des paramètres non IaaS d�
 
 Il s’agit d’attribuer un nom à l’instance pour l’identifier facilement sur le Cloud cible, d’installer ou non l’agent UIC (option), d’inclure des scripts exécutables après le démarrage de l’instance et d’ajouter des tags spécifiques à l’instance.
 
-![Image](/img_fr/img_UIC_Services/img_google/image042.png)
+![Image](/img_fr/img_UIC_Services/img_google/image042.png#bordered)
 
 D’autres paramètres sont spécifiques aux machines virtuelles de type Windows, leur description est décrite dans la section dédiée à la personnalisation spécifique à Windows. 
 
 ##### Configuration commune à tous les OS
 La personnalisation des instances de VM se fait à l’aide de l’écran suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image043.png)
+![Image](/img_fr/img_UIC_Services/img_google/image043.png#bordered)
 
 Comme précisé dans le formulaire, la personnalisation de l’instance concerne les paramètres suivants:
 
@@ -415,14 +415,14 @@ Comme précisé dans le formulaire, la personnalisation de l’instance concerne
 #### **Gestion de configuration**
 La plateforme *UIC* peut mettre en œuvre la gestion de configuration des machines virtuelles en proposant les outils Ansible, Chef et *Puppet*. 
 
-![Image](/img_fr/img_UIC_Services/img_google/image044.png)
+![Image](/img_fr/img_UIC_Services/img_google/image044.png#bordered)
 
 Cette mise en œuvre est commune à tous les Clouds, elle n’est donc pas spécifique à *Google Cloud*. Elle est documentée en détail dans le guide intitulé **UiC_Guide_UserAdmin_FR**.
 
 #### **Surveillance**
 La plateforme UIC peut mettre en œuvre la surveillance des machines virtuelles en proposant des services de monitoring Centreon et Zabbix. 
 
-![Image](/img_fr/img_UIC_Services/img_google/image045.png)
+![Image](/img_fr/img_UIC_Services/img_google/image045.png#bordered)
 
 Une fois que vous avez fini la configuration, vous pouvez lancer votre déploiement en cliquant sur le bouton **Déployer** (en haut à droite de l’écran), le processus de déploiement s’enclenchera.
 
@@ -431,7 +431,7 @@ Une fois que vous avez fini la configuration, vous pouvez lancer votre déploiem
 ### ***Opération de déploiement***
 Lorsque le déploiement est lancé, la plateforme *UIC* affiche l’écran de progression du déploiement :
 
-![Image](/img_fr/img_UIC_Services/img_google/image046.png)
+![Image](/img_fr/img_UIC_Services/img_google/image046.png#bordered)
 
 La durée nécessaire au déploiement dépend de l’environnement de déploiement (puissance et capacité de votre infrastructure) mais également des caractéristiques de la VM à déployer (son gabarit, son système d’exploitation de base et de l’ensemble des logiciels additionnels, du temps nécessaire à l’installation de l’agent si vous l’avez activé pour la VM).
 
@@ -440,7 +440,7 @@ Une fois que l’opération de déploiement est terminée avec succès, *UIC* pa
 ### ***Post-Instanciation***
 Une fois que le déploiement est terminé avec succès, l’écran **Déploiement** indiquera le statut Déployé dans la colonne **Etat** :
 
-![Image](/img_fr/img_UIC_Services/img_google/image047.png)
+![Image](/img_fr/img_UIC_Services/img_google/image047.png#bordered)
 
 UIC affiche l’identifiant unique pour ce déploiement dans la colonne **Identifiant.** Sa valeur est un champ actif qui vous permet d’accéder aux détails de l’instance déployée. 
 
@@ -457,7 +457,7 @@ Le bouton **Supprimer**permet de terminer et supprimer l’instance de l’appli
 #### **Connexion aux instances Linux**
 Depuis la plateforme *UIC* connectez-vous en ssh aux instances *Linux*. Si vous cliquez sur le bouton **ssh** de la colonne **Actions** vous obtenez l’écran suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image048.png)
+![Image](/img_fr/img_UIC_Services/img_google/image048.png#bordered)
 
 Cet écran vous affiche les paramètres qui vous permettront de vous connecter à la VM en choisissant l’une des deux options:
 
@@ -467,12 +467,12 @@ Cet écran vous affiche les paramètres qui vous permettront de vous connecter �
 #### **Connexion aux instances Windows**
 UIC vous permet de vous connecter en RDP à une instance Windows, à condition que la connexion Bureau à distance soit autorisée sur cette instance. Si vous utilisez une image publique GOOGLE CLOUD, cette condition est supposée être nativement respectée. Si vous utilisez une image privée, assurez-vous que cette condition est respectée en vérifiant au niveau du paramétrage du firewall Windows, que les bonnes options sont activées, comme illustré sur l’écran ci-dessous:
 
-![Image](/img_fr/img_UIC_Services/img_google/image049.png)
+![Image](/img_fr/img_UIC_Services/img_google/image049.png#bordered)
 
 ##### Options de connexions 
 Si vous cliquez sur le bouton **RDP Client** de la colonne **Actions** vous obtenez l’écran suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image050.png)
+![Image](/img_fr/img_UIC_Services/img_google/image050.png#bordered)
 
 Cet écran vous affiche les paramètres qui vous permettront de vous connecter à la VM en choisissant l’une des deux options:
 
@@ -482,43 +482,43 @@ Cet écran vous affiche les paramètres qui vous permettront de vous connecter �
 ##### Connexion Bureau à distance 
 Lorsque vous cliquez sur le bouton **Télécharger le fichier RDP,** Windows vous affiche la fenêtre suivante: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image051.png)
+![Image](/img_fr/img_UIC_Services/img_google/image051.png#bordered)
 
 - Sélectionnez **Ouvrir avec**: **Connexion Bureau à distance**, puis cliquez sur **OK.** Vous obtiendrez la fenêtre suivante:
 
-![Image](/img_fr/img_UIC_Services/img_google/image052.png)
+![Image](/img_fr/img_UIC_Services/img_google/image052.png#bordered)
 
 - Cliquez sur le bouton **Connexion** pour déclencher l’action de connexion à l’instance, le système Windows affichera une fenêtre semblable à la suivante: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image053.png)
+![Image](/img_fr/img_UIC_Services/img_google/image053.png#bordered)
 
 - Entrez le mot de passe de connexion puis cliquez sur **OK**.
 
 **Remarque: Si votre VM ne présente pas un certificat signé par une autorité de confiance, le système affichera la fenêtre suivante:**
 
-![Image](/img_fr/img_UIC_Services/img_google/image054.png)
+![Image](/img_fr/img_UIC_Services/img_google/image054.png#bordered)
 
 Si vous êtes dans un réseau sécurisé, appuyez sur le bouton **Oui**, sinon corrigez le problème avant de continuer.
 
 Après l’opération d’authentification, le système Windows de la VM affiche la session de l’utilisateur authentifié. Voici un exemple d’écran d’une session Administrateur par défaut:
 
-![Image](/img_fr/img_UIC_Services/img_google/image055.png)
+![Image](/img_fr/img_UIC_Services/img_google/image055.png#bordered)
 
 #### **Détails d’un déploiement**
 Vous obtenez la liste des déploiements en cliquant sur le menu **Gérer -> Déploiements,** l’écran ci-dessous fournit un exemple de liste. 
 
-![Image](/img_fr/img_UIC_Services/img_google/image047.png)
+![Image](/img_fr/img_UIC_Services/img_google/image047.png#bordered)
 
 Un clic sur le lien **Identifiant** affiche tous les détails du déploiement. 
 
-![Image](/img_fr/img_UIC_Services/img_google/image056.png)
+![Image](/img_fr/img_UIC_Services/img_google/image056.png#bordered)
 
 La structure et le contenu de cette page sont décrits en détails dans le document général intitulé ***UiC_Guide_UserAdmin_FR.*** Les sections suivantes reprennent certaines descriptions générales mais se focalisent surtout sur les spécificités de Google Cloud. 
 
 ##### Actions sur un déploiement 
 Les actions situées en haut, à gauche de la page sont celles applicables au déploiement: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image057.png)
+![Image](/img_fr/img_UIC_Services/img_google/image057.png#bordered)
 
 **Supprimer**: Cette commande permet de supprimer le déploiement de la table des déploiements,
 
@@ -526,12 +526,12 @@ Les actions situées en haut, à gauche de la page sont celles applicables au d�
 
 **Retirer ce déploiement**: Permet de retirer ce déploiement de la table des déploiements, sans supprimer ses ressources des Clouds où elles ont été approvisionnées. Lorsque la suppression est enclenchée, la plateforme UIC affichera le message suivant: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image058.png)
+![Image](/img_fr/img_UIC_Services/img_google/image058.png#bordered)
 
 ##### Actions sur un nœud
 Les actions situées dans la partie centrale sont celles applicables au management de la machine virtuelle. Les actions sont organisées en deux catégories, **Actions sur le nœud** et **Liste des accès à la machine**:
 
-![Image](/img_fr/img_UIC_Services/img_google/image059.png)
+![Image](/img_fr/img_UIC_Services/img_google/image059.png#bordered)
 
 Voici la description des commandes du groupe **Actions sur le nœud,** en partant de la première icône à gauche:
 
@@ -550,32 +550,32 @@ La commande **Démarrer** une instance n’est disponible que si l’instance es
 
 - Cliquez sur le bouton **Démarrer,** UIC vous affiche une fenêtre vous demandant de confirmer l’action, puis valider à l’aide du bouton OK.
 
-![Image](/img_fr/img_UIC_Services/img_google/image060.png)Patientez, puis rafraichissez à l’aide du bouton suivant , la page de l’instance apparaît avec l’instance démarrée, le champ **Etat** passe à la valeur **Actif**.
+![Image](/img_fr/img_UIC_Services/img_google/image060.png#bordered)Patientez, puis rafraichissez à l’aide du bouton suivant , la page de l’instance apparaît avec l’instance démarrée, le champ **Etat** passe à la valeur **Actif**.
 
 ###### *Arrêter une instance*
 - Sélectionnez la commande **Arrêter,** UIC affiche la boite de dialogue vous demandant la confirmation de l’action, validez à l’aide du bouton OK. 
-- ![Image](/img_fr/img_UIC_Services/img_google/image061.png)Patientez, puis rafraichissez à l’aide du bouton suivant , le tableau des instances apparaît:
+- ![Image](/img_fr/img_UIC_Services/img_google/image061.png#bordered)Patientez, puis rafraichissez à l’aide du bouton suivant , le tableau des instances apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image062.png)
+![Image](/img_fr/img_UIC_Services/img_google/image062.png#bordered)
 
 Le statut de l’instance passe à l’état **Stoppé**. Vous pouvez la redémarrer à tout moment.
 
 #### **Suppression d’un déploiement**
 Vous pouvez utiliser le menu **Gérer -> Déploiements** pour supprimer un déploiement. La liste des déploiements s’affiche: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image063.png)
+![Image](/img_fr/img_UIC_Services/img_google/image063.png#bordered)
 
 - Sélectionnez la liste déroulante **Actions** du déploiement que vous souhaitez supprimer, le menu propose la commande **Supprimer** :
 
-![Image](/img_fr/img_UIC_Services/img_google/image064.png)
+![Image](/img_fr/img_UIC_Services/img_google/image064.png#bordered)
 
 - Sélectionnez **Supprimer**, la plateforme UIC vous demandera de confirmer l’action:
 
-![Image](/img_fr/img_UIC_Services/img_google/image065.png)
+![Image](/img_fr/img_UIC_Services/img_google/image065.png#bordered)
 
 - Cliquez sur le bouton **OK**, l’opération de suppression se déclenche auprès de l’infrastructure Google Cloud. La plateforme attend la réponse de suppression définitive avant de passer le déploiement à l’état **Supprimé**, comme indiqué dans l’exemple suivant:
 
-![Image](/img_fr/img_UIC_Services/img_google/image066.png)
+![Image](/img_fr/img_UIC_Services/img_google/image066.png#bordered)
 
 **Remarque: Les ressources du déploiement supprimé sont complètement désallouées de l’infrastructure Cloud, en revanche quelques métadonnées restent encore en mémoire de la plateforme *UIC*.** 
 
@@ -584,7 +584,7 @@ Pour supprimer ces données et la ligne correspondante dans la table des déploi
 ## ***Tableau de bord Google Cloud*** 
 Une fois que les prérequis sont validés, vous pourrez alors gérer les ressources de vos tenants *Google Cloud* depuis le menu *UIC* **Clouds -> *Google Cloud* -> Identifiant Cloud**, le tableau de bord ci-dessousapparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image067.png)
+![Image](/img_fr/img_UIC_Services/img_google/image067.png#bordered)
 
 La page **Tableau de bord** est divisée en deuxparties, la partie de gauche permet de choisir la région *AWS* (liste déroulante) dans laquelle vous souhaitez travailler. Les items **Région, Instances**, **Sauvegardes d’instance, Volumes, Pare-feux, Adresses IP publiques, Réseaux, Quotas**, **Facturation** sont mis à disposition, vous pourrez alors afficher l’ensemble des services utilisés pour une région sélectionnée.  
 
@@ -592,7 +592,7 @@ La partie centrale présente une synthèse des ressources et des services utilis
 
 Le contenu de la partie centrale (variable en fonction des items sélectionnés)du tableau de bord affiche les informations suivantes : 
 
-- Le temps écoulé depuis la dernière mise à jour (en haut à droite) suivi du bouton permettant de forcer l’actualisation des données (bouton ![Image](/img_fr/img_UIC_Services/img_google/image003.png)),
+- Le temps écoulé depuis la dernière mise à jour (en haut à droite) suivi du bouton permettant de forcer l’actualisation des données (bouton ![Image](/img_fr/img_UIC_Services/img_google/image003.png#bordered)),
 - Le nombre total d’instances ainsi que le nombre d’instances arrêtées et démarrées,
 - Le nombre total de volumes et d’instantanés configurés,
 - Le nombre total d’adresse IP publiques et de réseaux configurés, 
@@ -604,7 +604,7 @@ Le contenu de la partie centrale (variable en fonction des items sélectionnés)
 ## **Instances**
 L’item **Instances** permet d’afficher les informations et les actions exposées sur les instances des machines virtuelles associées à l’identifiant cloud sélectionné.
 
-![Image](/img_fr/img_UIC_Services/img_google/image068.png)
+![Image](/img_fr/img_UIC_Services/img_google/image068.png#bordered)
 
 Le tableau présente la liste et les paramètres des instances créés, le bouton **+** de la première colonne permet d’afficher les paramètres cachés du tableau : 
 
@@ -620,7 +620,7 @@ Le tableau présente la liste et les paramètres des instances créés, le bouto
 
 La colonne **Actions**offre les possibilités suivantes : 
 
-![Image](/img_fr/img_UIC_Services/img_google/image069.png)
+![Image](/img_fr/img_UIC_Services/img_google/image069.png#bordered)
 
 - **Démarrer:** Démarre l’instance,
 - **Redimensionner:** Permet de redimensionner l’instance,
@@ -635,14 +635,14 @@ La commande **Démarrer** (instance) est disponible seulement si l’instance es
 - Cliquez sur le menu **Actions** de l’instance que vous souhaitez démarrer,
 - Sélectionnez **Démarrer** la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image070.png)
+![Image](/img_fr/img_UIC_Services/img_google/image070.png#bordered)
 
-- Cliquez sur le bouton **Valider**, un premier message vous avertit que l’instance est en cours de démarrage. Attendez le deuxième message qui vous avertit lorsque l’instance est démarrée, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_google/image061.png), le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
+- Cliquez sur le bouton **Valider**, un premier message vous avertit que l’instance est en cours de démarrage. Attendez le deuxième message qui vous avertit lorsque l’instance est démarrée, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_google/image061.png#bordered), le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
 
 ### ***Redimensionner un gabarit de VM***
 Pour redimensionner un gabarit de VM, celle-ci doit être préalablement arrêtée. Sélectionnez la commande **Redimensionner** depuis la colonne/menu **Actions**, la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image071.png)
+![Image](/img_fr/img_UIC_Services/img_google/image071.png#bordered)
 
 Sélectionnez le nouveau gabarit que vous souhaitez puis validez à l’aide du bouton **Valider**.
 
@@ -652,25 +652,25 @@ La commande **Redémarrer** est disponible seulement si l’instance est démarr
 - Cliquez sur le menu **Actions** de l’instance que vous souhaitez redémarrer,
 - Sélectionnez **Redémarrer,** la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image072.png)
+![Image](/img_fr/img_UIC_Services/img_google/image072.png#bordered)
 
-- ![Image](/img_fr/img_UIC_Services/img_google/image073.png)Cliquez sur le bouton **Valider**, un premier message vous avertit que l’instance est en cours de démarrage. Attendez le deuxième message qui vous avertit lorsque l’instance est redémarrée, puis rafraichissez à l’aide du bouton suivant , le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
+- ![Image](/img_fr/img_UIC_Services/img_google/image073.png#bordered)Cliquez sur le bouton **Valider**, un premier message vous avertit que l’instance est en cours de démarrage. Attendez le deuxième message qui vous avertit lorsque l’instance est redémarrée, puis rafraichissez à l’aide du bouton suivant , le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
 
 ### ***Arrêter une instance***
 Cette opération mettra l’instance sélectionnée dans un état Stopped. La machine virtuelle est arrêtée mais reste associée à l’hyperviseur qui la gère. Au prochain démarrage, elle sera gérée par ce même hyperviseur.
 
 - Sélectionnez la commande **Arrêter** depuis la colonne **Actions**, la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image074.png)
+![Image](/img_fr/img_UIC_Services/img_google/image074.png#bordered)
 
 - Cliquez sur le bouton **Valider**, un message vous avertit que l’instance est en cours d’arrêt.
 
-Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_google/image061.png), le tableau des instances apparaît, le statut de l’instance passe à l’état *Arrêtée*.
+Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_google/image061.png#bordered), le tableau des instances apparaît, le statut de l’instance passe à l’état *Arrêtée*.
 
 ### ***Prendre un instantané d’instance***
 Pour prendre un instantané de VM, sélectionnez la commande **Prendre un instantané** depuis la colonne/menu **Actions**, la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image075.png)
+![Image](/img_fr/img_UIC_Services/img_google/image075.png#bordered)
 
 Indiquez le nom que vous souhaitez puis validez à l’aide du bouton **Valider**.
 
@@ -679,14 +679,14 @@ L’instantané sera rajouté à la liste des instantanés associés au compte.
 ### ***Supprimer une instance***
 - Sélectionnez la commande **Supprimer** depuis la colonne **Actions**, la boite de dialogue suivante apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image076.png)
+![Image](/img_fr/img_UIC_Services/img_google/image076.png#bordered)
 
 - Cliquez sur le bouton **Supprimer**, l’instance n’apparaitra plus dans la liste. Si la page ne se met pas à jour automatiquement, cliquez sur le bouton prévu pour la mise à jour explicite.
 
 ## **Les sauvegardes des instances**
 La rubrique **Sauvegarde d’instance** liste tous les instantanés (Images) créés. Lorsque vous cliquez sur ce menu, UIC vous affiche cette liste avec les caractéristiques de chaque instantané ainsi que les actions que vous pouvez leur appliquer. Un exemple de liste est affiché ci-dessous:**  
 
-![Image](/img_fr/img_UIC_Services/img_google/image077.png)
+![Image](/img_fr/img_UIC_Services/img_google/image077.png#bordered)
 
 UIC affiche pour chaque instantané, les paramètres suivants:  
 
@@ -699,7 +699,7 @@ UIC affiche pour chaque instantané, les paramètres suivants:
 ### ***Supprimer une sauvegarde d’instance***
 Vous pouvez supprimer les sauvegardes d’instances individuellement ou bien par lots. 
 
-![Image](/img_fr/img_UIC_Services/img_google/image078.png)
+![Image](/img_fr/img_UIC_Services/img_google/image078.png#bordered)
 
 - Si vous souhaitez supprimer une sauvegarde individuelle, Cliquez sur le menu **Actions -> Supprimer** associé à la sauvegarde que vous souhaitez supprimer.
 
@@ -709,7 +709,7 @@ Si vous souhaitez supprimer plusieurs sauvegardes en une seule opération, pour 
 ### ***Les volumes***
 La rubrique **Volumes** liste les volumes alloués dans la zone géographique sélectionnée. Depuis le menu **Clouds -> Google Cloud -> Tenant**, sélectionnez l’item **Stockages -> Volumes,** la page suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_google/image079.png)
+![Image](/img_fr/img_UIC_Services/img_google/image079.png#bordered)
 
 Toutes les informations et les actions possibles sur les volumes sont affichées dans 
 ce tableau :
@@ -732,7 +732,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> *Google Cloud* -> 
 
 - Cliquez sur le bouton **Créer un Volume**, la boite de dialogue suivante s’affiche: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image080.png)
+![Image](/img_fr/img_UIC_Services/img_google/image080.png#bordered)
 
 - Saisissez dans le champ **Nom** le nom du volume,
 - Choisissez le type de technologie souhaitée (SSD, Standard) depuis le menu déroulant **Type**,
@@ -745,7 +745,7 @@ Le volume créé est maintenant visible depuis le tableau de la page des volumes
 ### ***Supprimer un volume***
 Vous pouvez supprimer individuellement ou par lots les volumes. 
 
-![Image](/img_fr/img_UIC_Services/img_google/image079.png)
+![Image](/img_fr/img_UIC_Services/img_google/image079.png#bordered)
 
 Si vous souhaitez supprimer une sauvegarde individuelle, 
 
@@ -759,7 +759,7 @@ Si vous souhaitez supprimer plusieurs sauvegardes en une seule opération,
 ## **Pare-feux**
 L’item **Pare-feux** permet d’accéder aux règles de pare-feux définies sur le cloud Google Cloud. Sélectionnez le menu **Clouds -> Google Cloud -> Tenant -> Pare-feux**, la page **Pare-feux** apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image081.png)
+![Image](/img_fr/img_UIC_Services/img_google/image081.png#bordered)
 
 Cette page contient la liste des règles de sécurité créés, des actions sont également disponibles.   
 
@@ -781,7 +781,7 @@ La rubrique **Adresses** **IP publiques** permet d’afficher la liste des adres
 
 #### **Afficher la liste des Adresses IP publiques**
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> Google Cloud -> Tenant -> *Adresses IP publiques***, *UiC* affiche la page illustrée ci-dessous : 
-![Image](/img_fr/img_UIC_Services/img_google/image082.png)
+![Image](/img_fr/img_UIC_Services/img_google/image082.png#bordered)
 
 La fonction **Change columns**: Elle permet de sélectionner les colonnes à afficher, 
 
@@ -800,7 +800,7 @@ Le tableau affiche les informations et actions suivantes:
 #### **Créer une nouvelle adresse IP**
 Pour créer une nouvelle adresse IP, cliquez sur le bouton **Créer une adresse IP publique**, *UiC* affiche la boite de dialogue suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_google/image083.png)
+![Image](/img_fr/img_UIC_Services/img_google/image083.png#bordered)
 
 - Entrez le nom de l’adresse,
 - Cliquez sur le bouton **Valider**, deux messages apparaitront (en cours de création, création effectuée),
@@ -810,14 +810,14 @@ La suppression d’une IP externe peut se faire à l’aide de la commande **Act
 
 Ou bien en sélectionnant les adresses à supprimer puis cliquez sur le bouton **Supprimer les IP externes.**
 
-![Image](/img_fr/img_UIC_Services/img_google/image084.png)
+![Image](/img_fr/img_UIC_Services/img_google/image084.png#bordered)
 
 - Cliquez sur le bouton **Supprimer** pour valider l’action.
 
 ## **Réseaux**
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> Google Cloud -> Tenant> -> Réseaux,** la page contenant le tableau des VPC s’affiche : 
 
-![Image](/img_fr/img_UIC_Services/img_google/image085.png)
+![Image](/img_fr/img_UIC_Services/img_google/image085.png#bordered)
 
 Cette page affiche les réseaux virtuels configurés sur *Google Cloud*.
 
@@ -832,7 +832,7 @@ Cette page affiche les réseaux virtuels configurés sur *Google Cloud*.
 ### ***Création d’un réseau***
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> Google Cloud -> Tenant> -> Réseaux,** Cliquez sur le bouton **Créer un** **Réseau**, le formulaire **Créer un réseau** apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_google/image086.png)
+![Image](/img_fr/img_UIC_Services/img_google/image086.png#bordered)
 
 **Réseau:** 
 
@@ -848,11 +848,11 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> Google Cloud -> Te
 ### ***Ajout d’un sous-réseau*** 
 Pour ajouter un sous-réseau à un réseau existant, cliquez sur le lien bleu de la colonne **ID** du réseau, la page contenant les détails sur le réseau apparaît:
 
-![Image](/img_fr/img_UIC_Services/img_google/image087.png)
+![Image](/img_fr/img_UIC_Services/img_google/image087.png#bordered)
 
 - Cliquez sur Créer un sous-réseau, la boite de dialogue suivante s’affiche:
 
-![Image](/img_fr/img_UIC_Services/img_google/image088.png)
+![Image](/img_fr/img_UIC_Services/img_google/image088.png#bordered)
 
 - Saisissez le nom du sous-réseau,
 - Définissez le bloc CIDR du sous-réseau,
@@ -864,14 +864,14 @@ Pour supprimer un sous-réseau, cliquez sur le bouton **Actions -> Supprimer** a
 #### **Suppression d’un réseau** 
 Pour supprimer un réseau, cliquez sur le bouton **Actions -> Supprimer** associé au réseau. UIC affichera une boite de dialogue vous demandant de confirmer la suppression: 
 
-![Image](/img_fr/img_UIC_Services/img_google/image089.png)
+![Image](/img_fr/img_UIC_Services/img_google/image089.png#bordered)
 
 Cliquez sur le bouton **Supprimer** pour effectuer la suppression définitive du réseau. 
 
 ## **Les quotas**
 La plateforme *UIC* peut collecter et afficher les données concernant les quotas d’utilisation de vos ressources Cloud *Google Cloud*. Pour accéder à ces données, sélectionnez le menu **Clouds -> Google Cloud -> Tenant>-> Quotas**, vous obtenez la page ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_google/image090.png)
+![Image](/img_fr/img_UIC_Services/img_google/image090.png#bordered)
 
 La plateforme *UiC* affiche les quotas des ressources Cloud. La représentation est sous forme de tableau récapitulatif indiquant l’usage courant et la limite de chaque type de ressource: 
 
@@ -885,12 +885,12 @@ Lorsqu’une des limites est atteinte, les nouveaux déploiements se terminent e
 ## **Facturation**
 La plateforme UIC peut collecter et afficher les données de consommation du Cloud *Google Cloud*. Pour accéder à ces données, sélectionnez le menu **Clouds -> *Google Cloud* -> Identifiant Cloud -> Facturation**, *UiC* affiche un sous-menu avec la liste des commandes implémentées, illustrée ci-dessous:
 
-![Image](/img_fr/img_UIC_Services/img_google/image091.png)
+![Image](/img_fr/img_UIC_Services/img_google/image091.png#bordered)
 
 ### ***Aperçu des coûts***
 L’aperçu des coûts affiche la page suivante:
 
-![Image](/img_fr/img_UIC_Services/img_google/image092.png)
+![Image](/img_fr/img_UIC_Services/img_google/image092.png#bordered)
 
 Cette page affiche les données des coûts en fonction des critères sélectionnés. Vous pouvez choisir les critères parmi les catégories suivantes:
 
@@ -902,20 +902,20 @@ Les données sont affichées par service, par région, par projet et par SKU.
 ### ***Factures***
 Le menu **Factures** affiche une page contenant un onglet **Factures** et un onglet **Analyse de facture**, comme illustré sur la figure suivante:
 
-![Image](/img_fr/img_UIC_Services/img_google/image093.png)
+![Image](/img_fr/img_UIC_Services/img_google/image093.png#bordered)
 
 L’onglet **Factures** présente les montants des factures mensuelles sur la période choisie. 
 
 L’onglet Analyse de facture permet d’afficher les détails des factures mensuelles comme illustré sur la figure suivante;
 
-![Image](/img_fr/img_UIC_Services/img_google/image094.png)
+![Image](/img_fr/img_UIC_Services/img_google/image094.png#bordered)
 
 Les détails des coûts sont fournis par service et par projet.
 
 ### ***Explorateur des coûts***
 Le menu **Explorateur des coûts** affiche une page contenant la répartition des coûts pour une période donnée:
 
-![Image](/img_fr/img_UIC_Services/img_google/image095.png) 
+![Image](/img_fr/img_UIC_Services/img_google/image095.png#bordered) 
 
 Cette page affiche les données des coûts en fonction des critères sélectionnés. Vous pouvez choisir les critères parmi les catégories suivantes:
 
@@ -927,7 +927,7 @@ Cette page affiche les données des coûts en fonction des critères sélectionn
 ### ***Agrégation des coûts***
 Le menu **Agrégation des coûts** affiche la page suivante:
 
-![Image](/img_fr/img_UIC_Services/img_google/image096.png)
+![Image](/img_fr/img_UIC_Services/img_google/image096.png#bordered)
 
 Cette page affiche les données des coûts en fonction des critères sélectionnés. Vous pouvez choisir les critères parmi les catégories suivantes:
 
@@ -937,15 +937,15 @@ Cette page affiche les données des coûts en fonction des critères sélectionn
 
 Si vous sélectionnez l’agrégation par catégorie, UIC affiche les coûts agrégés par catégorie de service (IaaS, PaaS, etc.) comme illustré sur la figure suivante:
 
-![Image](/img_fr/img_UIC_Services/img_google/image097.png)
+![Image](/img_fr/img_UIC_Services/img_google/image097.png#bordered)
 
 ### ***Budgets***
 Le menu **Budgets** affiche la liste des budgets définis:
 
-![Image](/img_fr/img_UIC_Services/img_google/image098.png)
+![Image](/img_fr/img_UIC_Services/img_google/image098.png#bordered)
 
 Vous pouvez créer un budget à l’aide du bouton **Créer un budget**, la page suivante s’affiche:
 
-![Image](/img_fr/img_UIC_Services/img_google/image099.png)
+![Image](/img_fr/img_UIC_Services/img_google/image099.png#bordered)
 
 Une fois le budget défini, vous pouvez confirmer à l’aide du bouton **Créer.** Le budget sera rajouté à la table des budgets.

@@ -10,13 +10,13 @@ Les pages et formulaires affichés par UIC présentent certaines commandes dont 
 
 Voici la liste et la description de ces commandes :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image002.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image002.png#bordered)
 
 - La commande **Afficher X éléments** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet de limiter le nombre d’éléments visualisés par page. 
 - La commande **Rechercher** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet de rechercher et présenter les éléments contenant la chaîne de caractères spécifiée dans le champ de recherche. 
 - La commande **Change columns** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet à l’utilisateur de sélectionner les colonnes qu’il souhaite visualiser. 
 - La commande **CSV** : Cette commande s’applique aux tableaux affichés par UIC. Elle permet à l’utilisateur d’exporter le tableau affiché dans un fichier au format CSV. 
-- Le bouton d’actualisation  ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) : Ce bouton permet de forcer l’actualisation des données affichées.
+- Le bouton d’actualisation  ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) : Ce bouton permet de forcer l’actualisation des données affichées.
 
 ## **Identifiants Cloud OVH**
 Pour configurer un identifiant Cloud de connexion UIC à une infrastructure Cloud Public OVH, vous avez besoin des paramètres OVH suivants :
@@ -39,7 +39,7 @@ L'authentification sur les services API du Cloud OVH nécessite de disposer de d
 
 - Cliquez sur le lien suivant : https://eu.api.ovh.com/createApp/
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image004.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image004.png#bordered)
 
 - Entrez votre ID client, votre mot de passe et le nom de votre application, et une description. Ce nom vous sera utile ultérieurement si vous souhaitez autoriser d'autres personnes à l'utiliser. 
 - Cliquez sur **Create Keys,** vous obtenez vos deux premières clés :
@@ -76,14 +76,14 @@ Dans la réponse àa la demande de création du jeton d’authentification, vous
 ```
 Cette étape vous permettra d'identifier tout client d'OVH et d'obtenir des droits sur son compte. Choisir une durée de vie illimitée pour ce jeton.
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image006.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image006.png#bordered)
 
 ### ***Configuration des Identifiants Cloud OVH dans UIC***
 Depuis la plateforme, menu **Compte:Utilisateur -> Identifiants Cloud -> OVH**, 
 
 - Cliquez sur le bouton **Ajouter un identifiant**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image007.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image007.png#bordered)
 
 - Complétez les zones de saisie de cet écran : 
 	- **Nom de l’identifiant** : Indiquez le nom de l’identifiant, il ne pourra pas être modifié par la suite (unique, contenant jusqu’à 20 caractères, lettres sans accent, chiffres, tirets).
@@ -95,14 +95,14 @@ Le Cloud public OVH géré par UIC est basé sur OpenStack. Dans le contexte de 
 ### ***Création d’un utilisateur***
 Lorsque vous êtes connecté sur le compte *OVH* et que vous avez sélectionné un projet en utilisant par exemple le menu **Cloud -> Serveurs -> Nom du projet**, vous pouvez ajouter un utilisateur à ce projet, pour cela, sélectionnez le menu **Gestion technique -> OpenStack users**.
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image008.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image008.png#bordered)
 
 - Cliquez sur le bouton **Ajouter un utilisateur** 
 - Entrez une **Description** de l’utilisateur. 
 
 Vous obtenez alors l’écran listant tous les utilisateurs du projet :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image009.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image009.png#bordered)
 
 Le mot de passe est visible dans l’espace client jusqu’à l’actualisation de la page, conservez-le afin de l’utiliser lors d’une connexion ultérieure. L’identifiant et le mot de passe sont automatiquement générés par la suite. Une fois l’opération terminée, le message de confirmation de création du compte s’affichera.
 
@@ -110,7 +110,7 @@ Il est également possible de générer un nouveau mot de passe en cliquant sur 
 
 Pour récupérer les autres champs, il faut télécharger le fichier de configuration *OpenStack* (cliquez sur le pictogramme à droite de l’identifiant).
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image010.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image010.png#bordered)
 
 Veillez à cocher la case **Utiliser le fichier de configuration OpenRC v3** avant de confirmer le téléchargement du fichier. En effet UIC est compatible avec cette version. 
 
@@ -148,11 +148,11 @@ if -> -z "$OS\_REGION\_NAME" ]; then unset OS\_REGION\_NAME; fi
 ### ***Configuration d’un projet OVH au niveau UIC***
 Depuis la plateforme, menu **Compte:Utilisateur -> Identifiants Cloud -> OVH**, vous pouvez ajouter la configuration d’un projet OVH à la plateforme *UIC.* Vous aurez besoin pour cela des paramètres du projet que vous avez créé sur la plateforme OVH et dont vous avez téléchargé le fichier de configuration.
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image011.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image011.png#bordered)
 
 - Sélectionnez le menu **Actions -> Projets**, l’écran suivant apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image012.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image012.png#bordered)
 
 - Renseignez les champs du formulaire, en vous référant au fichier de configuration du projet que vous avez téléchargé depuis le Cloud OVH : 
 	- **ID du projet** :  Il correspond à la variable du fichier OS\_TENANT\_ID= xxxx…(32 caractères)
@@ -171,7 +171,7 @@ Depuis la plateforme, menu **Compte:Utilisateur -> Identifiants Cloud -> OVH**, 
 ## **Tableau de bord du Cloud OVH** 
 Une fois que les prérequis sont validés, vous pourrez alors gérer les ressources  de vos tenants *OVH* depuis le menu UIC **Clouds -> OVH -> Identifiant Cloud**, le tableau de bord ci-dessous apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image013.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image013.png#bordered)
 
 La page **Tableau de bord** vous affiche des indicateurs sur l’utilisattion des ressources IaaS rattachées au tenant sélectionné et au compte authentifié.
 
@@ -186,11 +186,11 @@ Le contenu de la partie centrale est variable, il dépend des items sélectionn�
 ## **Les indicateurs globaux**
 Lorsque vous cliquez sur le menu UIC **Clouds -> OVH -> Identifiant Cloud**, UIC affiche les indicateurs globaux des ressources associées à cet identifiant, comme illustré dans l’écran ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image014.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image014.png#bordered)
 
 Cet écran affiche les indicateurs globaux suivants :
 
-- Le temps écoulé depuis la dernière mise à jour (en haut à droite) suivi du bouton permettant de forcer l’actualisation des données (bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png)),
+- Le temps écoulé depuis la dernière mise à jour (en haut à droite) suivi du bouton permettant de forcer l’actualisation des données (bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered)),
 - Le nombre total d’instances de VMs, le nombre d’instances arrêtés et le nombre d’instances démarrées,
 - Le nombre total de volumes configurés, le nombre de volumes attachés et le nombre de volumes disponibles,
 - Le nombre total de groupes de sécurité configurés, 
@@ -205,7 +205,7 @@ Cet écran affiche les indicateurs globaux suivants :
 ## **Les instances de VMs**
 L’item **Instances** du panneau gauche du tableau de bord vous permet d’afficher les informations et les actions exposées sur les instances des VMs associées à chaque projet de l’identifiant Cloud sélectionné. Voici un exemple d’écran affiché :**  
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image015.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image015.png#bordered)
 
 Dans cet exemple, le projet choisi est UIC\_PROD, la région choisie a pour valeur ‘’Global’’ ce qui signifie que toutes les instances de toutes les régions OVH doivent être collectées. Vous pouvez sélectionner une seule région OVH si vous le souhaitez. 
 
@@ -217,7 +217,7 @@ La fonction **Change columns** : Elle permet d’afficher ou non dans le tableau
 
 La fonction **CSV** : Vous avez la possibilité d’exporter le tableau web affiché dans un format CSV,
 
-Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) permet d’actualiser les données affichées.
+Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) permet d’actualiser les données affichées.
 
 Le tableau présente la liste et les paramètres des instances créés : 
 
@@ -247,10 +247,10 @@ La commande *Démarrer une instance* n’est disponible que si l’instance est 
 
 - Cliquez sur le bouton **Actions concernant l’instance que vous souhaitez démarrer**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image016.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image016.png#bordered)
 
 - Cliquez sur le bouton **Démarrer**, puis confirmez l’action, un message vous avertit que l’instance est en cours de démarrage,
-- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png), le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
+- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png#bordered), le tableau des instances apparaît avec l’instance démarrée, le champ **Statut** passe à l’état **Active**.
 
 **Redimensionner une instance**
 
@@ -258,17 +258,17 @@ Pour redimensionner une instance de VM, cette instance doit être à l’état a
 
 - Sélectionnez la commande **Redimensionner** depuis le menu **Actions** attaché à l’instance, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image018.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image018.png#bordered)
 
 - Cliquez sur le menu **Gabarit**, sélectionnez celui qui vous convient puis cliquez sur le bouton **Redimensionner**,
 
-Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png), le tableau des instances montre bien que le gabarit de l’instance a été pris en compte,
+Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png#bordered), le tableau des instances montre bien que le gabarit de l’instance a été pris en compte,
 
 **Prendre un instantané**  
 
 Pour faire une image de l’instance, sélectionnez la commande **Prendre un instantané** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image019.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image019.png#bordered)
 
 - Saisissez le nom de l’instantané dans la zone prévue à cet effet,
 - Cliquez sur le bouton **Valider**, 
@@ -277,11 +277,11 @@ Pour faire une image de l’instance, sélectionnez la commande **Prendre un ins
 
 - Sélectionnez la commande **Suspendre** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image020.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image020.png#bordered)
 
 - Cliquez sur le bouton **Suspendre**, un message vous avertit que l’instance est en cours de suspension,
 
-Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png), le tableau des instances apparaît avec l’instance dans l’état suspendue.
+Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png#bordered), le tableau des instances apparaît avec l’instance dans l’état suspendue.
 
 La commande **Actions -> Reprendre** vous permet de réactiver l’instance. 
 
@@ -289,11 +289,11 @@ La commande **Actions -> Reprendre** vous permet de réactiver l’instance.
 
 - Sélectionnez la commande **pause** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image021.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image021.png#bordered)
 
 - Cliquez sur le bouton **Pause**, un message vous avertit que l’instance est en cours de pause,
 
-Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png), le tableau des instances apparaît avec l’instance en pause.
+Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png#bordered), le tableau des instances apparaît avec l’instance en pause.
 
 La commande **Actions -> Reprendre** vous permet de réactiver l’instance.
 
@@ -303,10 +303,10 @@ Cette opération mettra l’instance sélectionnée dans un état ‘’shutoff�
 
 - Sélectionnez la commande **Arrêter** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image022.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image022.png#bordered)
 
 - Cliquez sur le bouton **Arrêter**, un message vous avertit que l’instance est en cours d’arrêt,
-- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png), le tableau des instances apparaît, le statut de l’instance passe à l’état ‘’shutoff’’.
+- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png#bordered), le tableau des instances apparaît, le statut de l’instance passe à l’état ‘’shutoff’’.
 
 **Arrêter (extinction) une instance**
 
@@ -314,10 +314,10 @@ Cette opération arrêtera l’instance sélectionnée et la mettra dans un éta
 
 - Sélectionnez la commande **Arrêter (extinction)** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image023.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image023.png#bordered)
 
 - Cliquez sur le bouton **Arrêter**, un message vous avertit que l’instance est en cours d’arrêt,
-- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png), le tableau des instances apparaît, le statut de l’instance passe à l’état ‘’shelved\_offloaded’’.
+- Patientez, puis rafraichissez à l’aide du bouton suivant ![Image](/img_fr/img_UIC_Services/img_ovh/image017.png#bordered), le tableau des instances apparaît, le statut de l’instance passe à l’état ‘’shelved\_offloaded’’.
 
 **Accès à la Console**
 
@@ -331,25 +331,25 @@ Si vous avez configuré la VM avec un accès direct à l’instance, vous pouvez
 
 - Sélectionnez la commande **Console** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image024.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image024.png#bordered)
 
 UIC vous affiche le lien de connexion, valable pendant 30 secondes. Il suffit de cliquer sur ce lient pour vous connecter à la console de l’instance.
 
 Dans le cas d’une instance Linux Ubuntu, vous obtenez une console analogue à celle affichée dans l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image025.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image025.png#bordered)
 
 Dans le cas d’une instance Windows, à la première connexion, vous pourriez être amenés à configurer quelques paramètres du système comme illustré dans les écrans suivants : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image026.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image026.png#bordered)
 
 Précisez les paramètres demandés, puis passez à l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image027.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image027.png#bordered)
 
 Entrez le mot de passe de l’administrateur, confirmer le puis appuyer sur le bouton de fin de processus de configuration. Vous obtiendrez alors l’écran d’authentification de Windows suivant :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image028.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image028.png#bordered)
 
 **Passer une instance au forfait mensuel**
 
@@ -357,20 +357,20 @@ Lorsque vous déployez une instance en mode de facturation horaire, UIC vous pro
 
 - Sélectionnez la commande **Passer au forfait mensuel** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image029.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image029.png#bordered)
 
 **Supprimer une instance**
 
 - Sélectionnez la commande **Supprimer** depuis la colonne **Actions**, la boite de dialogue suivante apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image030.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image030.png#bordered)
 
 Cliquez sur le bouton **Supprimer**, l’instance n’apparaitra plus dans la liste.
 
 ## **Les sauvegardes des instances**
 La rubrique **Sauvegarde d’instance** liste tous les instantanés (Images) créés. Lorsque vous cliquez sur ce menu, UIC vous affiche cette liste avec les caractéristiques de chaque instantané ainsi que les actions que vous pouvez leur appliquer. Un exemple de liste est affiché ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image031.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image031.png#bordered)
 
 UIC affiche pour chaque instantané, les paramètres suivants :  
 
@@ -385,7 +385,7 @@ UIC affiche pour chaque instantané, les paramètres suivants :
 ### ***Supprimer une sauvegarde d’instance***
 Vous pouvez supprimer les sauvegardes d’instances individuellement ou bien par lots. 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image032.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image032.png#bordered)
 
 - Si vous souhaitez supprimer une sauvegarde individuelle, Cliquez sur le menu **Actions -> Supprimer** associé à la sauvegarde que vous souhaitez supprimer.
 -  Si vous souhaitez supprimer plusieurs sauvegardes en une seule opération, pour chaque sauvegarde à supprimer, cochez le bouton situé à gauche de la colonne ‘’Nom’’, puis cliquez sur le bouton **Supprimer les sauvegardes d’instance**. 
@@ -393,7 +393,7 @@ Vous pouvez supprimer les sauvegardes d’instances individuellement ou bien par
 ## **Les volumes**
 La rubrique **Volumes** liste les volumes déclarés dans la zone géographique sélectionnée. Depuis le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet**, sélectionnez l’item **Volumes** la page suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image033.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image033.png#bordered)
 
 Toutes les informations et les actions possibles sur les volumes sont affichées dans ce tableau :
 
@@ -401,7 +401,7 @@ La fonction **Change columns** : Elle permet d’afficher ou non dans le tableau
 
 La fonction **CSV** : Vous avez la possibilité d’exporter le tableau web affiché dans un format CSV,
 
-Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) permet d’actualiser les données affichées.
+Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) permet d’actualiser les données affichées.
 
 Le tableau liste tous les volumes créés, leurs paramètres sont également listés :  
 
@@ -427,7 +427,7 @@ Le tableau liste tous les volumes créés, leurs paramètres sont également lis
 ### ***Créer un volume***
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Volumes**, la page **Volumes** apparaît, cliquez sur le bouton **Créer un** **Volume**, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image034.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image034.png#bordered)
 
 - Saisissez dans la zone **Nom** le nom du volume,
 - Entrez une description du volume,
@@ -440,7 +440,7 @@ Le volume créé est maintenant visible depuis le tableau de la page des volumes
 ## **Les réseaux**
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Réseaux**, la page **Réseaux** apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image035.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image035.png#bordered)
 
 Cette page affiche les réseaux virtuels configurés pour le projet sélectionné.
 
@@ -448,7 +448,7 @@ La fonction **Change columns** : Elle permet d’afficher ou non dans le tableau
 
 La fonction **CSV** : Vous avez la possibilité d’exporter le tableau web affiché dans un format CSV,
 
-Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png)** permet d’actualiser les données affichées.
+Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered)** permet d’actualiser les données affichées.
 
 Le tableau liste les réseaux virtuels déclarés chez *OVH,*
 
@@ -462,7 +462,7 @@ Le tableau liste les réseaux virtuels déclarés chez *OVH,*
 ### ***Création d’un réseau***
 Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Réseaux**, la page **Réseaux** apparaît, cliquez sur le bouton **Créer un** **Réseau**, le formulaire **Créer un réseau** apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image036.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image036.png#bordered)
 
 **Réseau :** 
 
@@ -472,7 +472,7 @@ Depuis la plateforme *UiC*, sélectionnez le menu **Clouds -> OVH -> Identifiant
 - Sélectionnez menu déroulant **Régions** et cochez une ou plusieurs région(s),
 - Cliquez sur le bouton **Générer les plages** (si nécessaire), un sous-menu avec les caractéristiques ci-dessous apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image037.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image037.png#bordered)
 
 **Nouveau sous-réseau :** 
 
@@ -486,7 +486,7 @@ Chaque réseau créé contient un ou plusieurs sous réseau(x), visualisable(s) 
 
 - Cliquez sur le lien (ID) du réseau concerné, la page des **Sous-réseaux** apparaît :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image038.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image038.png#bordered)
 
 Le tableau affiche l’ensemble des paramètres liés au sous-réseau:
 
@@ -505,7 +505,7 @@ Les paires de clé de sécurité OVH sont des ressources associées aux projets 
 
 Pour accéder aux commandes concernant la gestion des paires de clé de sécurité OVH, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Paires de clés**, la page **Paires de clés** apparaît, contenant la liste des clés déjà créées :   
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image039.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image039.png#bordered)
 
 Cette page propose des fonctionnalités et liste les clés fournies par *OVH*.
 
@@ -515,7 +515,7 @@ La fonction **Change columns** : Elle permet d’afficher ou non dans le tableau
 
 La fonction **CSV** : Vous avez la possibilité d’exporter le tableau web affiché dans un format CSV,
 
-Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) permet d’actualiser les données affichées.
+Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) permet d’actualiser les données affichées.
 
 Le tableau affiche les paramètres des paires de clés existantes : 
 
@@ -529,7 +529,7 @@ Le bouton **Supprimer les paires de clés** : Cette action supprime l’ensemble
 ### ***Création d’une paire de clés***
 Cliquez sur le bouton **Créer une paire de clés**, la fenêtre suivante apparaît :  
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image040.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image040.png#bordered)
 
 - Complétez la zone de saisie puis cliquez sur le bouton **Créer**. Lorsque la clé est créée, elle apparaît dans le tableau des clés associées à la région sélectionnée.
 
@@ -538,7 +538,7 @@ Les groupes de sécurité OVH sont des ressources associées aux projets et aux 
 
 Pour accéder aux commandes concernant la gestion des groupes de sécurité OVH, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Groupes de sécurité**, la page **Groupes de sécurité** apparaît, contenant la liste des groupes déjà créés :   
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image041.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image041.png#bordered)
 
 Cette page propose des fonctionnalités :
 
@@ -550,7 +550,7 @@ La fonction **Change columns** : Elle permet de sélectionner les colonnes à af
 
 La fonction **CSV** : Vous avez la possibilité d’exporter le tableau affiché dans un format CSV,
 
-Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) permet d’actualiser les données affichées.
+Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) permet d’actualiser les données affichées.
 
 La liste des Groupes de sécurité déclarés chez *OVH* est présentée sous forme de tableau : 
 
@@ -563,21 +563,21 @@ La liste des Groupes de sécurité déclarés chez *OVH* est présentée sous fo
 ### ***Création d’un groupe de sécurité*** 
 - Cliquez sur le bouton **Créer un groupe de sécurité**, le formulaire **Créer un groupe de sécurité** apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image042.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image042.png#bordered)
 
 - Saisissez le nom du groupe, il doit être unique dans la base des groupes de sécurité. 
 - Saisissez une description textuelle succincte de ce groupe.
 
 UIC affiche une notification indiquant que le groupe de sécurité est en cours de création. En cas de succès, UIC affiche automatiquement le formulaire qui permet de configurer les règles de pare-feu pour ce groupe de sécurité. Ce formulaire est décrit dans le paragraphe *Ajout d’une règle à un groupe de sécurité*.
 
-**Rmarque** : si la création du groupe de sécurité est réussie et que le formulaire de configuration des règles de sécurité n’est pas affiché automatiquement, réactualisez l’affichage du tableau à l’aide du bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) . Cliquez sur le nom du groupe pour configurer les règles de sécurité. La section *Ajout d’une règle à un groupe* de sécurité* fournit les détails sur cette configuration.
+**Rmarque** : si la création du groupe de sécurité est réussie et que le formulaire de configuration des règles de sécurité n’est pas affiché automatiquement, réactualisez l’affichage du tableau à l’aide du bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) . Cliquez sur le nom du groupe pour configurer les règles de sécurité. La section *Ajout d’une règle à un groupe* de sécurité* fournit les détails sur cette configuration.
 
 ###  ***Ajout d’une règle à un groupe de sécurité*** 
 L’ajout d’une règle à un groupe de sécurité existant s’effectue à partir de la page **Groupes de sécurité**. 
 
 - Cliquez sur le **Nom/ID** du groupe de sécurité (lien) concerné, vous obtenez la page suivante :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image043.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image043.png#bordered)
 
 - Cliquez sur le bouton **Ajouter une règle,** la boite de dialogue identique à celle ci-dessous s’affiche :
 
@@ -599,13 +599,13 @@ Les images des machines virtuelles OVH sont des ressources associées aux régio
 
 Pour accéder aux commandes concernant la gestion des images de VMs, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Images**, la page **Images** apparaît, contenant la liste des images disponibles dans la région sélectionnée :   
 
- ![Image](/img_fr/img_UIC_Services/img_ovh/image045.png)
+ ![Image](/img_fr/img_UIC_Services/img_ovh/image045.png#bordered)
 
 La fonction **Change columns** : Elle permet d’afficher ou non dans le tableau l’ensemble des paramètres liés aux images, 
 
 La fonction **CSV** : Vous avez la possibilité d’exporter le tableau affiché dans un format CSV,
 
-Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) permet d’actualiser les données affichées.
+Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png#bordered) permet d’actualiser les données affichées.
 
 - **Nom/ID** : Nom ou identifiant de l’image
 - **Type** : Indique le type de système d’exploitation, exemple Linux,
@@ -619,20 +619,20 @@ Le bouton ![Image](/img_fr/img_UIC_Services/img_ovh/image003.png) permet d’act
 ###  ***Déploiement d’une image de machine virtuelle***
 Pour déployer une image de machine virtuelle, sélectionnez le bouton **Actions ð Déployer** de l’image que vous souhaitez, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image046.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image046.png#bordered)
 
 - Indiquez le nom de l’application,
 - Saisissez le nom du nœud,
 - Utilisez le menu déroulant **Plateforme de l’image** et sélectionnez le système d’exploitation de base correspondant à l’image OVH sélectionné, la page de préparation des déploiements s’affiche : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image047.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image047.png#bordered)
 
 - Poursuivez l’étape de préparation du déploiement, si vous avez besoin de détails, référez-vous au guide *UIC Utilisateur et Administrateur*. 
 
 ## **Les quotas**
 UIC peut collecter et afficher les données concernant les quotas d’utilisation de vos ressources Cloud OVH. Pour accéder à ces données, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Quotas**, vous obtenez la page illustrée ci-dessous : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image048.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image048.png#bordered)
 
 La plateforme *UiC* affiche les quotas des ressources Cloud sous deux formes :
 
@@ -650,7 +650,7 @@ UIC collecte et affiche les données de consommation et de facturation OVH. Il p
 ###  ***Consommation, factures et prévisions*** 
 Pour accéder à ces données, sélectionnez le menu **Clouds -> OVH -> Identifiant Cloud -> Identifiant Projet -> Facturation**, *UiC* affiche la page illustrée ci-dessous : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image049.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image049.png#bordered)
 
 Cette page propose de suivre la consommation et les factures liées à celle-ci. 
 
@@ -658,7 +658,7 @@ Cette page propose de suivre la consommation et les factures liées à celle-ci.
 
 Il affiche la consommation des ressources cloud à venir ou déjà facturée. 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image050.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image050.png#bordered)
 
 La consommation est affichée de différentes manières, graphiquement et sous la forme d’un tableau (détaillée). 
 
@@ -672,12 +672,12 @@ La consommation est affichée de différentes manières, graphiquement et sous l
 
 Cet onglet permet d’obtenir les estimations des prochaines factures. Vous pouvez paramétrer une alerte par projet en indiquant un seuil qui déclencherait un avertissement.
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image051.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image051.png#bordered)
 
 ###  ***Création d’une alerte de consommation*** 
 Depuis l’onglet **Estimation de ma prochaine facture**, cliquez sur le bouton **Créer une alerte**, la boite de dialogue suivante apparaît : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image052.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image052.png#bordered)
 
 - Complétez les zones de saisie obligatoires :
 
@@ -687,7 +687,7 @@ Depuis l’onglet **Estimation de ma prochaine facture**, cliquez sur le bouton 
 
 - Cliquez sur le bouton **Créer**, la page initiale apparaîtra avec ce paramètre, comme illustré dans l’écran suivant :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image053.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image053.png#bordered)
 
 Une fois l’alerte créée, UIC affiche un graphique récapitulant les données associées à l’alerte, notamment le seuil de déclenchement de l’alerte et la projection de la consommation à la fin du mois en cours.
 
@@ -703,21 +703,21 @@ Cet onglet vous permet de consulter l’historique des factures sur une période
 - Une représentation graphique indiquant les mois en abscisse et les montants des factures en ordonnée,
 - Une représentation sous forme de tableau récapitulatif indiquant certaines données et permettant de télécharger les fichiers contenant les données complètes de chaque facture. Les fichiers téléchargeables sont aux formats PDF et HTML. 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image054.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image054.png#bordered)
 
 Vous pouvez préciser les périodes de facturation qui vous intéressent à l’aide des deux champs prévus à cet effet. Vous pouvez choisir de saisir les dates ou bien d’utiliser la fonction calendrier proposée par UIC, comme illustré dans la section suivante. 
 
 ###  ***Sélection d’une période de facturation***
 Dans l’onglet Historique des factures, placez votre curseur dans la zone **Entre**, le calendrier apparaitra : 
 
- ![Image](/img_fr/img_UIC_Services/img_ovh/image055.png)
+ ![Image](/img_fr/img_UIC_Services/img_ovh/image055.png#bordered)
 
 - Sélectionnez la période à l’aide du calendrier ou en saisissant la date au format indiqué, faites la même chose dans la zone de saisie **Et**, puis cliquez sur le bouton **Résumé des factures**, celles-ci seront listées dans le tableau en bas de la page. Elles sont téléchargeables en mode PDF et HTML.
 
 ###  ***Explorateur des coûts***
 Le menu **Explorateur des coûts** affiche une page contenant la répartition des coûts pour une période donnée :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image056.png) 
+![Image](/img_fr/img_UIC_Services/img_ovh/image056.png#bordered) 
 
 Cette page affiche les données des coûts en fonction des critères sélectionnés. Vous pouvez choisir les critères parmi les catégories suivantes :
 
@@ -727,21 +727,21 @@ Cette page affiche les données des coûts en fonction des critères sélectionn
 
 L’onglet **Paiements** affiche la liste des paiements avec les indicateurs de date de paiement et des montants, comme illustré sur la figure suivante : 
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image057.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image057.png#bordered)
 
 Vous pouvez télécharger les fichiers des factures au format PDF ou au format HTML en cliquant sur les liens de la colonne **Téléchargement**.
 
 Pour accéder aux détails d’un paiement, cliquez sur le lien correspondant dans la colonne **ID**, vous obtiendrez une fenêtre comme celle affichée ci-dessous :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image058.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image058.png#bordered)
 
 ###  ***Budgets***
 Le menu **Budgets** affiche la liste des budgets définis :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image059.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image059.png#bordered)
 
 Vous pouvez créer un budget à l’aide du bouton Créer un budget, la page suivante s’affiche :
 
-![Image](/img_fr/img_UIC_Services/img_ovh/image060.png)
+![Image](/img_fr/img_UIC_Services/img_ovh/image060.png#bordered)
 
 Une fois le budget défini, vous pouvez confirmer à l’aide du bouton **Créer.** Le budget sera rajouté à la table des budgets.
