@@ -1,5 +1,5 @@
 ---
-id: 6000
+id: v2.0
 title: API Documentation
 description: API Use IT cloud documentation
 sidebar_position: 1
@@ -9,4 +9,4 @@ Use IT Cloud is a cloud management platform, it provides an abstraction layer to
 
 This opensAPI covers the current endpoint only from UIC API.
 
-Lease access our Developer documentation API at this <a to="/api-reference/" target="_blank">**LINK**.</a>
+Lease access our Developer documentation API at this <a to="/api/v2.0/" target="_blank">**LINK**.</a>

@@ -92,7 +92,7 @@ const config = {
           //  position: 'right',
           //},
           {
-            href: '/api-reference/',
+            href: '/api/v2.0/',
             label: 'API',
             position: 'left',
             target: '_blank'
