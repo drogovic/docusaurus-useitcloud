@@ -31,7 +31,7 @@ function HomepageHeader2() {
         <a href="/docs/Introduction/1000">
           <button className={styles.buttons2}> Documentation </button>
         </a>
-        <a href="/docs/API/6000">
+        <a href="/docs/api/v2.0">
           <button className={styles.buttons2}> API </button>
         </a>
       </div>
