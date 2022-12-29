@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import SwaggerUI from "swagger-ui-react";
 import "swagger-ui-react/swagger-ui.css";
 import config from "../../../../web-config.json";
-import styles from "../api.module.css";
+import styles from "../api-reference.module.css";
 
 const ApiReferencePage = () => {
     const [swaggerIdx, setSwaggerIdx] = useState(0);
